@@ -1,0 +1,196 @@
+2025-01-02 21:56:27 INFO  c.l.p.c.CustomerControllerTests - Starting CustomerControllerTests using Java 23 with PID 165032 (started by louis in C:\Users\louis\Documents\GitHub\kf7014-backend\provider)
+2025-01-02 21:56:27 INFO  c.l.p.c.CustomerControllerTests - The following 1 profile is active: "test"
+2025-01-02 21:56:27 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-01-02 21:56:27 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 34 ms. Found 4 JPA repository interfaces.
+2025-01-02 21:56:27 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-01-02 21:56:27 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.3.Final
+2025-01-02 21:56:27 INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-01-02 21:56:27 INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-01-02 21:56:28 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-01-02 21:56:28 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:provider-b user=LF
+2025-01-02 21:56:28 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-01-02 21:56:28 WARN  org.hibernate.orm.deprecation - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-01-02 21:56:28 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-01-02 21:56:28 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-01-02 21:56:29 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-01-02 21:56:29 INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:provider-b'
+2025-01-02 21:56:29 INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-01-02 21:56:29 INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2025-01-02 21:56:29 INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
+2025-01-02 21:56:29 INFO  c.l.p.c.CustomerControllerTests - Started CustomerControllerTests in 2.52 seconds (process running for 3.355)
+2025-01-02 21:56:30 INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.louisfiges.provider.controllers.ReadingControllerTests]: ReadingControllerTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-01-02 21:56:30 INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.louisfiges.provider.ProviderApplication for test class com.louisfiges.provider.controllers.ReadingControllerTests
+2025-01-02 21:56:30 INFO  c.l.p.controllers.ReadingController - Creating reading: com.louisfiges.common.dtos.reading.ReadingDTO@36dd68f1
+2025-01-02 21:56:30 INFO  c.l.provider.services.ReadingService - Validating reading: com.louisfiges.provider.daos.ReadingDAO@39c437e9
+2025-01-02 21:56:30 INFO  c.l.provider.services.ReadingService - Latest reading: Optional[com.louisfiges.provider.daos.ReadingDAO@1cf5236d]
+2025-01-02 21:56:30 INFO  c.l.provider.services.ReadingService - Found last readings: false
+2025-01-02 21:56:30 INFO  c.l.provider.services.ReadingService - prev + 50.00
+2025-01-02 21:56:30 ERROR c.l.provider.services.ReadingService - Reading must be after the last reading
+2025-01-02 21:56:30 INFO  c.l.p.controllers.ReadingController - Creating reading: com.louisfiges.common.dtos.reading.ReadingDTO@59b78925
+2025-01-02 21:56:30 INFO  c.l.provider.services.ReadingService - Validating reading: com.louisfiges.provider.daos.ReadingDAO@7287811f
+2025-01-02 21:56:30 INFO  c.l.provider.services.ReadingService - Latest reading: Optional.empty
+2025-01-02 21:56:30 INFO  c.l.provider.services.ReadingService - Found last readings: true
+2025-01-02 21:56:30 INFO  c.l.p.controllers.ReadingController - Reading is valid
+2025-01-02 21:56:30 INFO  c.l.p.controllers.ReadingController - Creating reading: com.louisfiges.common.dtos.reading.ReadingDTO@8941d98
+2025-01-02 21:56:30 INFO  c.l.provider.services.ReadingService - Validating reading: com.louisfiges.provider.daos.ReadingDAO@5fb7b227
+2025-01-02 21:56:30 INFO  c.l.provider.services.ReadingService - Latest reading: Optional[com.louisfiges.provider.daos.ReadingDAO@51cbd1d]
+2025-01-02 21:56:30 INFO  c.l.provider.services.ReadingService - Found last readings: false
+2025-01-02 21:56:30 INFO  c.l.provider.services.ReadingService - prev + 200.00
+2025-01-02 21:56:30 ERROR c.l.provider.services.ReadingService - Reading must be greater than the last reading
+2025-01-02 21:56:30 INFO  c.l.p.controllers.ReadingController - Creating reading: com.louisfiges.common.dtos.reading.ReadingDTO@603042a5
+2025-01-02 21:56:30 INFO  c.l.provider.services.ReadingService - Validating reading: com.louisfiges.provider.daos.ReadingDAO@46b4d4e7
+2025-01-02 21:56:30 INFO  c.l.provider.services.ReadingService - Latest reading: Optional.empty
+2025-01-02 21:56:30 INFO  c.l.provider.services.ReadingService - Found last readings: true
+2025-01-02 21:56:30 ERROR c.l.provider.services.ReadingService - Reading must be greater than or equal to 0
+2025-01-02 21:56:30 INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.louisfiges.provider.controllers.SubjectControllerTests]: SubjectControllerTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-01-02 21:56:30 INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.louisfiges.provider.ProviderApplication for test class com.louisfiges.provider.controllers.SubjectControllerTests
+2025-01-02 21:56:30 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-01-02 21:56:30 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-01-02 21:56:30 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-01-02 22:03:19 INFO  c.l.p.c.CustomerControllerTests - Starting CustomerControllerTests using Java 23 with PID 155608 (started by louis in C:\Users\louis\Documents\GitHub\kf7014-backend\provider)
+2025-01-02 22:03:19 INFO  c.l.p.c.CustomerControllerTests - The following 1 profile is active: "test"
+2025-01-02 22:03:20 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-01-02 22:03:20 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 34 ms. Found 4 JPA repository interfaces.
+2025-01-02 22:03:20 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-01-02 22:03:20 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.3.Final
+2025-01-02 22:03:20 INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-01-02 22:03:20 INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-01-02 22:03:20 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-01-02 22:03:20 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:provider-b user=LF
+2025-01-02 22:03:20 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-01-02 22:03:20 WARN  org.hibernate.orm.deprecation - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-01-02 22:03:21 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-01-02 22:03:21 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-01-02 22:03:21 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-01-02 22:03:22 INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:provider-b'
+2025-01-02 22:03:22 INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-01-02 22:03:22 INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2025-01-02 22:03:22 INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
+2025-01-02 22:03:22 INFO  c.l.p.c.CustomerControllerTests - Started CustomerControllerTests in 2.49 seconds (process running for 3.234)
+2025-01-02 22:03:22 INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.louisfiges.provider.controllers.ReadingControllerTests]: ReadingControllerTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-01-02 22:03:22 INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.louisfiges.provider.ProviderApplication for test class com.louisfiges.provider.controllers.ReadingControllerTests
+2025-01-02 22:03:22 INFO  c.l.p.controllers.ReadingController - Creating reading: com.louisfiges.common.dtos.reading.ReadingDTO@17563b82
+2025-01-02 22:03:22 INFO  c.l.provider.services.ReadingService - Validating reading: com.louisfiges.provider.daos.ReadingDAO@45b244c4
+2025-01-02 22:03:22 INFO  c.l.provider.services.ReadingService - Latest reading: Optional[com.louisfiges.provider.daos.ReadingDAO@377d66f]
+2025-01-02 22:03:22 INFO  c.l.provider.services.ReadingService - Found last readings: false
+2025-01-02 22:03:22 INFO  c.l.provider.services.ReadingService - prev + 50.00
+2025-01-02 22:03:22 ERROR c.l.provider.services.ReadingService - Reading must be after the last reading
+2025-01-02 22:03:22 INFO  c.l.p.controllers.ReadingController - Creating reading: com.louisfiges.common.dtos.reading.ReadingDTO@2bd2fa2c
+2025-01-02 22:03:22 INFO  c.l.provider.services.ReadingService - Validating reading: com.louisfiges.provider.daos.ReadingDAO@25c5fc41
+2025-01-02 22:03:22 INFO  c.l.provider.services.ReadingService - Latest reading: Optional.empty
+2025-01-02 22:03:22 INFO  c.l.provider.services.ReadingService - Found last readings: true
+2025-01-02 22:03:22 INFO  c.l.p.controllers.ReadingController - Reading is valid
+2025-01-02 22:03:22 INFO  c.l.p.controllers.ReadingController - Creating reading: com.louisfiges.common.dtos.reading.ReadingDTO@376aaeec
+2025-01-02 22:03:22 INFO  c.l.provider.services.ReadingService - Validating reading: com.louisfiges.provider.daos.ReadingDAO@689afbb0
+2025-01-02 22:03:22 INFO  c.l.provider.services.ReadingService - Latest reading: Optional[com.louisfiges.provider.daos.ReadingDAO@6dd729]
+2025-01-02 22:03:22 INFO  c.l.provider.services.ReadingService - Found last readings: false
+2025-01-02 22:03:22 INFO  c.l.provider.services.ReadingService - prev + 200.00
+2025-01-02 22:03:22 ERROR c.l.provider.services.ReadingService - Reading must be greater than the last reading
+2025-01-02 22:03:22 INFO  c.l.p.controllers.ReadingController - Creating reading: com.louisfiges.common.dtos.reading.ReadingDTO@570f2cf7
+2025-01-02 22:03:22 INFO  c.l.provider.services.ReadingService - Validating reading: com.louisfiges.provider.daos.ReadingDAO@c92d694
+2025-01-02 22:03:22 INFO  c.l.provider.services.ReadingService - Latest reading: Optional.empty
+2025-01-02 22:03:22 INFO  c.l.provider.services.ReadingService - Found last readings: true
+2025-01-02 22:03:22 ERROR c.l.provider.services.ReadingService - Reading must be greater than or equal to 0
+2025-01-02 22:03:22 INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.louisfiges.provider.controllers.SubjectControllerTests]: SubjectControllerTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-01-02 22:03:22 INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.louisfiges.provider.ProviderApplication for test class com.louisfiges.provider.controllers.SubjectControllerTests
+2025-01-02 22:03:22 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-01-02 22:03:22 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-01-02 22:03:22 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-01-02 22:05:59 INFO  c.l.p.c.CustomerControllerTests - Starting CustomerControllerTests using Java 23 with PID 157256 (started by louis in C:\Users\louis\Documents\GitHub\kf7014-backend\provider)
+2025-01-02 22:05:59 INFO  c.l.p.c.CustomerControllerTests - The following 1 profile is active: "test"
+2025-01-02 22:05:59 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-01-02 22:05:59 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 33 ms. Found 4 JPA repository interfaces.
+2025-01-02 22:06:00 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-01-02 22:06:00 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.3.Final
+2025-01-02 22:06:00 INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-01-02 22:06:00 INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-01-02 22:06:00 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-01-02 22:06:00 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:provider-b user=LF
+2025-01-02 22:06:00 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-01-02 22:06:00 WARN  org.hibernate.orm.deprecation - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-01-02 22:06:01 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-01-02 22:06:01 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-01-02 22:06:01 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-01-02 22:06:01 INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:provider-b'
+2025-01-02 22:06:01 INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-01-02 22:06:01 INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2025-01-02 22:06:01 INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
+2025-01-02 22:06:01 INFO  c.l.p.c.CustomerControllerTests - Started CustomerControllerTests in 2.539 seconds (process running for 3.251)
+2025-01-02 22:06:02 INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.louisfiges.provider.controllers.ReadingControllerTests]: ReadingControllerTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-01-02 22:06:02 INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.louisfiges.provider.ProviderApplication for test class com.louisfiges.provider.controllers.ReadingControllerTests
+2025-01-02 22:06:02 INFO  c.l.p.controllers.ReadingController - Creating reading: com.louisfiges.common.dtos.reading.ReadingDTO@2936f48a
+2025-01-02 22:06:02 INFO  c.l.provider.services.ReadingService - Validating reading: com.louisfiges.provider.daos.ReadingDAO@72cec2e2
+2025-01-02 22:06:02 INFO  c.l.provider.services.ReadingService - Latest reading: Optional[com.louisfiges.provider.daos.ReadingDAO@1cfca845]
+2025-01-02 22:06:02 INFO  c.l.provider.services.ReadingService - Found last readings: false
+2025-01-02 22:06:02 INFO  c.l.provider.services.ReadingService - prev + 50.00
+2025-01-02 22:06:02 ERROR c.l.provider.services.ReadingService - Reading must be after the last reading
+2025-01-02 22:06:02 INFO  c.l.p.controllers.ReadingController - Creating reading: com.louisfiges.common.dtos.reading.ReadingDTO@4e9ab294
+2025-01-02 22:06:02 INFO  c.l.provider.services.ReadingService - Validating reading: com.louisfiges.provider.daos.ReadingDAO@1a5df070
+2025-01-02 22:06:02 INFO  c.l.provider.services.ReadingService - Latest reading: Optional.empty
+2025-01-02 22:06:02 INFO  c.l.provider.services.ReadingService - Found last readings: true
+2025-01-02 22:06:02 INFO  c.l.p.controllers.ReadingController - Reading is valid
+2025-01-02 22:06:02 INFO  c.l.p.controllers.ReadingController - Creating reading: com.louisfiges.common.dtos.reading.ReadingDTO@2f71bb66
+2025-01-02 22:06:02 INFO  c.l.provider.services.ReadingService - Validating reading: com.louisfiges.provider.daos.ReadingDAO@3e17219
+2025-01-02 22:06:02 INFO  c.l.provider.services.ReadingService - Latest reading: Optional[com.louisfiges.provider.daos.ReadingDAO@5634f627]
+2025-01-02 22:06:02 INFO  c.l.provider.services.ReadingService - Found last readings: false
+2025-01-02 22:06:02 INFO  c.l.provider.services.ReadingService - prev + 200.00
+2025-01-02 22:06:02 ERROR c.l.provider.services.ReadingService - Reading must be greater than the last reading
+2025-01-02 22:06:02 INFO  c.l.p.controllers.ReadingController - Creating reading: com.louisfiges.common.dtos.reading.ReadingDTO@76ad048a
+2025-01-02 22:06:02 INFO  c.l.provider.services.ReadingService - Validating reading: com.louisfiges.provider.daos.ReadingDAO@7cb7ca06
+2025-01-02 22:06:02 INFO  c.l.provider.services.ReadingService - Latest reading: Optional.empty
+2025-01-02 22:06:02 INFO  c.l.provider.services.ReadingService - Found last readings: true
+2025-01-02 22:06:02 ERROR c.l.provider.services.ReadingService - Reading must be greater than or equal to 0
+2025-01-02 22:06:02 INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.louisfiges.provider.controllers.SubjectControllerTests]: SubjectControllerTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-01-02 22:06:02 INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.louisfiges.provider.ProviderApplication for test class com.louisfiges.provider.controllers.SubjectControllerTests
+2025-01-02 22:06:02 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-01-02 22:06:02 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-01-02 22:06:02 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-01-02 22:59:56 INFO  c.l.p.c.CustomerControllerTests - Starting CustomerControllerTests using Java 23 with PID 165716 (started by louis in C:\Users\louis\Documents\GitHub\kf7014-backend\provider)
+2025-01-02 22:59:56 INFO  c.l.p.c.CustomerControllerTests - The following 1 profile is active: "test"
+2025-01-02 22:59:56 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-01-02 22:59:56 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 35 ms. Found 4 JPA repository interfaces.
+2025-01-02 22:59:56 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-01-02 22:59:56 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.3.Final
+2025-01-02 22:59:56 INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-01-02 22:59:57 INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-01-02 22:59:57 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-01-02 22:59:57 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:provider-b user=LF
+2025-01-02 22:59:57 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-01-02 22:59:57 WARN  org.hibernate.orm.deprecation - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-01-02 22:59:57 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-01-02 22:59:57 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-01-02 22:59:58 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-01-02 22:59:58 INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:provider-b'
+2025-01-02 22:59:58 INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-01-02 22:59:58 INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2025-01-02 22:59:58 INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
+2025-01-02 22:59:58 INFO  c.l.p.c.CustomerControllerTests - Started CustomerControllerTests in 2.51 seconds (process running for 3.241)
+2025-01-02 22:59:59 INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.louisfiges.provider.controllers.ReadingControllerTests]: ReadingControllerTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-01-02 22:59:59 INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.louisfiges.provider.ProviderApplication for test class com.louisfiges.provider.controllers.ReadingControllerTests
+2025-01-02 22:59:59 INFO  c.l.p.controllers.ReadingController - Creating reading: com.louisfiges.common.dtos.reading.ReadingDTO@1780bc15
+2025-01-02 22:59:59 INFO  c.l.provider.services.ReadingService - Validating reading: com.louisfiges.provider.daos.ReadingDAO@6d8dc329
+2025-01-02 22:59:59 INFO  c.l.provider.services.ReadingService - Latest reading: Optional[com.louisfiges.provider.daos.ReadingDAO@5a9ccbfb]
+2025-01-02 22:59:59 INFO  c.l.provider.services.ReadingService - Found last readings: false
+2025-01-02 22:59:59 INFO  c.l.provider.services.ReadingService - prev + 50.00
+2025-01-02 22:59:59 ERROR c.l.provider.services.ReadingService - Reading must be after the last reading
+2025-01-02 22:59:59 INFO  c.l.p.controllers.ReadingController - Creating reading: com.louisfiges.common.dtos.reading.ReadingDTO@1070308e
+2025-01-02 22:59:59 INFO  c.l.provider.services.ReadingService - Validating reading: com.louisfiges.provider.daos.ReadingDAO@4dcb8e8b
+2025-01-02 22:59:59 INFO  c.l.provider.services.ReadingService - Latest reading: Optional.empty
+2025-01-02 22:59:59 INFO  c.l.provider.services.ReadingService - Found last readings: true
+2025-01-02 22:59:59 INFO  c.l.p.controllers.ReadingController - Reading is valid
+2025-01-02 22:59:59 INFO  c.l.p.controllers.ReadingController - Creating reading: com.louisfiges.common.dtos.reading.ReadingDTO@3c995eae
+2025-01-02 22:59:59 INFO  c.l.provider.services.ReadingService - Validating reading: com.louisfiges.provider.daos.ReadingDAO@721e5f57
+2025-01-02 22:59:59 INFO  c.l.provider.services.ReadingService - Latest reading: Optional[com.louisfiges.provider.daos.ReadingDAO@27c05ed9]
+2025-01-02 22:59:59 INFO  c.l.provider.services.ReadingService - Found last readings: false
+2025-01-02 22:59:59 INFO  c.l.provider.services.ReadingService - prev + 200.00
+2025-01-02 22:59:59 ERROR c.l.provider.services.ReadingService - Reading must be greater than the last reading
+2025-01-02 22:59:59 INFO  c.l.p.controllers.ReadingController - Creating reading: com.louisfiges.common.dtos.reading.ReadingDTO@660b8572
+2025-01-02 22:59:59 INFO  c.l.provider.services.ReadingService - Validating reading: com.louisfiges.provider.daos.ReadingDAO@1ec22804
+2025-01-02 22:59:59 INFO  c.l.provider.services.ReadingService - Latest reading: Optional.empty
+2025-01-02 22:59:59 INFO  c.l.provider.services.ReadingService - Found last readings: true
+2025-01-02 22:59:59 ERROR c.l.provider.services.ReadingService - Reading must be greater than or equal to 0
+2025-01-02 22:59:59 INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.louisfiges.provider.controllers.SubjectControllerTests]: SubjectControllerTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-01-02 22:59:59 INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.louisfiges.provider.ProviderApplication for test class com.louisfiges.provider.controllers.SubjectControllerTests
+2025-01-02 22:59:59 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-01-02 22:59:59 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-01-02 22:59:59 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.

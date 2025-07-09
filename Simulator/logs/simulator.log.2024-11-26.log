@@ -1,0 +1,522 @@
+2024-11-26 21:20:35 INFO  com.louisfiges.simulator.Main - Starting Main using Java 23 with PID 60180 (C:\Users\louis\Desktop\Advanced Programming\Simulator\build\classes\java\main started by louis in C:\Users\louis\Desktop\Advanced Programming\Simulator)
+2024-11-26 21:20:35 INFO  com.louisfiges.simulator.Main - No active profile set, falling back to 1 default profile: "default"
+2024-11-26 21:20:36 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8087 (http)
+2024-11-26 21:20:36 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8087"]
+2024-11-26 21:20:36 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-11-26 21:20:36 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-11-26 21:20:36 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-11-26 21:20:36 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 430 ms
+2024-11-26 21:20:36 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8087"]
+2024-11-26 21:20:36 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8087 (http) with context path '/'
+2024-11-26 21:20:36 INFO  com.louisfiges.simulator.Main - Started Main in 0.904 seconds (process running for 1.191)
+2024-11-26 21:20:36 INFO  c.l.simulator.SmartCitySimulator - Started microservice with profile: providerA
+2024-11-26 21:20:36 INFO  c.l.simulator.SmartCitySimulator - Started microservice with profile: providerB
+2024-11-26 21:20:36 INFO  c.l.simulator.SmartCitySimulator - Started microservice with profile: providerC
+2024-11-26 21:20:41 INFO  c.l.simulator.SmartCitySimulator - Shutting down Smart City Simulator
+2024-11-26 21:23:59 INFO  com.louisfiges.simulator.Main - Starting Main using Java 23 with PID 65868 (C:\Users\louis\Desktop\Advanced Programming\Simulator\build\classes\java\main started by louis in C:\Users\louis\Desktop\Advanced Programming\Simulator)
+2024-11-26 21:23:59 INFO  com.louisfiges.simulator.Main - No active profile set, falling back to 1 default profile: "default"
+2024-11-26 21:23:59 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8087 (http)
+2024-11-26 21:23:59 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8087"]
+2024-11-26 21:23:59 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-11-26 21:23:59 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-11-26 21:23:59 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-11-26 21:23:59 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 474 ms
+2024-11-26 21:24:00 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8087"]
+2024-11-26 21:24:00 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8087 (http) with context path '/'
+2024-11-26 21:24:00 INFO  com.louisfiges.simulator.Main - Started Main in 0.946 seconds (process running for 1.231)
+2024-11-26 21:24:00 INFO  c.l.simulator.SmartCitySimulator - Started microservice with profile: providerA
+2024-11-26 21:24:00 INFO  c.l.simulator.SmartCitySimulator - Process for profile providerA
+2024-11-26 21:24:00 INFO  c.l.simulator.SmartCitySimulator - Started microservice with profile: providerB
+2024-11-26 21:24:00 INFO  c.l.simulator.SmartCitySimulator - Process for profile providerB
+2024-11-26 21:24:00 INFO  c.l.simulator.SmartCitySimulator - Started microservice with profile: providerC
+2024-11-26 21:24:00 INFO  c.l.simulator.SmartCitySimulator - Smart City Simulator started
+2024-11-26 21:24:00 INFO  c.l.simulator.SmartCitySimulator - Process for profile providerC
+2024-11-26 21:24:05 INFO  c.l.simulator.SmartCitySimulator - Process for profile providerB
+2024-11-26 21:24:05 INFO  c.l.simulator.SmartCitySimulator - Process for profile providerC
+2024-11-26 21:24:05 INFO  c.l.simulator.SmartCitySimulator - Process for profile providerA
+2024-11-26 21:24:10 INFO  c.l.simulator.SmartCitySimulator - Process for profile providerB
+2024-11-26 21:24:10 INFO  c.l.simulator.SmartCitySimulator - Process for profile providerA
+2024-11-26 21:24:10 INFO  c.l.simulator.SmartCitySimulator - Process for profile providerC
+2024-11-26 21:24:15 INFO  c.l.simulator.SmartCitySimulator - Process for profile providerB
+2024-11-26 21:24:15 INFO  c.l.simulator.SmartCitySimulator - Process for profile providerC
+2024-11-26 21:24:15 INFO  c.l.simulator.SmartCitySimulator - Process for profile providerA
+2024-11-26 21:24:19 INFO  c.l.simulator.SmartCitySimulator - Shutting down Smart City Simulator
+2024-11-26 21:25:58 INFO  com.louisfiges.simulator.Main - Starting Main using Java 23 with PID 68664 (C:\Users\louis\Desktop\Advanced Programming\Simulator\build\classes\java\main started by louis in C:\Users\louis\Desktop\Advanced Programming\Simulator)
+2024-11-26 21:25:58 INFO  com.louisfiges.simulator.Main - No active profile set, falling back to 1 default profile: "default"
+2024-11-26 21:25:59 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8087 (http)
+2024-11-26 21:25:59 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8087"]
+2024-11-26 21:25:59 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-11-26 21:25:59 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-11-26 21:25:59 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-11-26 21:25:59 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 437 ms
+2024-11-26 21:25:59 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8087"]
+2024-11-26 21:25:59 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8087 (http) with context path '/'
+2024-11-26 21:25:59 INFO  com.louisfiges.simulator.Main - Started Main in 0.88 seconds (process running for 1.17)
+2024-11-26 21:25:59 INFO  c.l.simulator.SmartCitySimulator - Started microservice with profile: providerA
+2024-11-26 21:25:59 INFO  c.l.simulator.SmartCitySimulator - Process for profile providerA
+2024-11-26 21:25:59 INFO  c.l.simulator.SmartCitySimulator - Started microservice with profile: providerB
+2024-11-26 21:25:59 INFO  c.l.simulator.SmartCitySimulator - Process for profile providerB
+2024-11-26 21:25:59 INFO  c.l.simulator.SmartCitySimulator - Started microservice with profile: providerC
+2024-11-26 21:25:59 INFO  c.l.simulator.SmartCitySimulator - Smart City Simulator started
+2024-11-26 21:25:59 INFO  c.l.simulator.SmartCitySimulator - Process for profile providerC
+2024-11-26 21:26:04 INFO  c.l.simulator.SmartCitySimulator - Process for profile providerA
+2024-11-26 21:26:04 INFO  c.l.simulator.SmartCitySimulator - Process for profile providerB
+2024-11-26 21:26:04 INFO  c.l.simulator.SmartCitySimulator - Process for profile providerC
+2024-11-26 21:26:09 INFO  c.l.simulator.SmartCitySimulator - Process for profile providerC
+2024-11-26 21:26:09 INFO  c.l.simulator.SmartCitySimulator - Process for profile providerB
+2024-11-26 21:26:09 INFO  c.l.simulator.SmartCitySimulator - Process for profile providerA
+2024-11-26 21:26:14 INFO  c.l.simulator.SmartCitySimulator - Process for profile providerA
+2024-11-26 21:26:14 INFO  c.l.simulator.SmartCitySimulator - Process for profile providerC
+2024-11-26 21:26:14 INFO  c.l.simulator.SmartCitySimulator - Process for profile providerB
+2024-11-26 21:26:19 INFO  c.l.simulator.SmartCitySimulator - Shutting down Smart City Simulator
+2024-11-26 21:27:29 INFO  com.louisfiges.simulator.Main - Starting Main using Java 23 with PID 76476 (C:\Users\louis\Desktop\Advanced Programming\Simulator\build\classes\java\main started by louis in C:\Users\louis\Desktop\Advanced Programming\Simulator)
+2024-11-26 21:27:29 INFO  com.louisfiges.simulator.Main - No active profile set, falling back to 1 default profile: "default"
+2024-11-26 21:27:30 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8087 (http)
+2024-11-26 21:27:30 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8087"]
+2024-11-26 21:27:30 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-11-26 21:27:30 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-11-26 21:27:30 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-11-26 21:27:30 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 420 ms
+2024-11-26 21:27:30 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8087"]
+2024-11-26 21:27:30 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8087 (http) with context path '/'
+2024-11-26 21:27:30 INFO  com.louisfiges.simulator.Main - Started Main in 0.864 seconds (process running for 1.144)
+2024-11-26 21:27:30 INFO  c.l.simulator.SmartCitySimulator - Started microservice with profile: providerA
+2024-11-26 21:27:30 INFO  c.l.simulator.SmartCitySimulator - Process for profile providerA
+2024-11-26 21:27:30 INFO  c.l.simulator.SmartCitySimulator - Started microservice with profile: providerB
+2024-11-26 21:27:30 INFO  c.l.simulator.SmartCitySimulator - Process for profile providerB
+2024-11-26 21:27:30 INFO  c.l.simulator.SmartCitySimulator - Started microservice with profile: providerC
+2024-11-26 21:27:30 INFO  c.l.simulator.SmartCitySimulator - Smart City Simulator started
+2024-11-26 21:27:30 INFO  c.l.simulator.SmartCitySimulator - Process for profile providerC
+2024-11-26 21:27:34 INFO  c.l.simulator.SmartCitySimulator - Shutting down Smart City Simulator
+2024-11-26 21:27:44 INFO  com.louisfiges.simulator.Main - Starting Main using Java 23 with PID 65304 (C:\Users\louis\Desktop\Advanced Programming\Simulator\build\classes\java\main started by louis in C:\Users\louis\Desktop\Advanced Programming\Simulator)
+2024-11-26 21:27:44 INFO  com.louisfiges.simulator.Main - No active profile set, falling back to 1 default profile: "default"
+2024-11-26 21:27:44 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8087 (http)
+2024-11-26 21:27:44 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8087"]
+2024-11-26 21:27:44 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-11-26 21:27:44 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-11-26 21:27:44 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-11-26 21:27:44 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 413 ms
+2024-11-26 21:27:45 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8087"]
+2024-11-26 21:27:45 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8087 (http) with context path '/'
+2024-11-26 21:27:45 INFO  com.louisfiges.simulator.Main - Started Main in 0.859 seconds (process running for 1.148)
+2024-11-26 21:27:45 INFO  c.l.simulator.SmartCitySimulator - Started microservice with profile: providerA
+2024-11-26 21:27:45 INFO  c.l.simulator.SmartCitySimulator - Started microservice with profile: providerB
+2024-11-26 21:27:45 INFO  c.l.simulator.SmartCitySimulator - Started microservice with profile: providerC
+2024-11-26 21:27:45 INFO  c.l.simulator.SmartCitySimulator - Smart City Simulator started
+2024-11-26 21:29:00 INFO  c.l.simulator.SmartCitySimulator - Shutting down Smart City Simulator
+2024-11-26 21:31:05 INFO  com.louisfiges.simulator.Main - Starting Main using Java 23 with PID 71936 (C:\Users\louis\Desktop\Advanced Programming\Simulator\build\classes\java\main started by louis in C:\Users\louis\Desktop\Advanced Programming\Simulator)
+2024-11-26 21:31:05 INFO  com.louisfiges.simulator.Main - No active profile set, falling back to 1 default profile: "default"
+2024-11-26 21:31:05 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8087 (http)
+2024-11-26 21:31:05 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8087"]
+2024-11-26 21:31:05 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-11-26 21:31:05 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-11-26 21:31:05 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-11-26 21:31:05 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 414 ms
+2024-11-26 21:31:05 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8087"]
+2024-11-26 21:31:05 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8087 (http) with context path '/'
+2024-11-26 21:31:05 INFO  com.louisfiges.simulator.Main - Started Main in 0.843 seconds (process running for 1.116)
+2024-11-26 21:31:05 INFO  c.l.simulator.SmartCitySimulator - Started microservice with profile: providerA
+2024-11-26 21:31:05 INFO  c.l.simulator.SmartCitySimulator - Started microservice with profile: providerB
+2024-11-26 21:31:05 INFO  c.l.simulator.SmartCitySimulator - Started microservice with profile: providerC
+2024-11-26 21:31:05 INFO  c.l.simulator.SmartCitySimulator - Smart City Simulator started
+2024-11-26 21:31:06 INFO  c.l.simulator.SmartCitySimulator - [providerC] 
+2024-11-26 21:31:06 INFO  c.l.simulator.SmartCitySimulator - [providerC]   .   ____          _            __ _ _
+2024-11-26 21:31:06 INFO  c.l.simulator.SmartCitySimulator - [providerC]  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+2024-11-26 21:31:06 INFO  c.l.simulator.SmartCitySimulator - [providerC] ( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+2024-11-26 21:31:06 INFO  c.l.simulator.SmartCitySimulator - [providerC]  \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+2024-11-26 21:31:06 INFO  c.l.simulator.SmartCitySimulator - [providerC]   '  |____| .__|_| |_|_| |_\__, | / / / /
+2024-11-26 21:31:06 INFO  c.l.simulator.SmartCitySimulator - [providerC]  =========|_|==============|___/=/_/_/_/
+2024-11-26 21:31:06 INFO  c.l.simulator.SmartCitySimulator - [providerC] 
+2024-11-26 21:31:06 INFO  c.l.simulator.SmartCitySimulator - [providerB] 
+2024-11-26 21:31:06 INFO  c.l.simulator.SmartCitySimulator - [providerB]   .   ____          _            __ _ _
+2024-11-26 21:31:06 INFO  c.l.simulator.SmartCitySimulator - [providerB]  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+2024-11-26 21:31:06 INFO  c.l.simulator.SmartCitySimulator - [providerB] ( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+2024-11-26 21:31:06 INFO  c.l.simulator.SmartCitySimulator - [providerB]  \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+2024-11-26 21:31:06 INFO  c.l.simulator.SmartCitySimulator - [providerB]   '  |____| .__|_| |_|_| |_\__, | / / / /
+2024-11-26 21:31:06 INFO  c.l.simulator.SmartCitySimulator - [providerB]  =========|_|==============|___/=/_/_/_/
+2024-11-26 21:31:06 INFO  c.l.simulator.SmartCitySimulator - [providerB] 
+2024-11-26 21:31:06 INFO  c.l.simulator.SmartCitySimulator - [providerA] 
+2024-11-26 21:31:06 INFO  c.l.simulator.SmartCitySimulator - [providerA]   .   ____          _            __ _ _
+2024-11-26 21:31:06 INFO  c.l.simulator.SmartCitySimulator - [providerA]  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+2024-11-26 21:31:06 INFO  c.l.simulator.SmartCitySimulator - [providerA] ( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+2024-11-26 21:31:06 INFO  c.l.simulator.SmartCitySimulator - [providerA]  \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+2024-11-26 21:31:06 INFO  c.l.simulator.SmartCitySimulator - [providerA]   '  |____| .__|_| |_|_| |_\__, | / / / /
+2024-11-26 21:31:06 INFO  c.l.simulator.SmartCitySimulator - [providerA]  =========|_|==============|___/=/_/_/_/
+2024-11-26 21:31:06 INFO  c.l.simulator.SmartCitySimulator - [providerA] 
+2024-11-26 21:31:06 INFO  c.l.simulator.SmartCitySimulator - [providerB]  :: Spring Boot ::                (v3.3.4)
+2024-11-26 21:31:06 INFO  c.l.simulator.SmartCitySimulator - [providerB] 
+2024-11-26 21:31:06 INFO  c.l.simulator.SmartCitySimulator - [providerC]  :: Spring Boot ::                (v3.3.4)
+2024-11-26 21:31:06 INFO  c.l.simulator.SmartCitySimulator - [providerC] 
+2024-11-26 21:31:06 INFO  c.l.simulator.SmartCitySimulator - [providerA]  :: Spring Boot ::                (v3.3.4)
+2024-11-26 21:31:06 INFO  c.l.simulator.SmartCitySimulator - [providerA] 
+2024-11-26 21:31:06 INFO  c.l.simulator.SmartCitySimulator - [providerB] 2024-11-26 21:31:06 INFO  c.l.provider.ProviderApplication - Starting ProviderApplication v2.0.1-RELEASE using Java 23 with PID 76656 (C:\Users\louis\Desktop\Finalised Programming\provider\provider-2.0.1-RELEASE.jar started by louis in C:\Users\louis\Desktop\Advanced Programming\Simulator)
+2024-11-26 21:31:06 INFO  c.l.simulator.SmartCitySimulator - [providerB] 2024-11-26 21:31:06 INFO  c.l.provider.ProviderApplication - The following 1 profile is active: "providerB"
+2024-11-26 21:31:06 INFO  c.l.simulator.SmartCitySimulator - [providerC] 2024-11-26 21:31:06 INFO  c.l.provider.ProviderApplication - Starting ProviderApplication v2.0.1-RELEASE using Java 23 with PID 71988 (C:\Users\louis\Desktop\Finalised Programming\provider\provider-2.0.1-RELEASE.jar started by louis in C:\Users\louis\Desktop\Advanced Programming\Simulator)
+2024-11-26 21:31:06 INFO  c.l.simulator.SmartCitySimulator - [providerC] 2024-11-26 21:31:06 INFO  c.l.provider.ProviderApplication - The following 1 profile is active: "providerC"
+2024-11-26 21:31:06 INFO  c.l.simulator.SmartCitySimulator - [providerA] 2024-11-26 21:31:06 INFO  c.l.provider.ProviderApplication - Starting ProviderApplication v2.0.1-RELEASE using Java 23 with PID 76496 (C:\Users\louis\Desktop\Finalised Programming\provider\provider-2.0.1-RELEASE.jar started by louis in C:\Users\louis\Desktop\Advanced Programming\Simulator)
+2024-11-26 21:31:06 INFO  c.l.simulator.SmartCitySimulator - [providerA] 2024-11-26 21:31:06 INFO  c.l.provider.ProviderApplication - The following 1 profile is active: "providerA"
+2024-11-26 21:31:07 INFO  c.l.simulator.SmartCitySimulator - [providerC] 2024-11-26 21:31:07 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-26 21:31:07 INFO  c.l.simulator.SmartCitySimulator - [providerB] 2024-11-26 21:31:07 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-26 21:31:07 INFO  c.l.simulator.SmartCitySimulator - [providerA] 2024-11-26 21:31:07 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-26 21:31:07 INFO  c.l.simulator.SmartCitySimulator - [providerC] 2024-11-26 21:31:07 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 45 ms. Found 4 JPA repository interfaces.
+2024-11-26 21:31:07 INFO  c.l.simulator.SmartCitySimulator - [providerB] 2024-11-26 21:31:07 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 42 ms. Found 4 JPA repository interfaces.
+2024-11-26 21:31:07 INFO  c.l.simulator.SmartCitySimulator - [providerA] 2024-11-26 21:31:07 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 43 ms. Found 4 JPA repository interfaces.
+2024-11-26 21:31:07 INFO  c.l.simulator.SmartCitySimulator - [providerC] 2024-11-26 21:31:07 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8084 (http)
+2024-11-26 21:31:07 INFO  c.l.simulator.SmartCitySimulator - [providerB] 2024-11-26 21:31:07 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8083 (http)
+2024-11-26 21:31:07 INFO  c.l.simulator.SmartCitySimulator - [providerC] 2024-11-26 21:31:07 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8084"]
+2024-11-26 21:31:07 INFO  c.l.simulator.SmartCitySimulator - [providerB] 2024-11-26 21:31:07 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8083"]
+2024-11-26 21:31:07 INFO  c.l.simulator.SmartCitySimulator - [providerC] 2024-11-26 21:31:07 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-11-26 21:31:07 INFO  c.l.simulator.SmartCitySimulator - [providerC] 2024-11-26 21:31:07 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-11-26 21:31:07 INFO  c.l.simulator.SmartCitySimulator - [providerB] 2024-11-26 21:31:07 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-11-26 21:31:07 INFO  c.l.simulator.SmartCitySimulator - [providerB] 2024-11-26 21:31:07 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-11-26 21:31:07 INFO  c.l.simulator.SmartCitySimulator - [providerA] 2024-11-26 21:31:07 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8082 (http)
+2024-11-26 21:31:07 INFO  c.l.simulator.SmartCitySimulator - [providerA] 2024-11-26 21:31:07 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2024-11-26 21:31:07 INFO  c.l.simulator.SmartCitySimulator - [providerA] 2024-11-26 21:31:07 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-11-26 21:31:07 INFO  c.l.simulator.SmartCitySimulator - [providerA] 2024-11-26 21:31:07 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-11-26 21:31:07 INFO  c.l.simulator.SmartCitySimulator - [providerB] 2024-11-26 21:31:07 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-11-26 21:31:07 INFO  c.l.simulator.SmartCitySimulator - [providerB] 2024-11-26 21:31:07 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1102 ms
+2024-11-26 21:31:07 INFO  c.l.simulator.SmartCitySimulator - [providerC] 2024-11-26 21:31:07 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-11-26 21:31:07 INFO  c.l.simulator.SmartCitySimulator - [providerC] 2024-11-26 21:31:07 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1111 ms
+2024-11-26 21:31:07 INFO  c.l.simulator.SmartCitySimulator - [providerA] 2024-11-26 21:31:07 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-11-26 21:31:07 INFO  c.l.simulator.SmartCitySimulator - [providerA] 2024-11-26 21:31:07 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1116 ms
+2024-11-26 21:31:07 INFO  c.l.simulator.SmartCitySimulator - [providerC] 2024-11-26 21:31:07 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-26 21:31:07 INFO  c.l.simulator.SmartCitySimulator - [providerB] 2024-11-26 21:31:07 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-26 21:31:08 INFO  c.l.simulator.SmartCitySimulator - [providerA] 2024-11-26 21:31:08 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-26 21:31:08 INFO  c.l.simulator.SmartCitySimulator - [providerC] 2024-11-26 21:31:08 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-11-26 21:31:08 INFO  c.l.simulator.SmartCitySimulator - [providerB] 2024-11-26 21:31:08 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-11-26 21:31:08 INFO  c.l.simulator.SmartCitySimulator - [providerC] 2024-11-26 21:31:08 INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-11-26 21:31:08 INFO  c.l.simulator.SmartCitySimulator - [providerB] 2024-11-26 21:31:08 INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-11-26 21:31:08 INFO  c.l.simulator.SmartCitySimulator - [providerA] 2024-11-26 21:31:08 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-11-26 21:31:08 INFO  c.l.simulator.SmartCitySimulator - [providerA] 2024-11-26 21:31:08 INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-11-26 21:31:08 INFO  c.l.simulator.SmartCitySimulator - [providerC] 2024-11-26 21:31:08 INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-26 21:31:08 INFO  c.l.simulator.SmartCitySimulator - [providerB] 2024-11-26 21:31:08 INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-26 21:31:08 INFO  c.l.simulator.SmartCitySimulator - [providerC] 2024-11-26 21:31:08 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-11-26 21:31:08 INFO  c.l.simulator.SmartCitySimulator - [providerB] 2024-11-26 21:31:08 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-11-26 21:31:08 INFO  c.l.simulator.SmartCitySimulator - [providerA] 2024-11-26 21:31:08 INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-26 21:31:08 INFO  c.l.simulator.SmartCitySimulator - [providerA] 2024-11-26 21:31:08 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-11-26 21:31:08 INFO  c.l.simulator.SmartCitySimulator - [providerC] 2024-11-26 21:31:08 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@2b6262bc
+2024-11-26 21:31:08 INFO  c.l.simulator.SmartCitySimulator - [providerC] 2024-11-26 21:31:08 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-11-26 21:31:08 INFO  c.l.simulator.SmartCitySimulator - [providerB] 2024-11-26 21:31:08 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@3193e21d
+2024-11-26 21:31:08 INFO  c.l.simulator.SmartCitySimulator - [providerB] 2024-11-26 21:31:08 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-11-26 21:31:08 INFO  c.l.simulator.SmartCitySimulator - [providerA] 2024-11-26 21:31:08 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@3193e21d
+2024-11-26 21:31:08 INFO  c.l.simulator.SmartCitySimulator - [providerA] 2024-11-26 21:31:08 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-11-26 21:31:09 INFO  c.l.simulator.SmartCitySimulator - [providerB] 2024-11-26 21:31:09 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-11-26 21:31:09 INFO  c.l.simulator.SmartCitySimulator - [providerC] 2024-11-26 21:31:09 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-11-26 21:31:09 INFO  c.l.simulator.SmartCitySimulator - [providerB] 2024-11-26 21:31:09 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-26 21:31:09 INFO  c.l.simulator.SmartCitySimulator - [providerA] 2024-11-26 21:31:09 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-11-26 21:31:09 INFO  c.l.simulator.SmartCitySimulator - [providerC] 2024-11-26 21:31:09 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-26 21:31:09 INFO  c.l.simulator.SmartCitySimulator - [providerA] 2024-11-26 21:31:09 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-26 21:31:10 INFO  c.l.simulator.SmartCitySimulator - [providerB] 2024-11-26 21:31:10 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-11-26 21:31:10 INFO  c.l.simulator.SmartCitySimulator - [providerC] 2024-11-26 21:31:10 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-11-26 21:31:10 INFO  c.l.simulator.SmartCitySimulator - [providerA] 2024-11-26 21:31:10 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-11-26 21:31:10 INFO  c.l.simulator.SmartCitySimulator - [providerB] 2024-11-26 21:31:10 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8083"]
+2024-11-26 21:31:10 INFO  c.l.simulator.SmartCitySimulator - [providerB] 2024-11-26 21:31:10 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8083 (http) with context path '/'
+2024-11-26 21:31:10 INFO  c.l.simulator.SmartCitySimulator - [providerB] 2024-11-26 21:31:10 INFO  c.l.provider.ProviderApplication - Started ProviderApplication in 4.227 seconds (process running for 4.714)
+2024-11-26 21:31:10 INFO  c.l.simulator.SmartCitySimulator - Microservice with profile providerB is ready!
+2024-11-26 21:31:10 INFO  c.l.simulator.SmartCitySimulator - [providerC] 2024-11-26 21:31:10 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8084"]
+2024-11-26 21:31:10 INFO  c.l.simulator.SmartCitySimulator - [providerC] 2024-11-26 21:31:10 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8084 (http) with context path '/'
+2024-11-26 21:31:10 INFO  c.l.simulator.SmartCitySimulator - [providerC] 2024-11-26 21:31:10 INFO  c.l.provider.ProviderApplication - Started ProviderApplication in 4.291 seconds (process running for 4.771)
+2024-11-26 21:31:10 INFO  c.l.simulator.SmartCitySimulator - Microservice with profile providerC is ready!
+2024-11-26 21:31:10 INFO  c.l.simulator.SmartCitySimulator - [providerA] 2024-11-26 21:31:10 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+2024-11-26 21:31:10 INFO  c.l.simulator.SmartCitySimulator - [providerA] 2024-11-26 21:31:10 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8082 (http) with context path '/'
+2024-11-26 21:31:10 INFO  c.l.simulator.SmartCitySimulator - [providerA] 2024-11-26 21:31:10 INFO  c.l.provider.ProviderApplication - Started ProviderApplication in 4.341 seconds (process running for 4.833)
+2024-11-26 21:31:10 INFO  c.l.simulator.SmartCitySimulator - Microservice with profile providerA is ready!
+2024-11-26 21:31:14 INFO  c.l.simulator.SmartCitySimulator - Shutting down Smart City Simulator
+2024-11-26 21:31:27 INFO  com.louisfiges.simulator.Main - Starting Main using Java 23 with PID 77624 (C:\Users\louis\Desktop\Advanced Programming\Simulator\build\classes\java\main started by louis in C:\Users\louis\Desktop\Advanced Programming\Simulator)
+2024-11-26 21:31:27 INFO  com.louisfiges.simulator.Main - No active profile set, falling back to 1 default profile: "default"
+2024-11-26 21:31:27 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8087 (http)
+2024-11-26 21:31:27 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8087"]
+2024-11-26 21:31:27 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-11-26 21:31:27 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-11-26 21:31:27 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-11-26 21:31:27 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 417 ms
+2024-11-26 21:31:27 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8087"]
+2024-11-26 21:31:27 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8087 (http) with context path '/'
+2024-11-26 21:31:27 INFO  com.louisfiges.simulator.Main - Started Main in 0.856 seconds (process running for 1.135)
+2024-11-26 21:31:27 INFO  c.l.simulator.SmartCitySimulator - Started microservice with profile: providerA
+2024-11-26 21:31:27 INFO  c.l.simulator.SmartCitySimulator - Started microservice with profile: providerB
+2024-11-26 21:31:27 INFO  c.l.simulator.SmartCitySimulator - Started microservice with profile: providerC
+2024-11-26 21:31:27 INFO  c.l.simulator.SmartCitySimulator - Smart City Simulator started
+2024-11-26 21:31:28 INFO  c.l.simulator.SmartCitySimulator - [providerB] 
+2024-11-26 21:31:28 INFO  c.l.simulator.SmartCitySimulator - [providerB]   .   ____          _            __ _ _
+2024-11-26 21:31:28 INFO  c.l.simulator.SmartCitySimulator - [providerB]  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+2024-11-26 21:31:28 INFO  c.l.simulator.SmartCitySimulator - [providerB] ( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+2024-11-26 21:31:28 INFO  c.l.simulator.SmartCitySimulator - [providerB]  \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+2024-11-26 21:31:28 INFO  c.l.simulator.SmartCitySimulator - [providerB]   '  |____| .__|_| |_|_| |_\__, | / / / /
+2024-11-26 21:31:28 INFO  c.l.simulator.SmartCitySimulator - [providerB]  =========|_|==============|___/=/_/_/_/
+2024-11-26 21:31:28 INFO  c.l.simulator.SmartCitySimulator - [providerB] 
+2024-11-26 21:31:28 INFO  c.l.simulator.SmartCitySimulator - [providerB]  :: Spring Boot ::                (v3.3.4)
+2024-11-26 21:31:28 INFO  c.l.simulator.SmartCitySimulator - [providerB] 
+2024-11-26 21:31:28 INFO  c.l.simulator.SmartCitySimulator - [providerA] 
+2024-11-26 21:31:28 INFO  c.l.simulator.SmartCitySimulator - [providerA]   .   ____          _            __ _ _
+2024-11-26 21:31:28 INFO  c.l.simulator.SmartCitySimulator - [providerA]  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+2024-11-26 21:31:28 INFO  c.l.simulator.SmartCitySimulator - [providerA] ( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+2024-11-26 21:31:28 INFO  c.l.simulator.SmartCitySimulator - [providerA]  \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+2024-11-26 21:31:28 INFO  c.l.simulator.SmartCitySimulator - [providerA]   '  |____| .__|_| |_|_| |_\__, | / / / /
+2024-11-26 21:31:28 INFO  c.l.simulator.SmartCitySimulator - [providerA]  =========|_|==============|___/=/_/_/_/
+2024-11-26 21:31:28 INFO  c.l.simulator.SmartCitySimulator - [providerA] 
+2024-11-26 21:31:28 INFO  c.l.simulator.SmartCitySimulator - [providerA]  :: Spring Boot ::                (v3.3.4)
+2024-11-26 21:31:28 INFO  c.l.simulator.SmartCitySimulator - [providerA] 
+2024-11-26 21:31:28 INFO  c.l.simulator.SmartCitySimulator - [providerC] 
+2024-11-26 21:31:28 INFO  c.l.simulator.SmartCitySimulator - [providerC]   .   ____          _            __ _ _
+2024-11-26 21:31:28 INFO  c.l.simulator.SmartCitySimulator - [providerC]  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+2024-11-26 21:31:28 INFO  c.l.simulator.SmartCitySimulator - [providerC] ( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+2024-11-26 21:31:28 INFO  c.l.simulator.SmartCitySimulator - [providerC]  \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+2024-11-26 21:31:28 INFO  c.l.simulator.SmartCitySimulator - [providerC]   '  |____| .__|_| |_|_| |_\__, | / / / /
+2024-11-26 21:31:28 INFO  c.l.simulator.SmartCitySimulator - [providerC]  =========|_|==============|___/=/_/_/_/
+2024-11-26 21:31:28 INFO  c.l.simulator.SmartCitySimulator - [providerC] 
+2024-11-26 21:31:28 INFO  c.l.simulator.SmartCitySimulator - [providerC]  :: Spring Boot ::                (v3.3.4)
+2024-11-26 21:31:28 INFO  c.l.simulator.SmartCitySimulator - [providerC] 
+2024-11-26 21:31:28 INFO  c.l.simulator.SmartCitySimulator - [providerB] 2024-11-26 21:31:28 INFO  c.l.provider.ProviderApplication - Starting ProviderApplication v2.0.1-RELEASE using Java 23 with PID 28232 (C:\Users\louis\Desktop\Finalised Programming\provider\provider-2.0.1-RELEASE.jar started by louis in C:\Users\louis\Desktop\Advanced Programming\Simulator)
+2024-11-26 21:31:28 INFO  c.l.simulator.SmartCitySimulator - [providerB] 2024-11-26 21:31:28 INFO  c.l.provider.ProviderApplication - The following 1 profile is active: "providerB"
+2024-11-26 21:31:28 INFO  c.l.simulator.SmartCitySimulator - [providerA] 2024-11-26 21:31:28 INFO  c.l.provider.ProviderApplication - Starting ProviderApplication v2.0.1-RELEASE using Java 23 with PID 73916 (C:\Users\louis\Desktop\Finalised Programming\provider\provider-2.0.1-RELEASE.jar started by louis in C:\Users\louis\Desktop\Advanced Programming\Simulator)
+2024-11-26 21:31:28 INFO  c.l.simulator.SmartCitySimulator - [providerA] 2024-11-26 21:31:28 INFO  c.l.provider.ProviderApplication - The following 1 profile is active: "providerA"
+2024-11-26 21:31:28 INFO  c.l.simulator.SmartCitySimulator - [providerC] 2024-11-26 21:31:28 INFO  c.l.provider.ProviderApplication - Starting ProviderApplication v2.0.1-RELEASE using Java 23 with PID 73408 (C:\Users\louis\Desktop\Finalised Programming\provider\provider-2.0.1-RELEASE.jar started by louis in C:\Users\louis\Desktop\Advanced Programming\Simulator)
+2024-11-26 21:31:28 INFO  c.l.simulator.SmartCitySimulator - [providerC] 2024-11-26 21:31:28 INFO  c.l.provider.ProviderApplication - The following 1 profile is active: "providerC"
+2024-11-26 21:31:29 INFO  c.l.simulator.SmartCitySimulator - [providerB] 2024-11-26 21:31:29 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-26 21:31:29 INFO  c.l.simulator.SmartCitySimulator - [providerA] 2024-11-26 21:31:29 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-26 21:31:29 INFO  c.l.simulator.SmartCitySimulator - [providerC] 2024-11-26 21:31:29 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-26 21:31:29 INFO  c.l.simulator.SmartCitySimulator - [providerB] 2024-11-26 21:31:29 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 41 ms. Found 4 JPA repository interfaces.
+2024-11-26 21:31:29 INFO  c.l.simulator.SmartCitySimulator - [providerA] 2024-11-26 21:31:29 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 38 ms. Found 4 JPA repository interfaces.
+2024-11-26 21:31:29 INFO  c.l.simulator.SmartCitySimulator - [providerC] 2024-11-26 21:31:29 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 41 ms. Found 4 JPA repository interfaces.
+2024-11-26 21:31:29 INFO  c.l.simulator.SmartCitySimulator - [providerA] 2024-11-26 21:31:29 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8082 (http)
+2024-11-26 21:31:29 INFO  c.l.simulator.SmartCitySimulator - [providerB] 2024-11-26 21:31:29 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8083 (http)
+2024-11-26 21:31:29 INFO  c.l.simulator.SmartCitySimulator - [providerA] 2024-11-26 21:31:29 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2024-11-26 21:31:29 INFO  c.l.simulator.SmartCitySimulator - [providerB] 2024-11-26 21:31:29 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8083"]
+2024-11-26 21:31:29 INFO  c.l.simulator.SmartCitySimulator - [providerA] 2024-11-26 21:31:29 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-11-26 21:31:29 INFO  c.l.simulator.SmartCitySimulator - [providerA] 2024-11-26 21:31:29 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-11-26 21:31:29 INFO  c.l.simulator.SmartCitySimulator - [providerB] 2024-11-26 21:31:29 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-11-26 21:31:29 INFO  c.l.simulator.SmartCitySimulator - [providerB] 2024-11-26 21:31:29 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-11-26 21:31:29 INFO  c.l.simulator.SmartCitySimulator - [providerC] 2024-11-26 21:31:29 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8084 (http)
+2024-11-26 21:31:29 INFO  c.l.simulator.SmartCitySimulator - [providerC] 2024-11-26 21:31:29 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8084"]
+2024-11-26 21:31:29 INFO  c.l.simulator.SmartCitySimulator - [providerA] 2024-11-26 21:31:29 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-11-26 21:31:29 INFO  c.l.simulator.SmartCitySimulator - [providerC] 2024-11-26 21:31:29 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-11-26 21:31:29 INFO  c.l.simulator.SmartCitySimulator - [providerC] 2024-11-26 21:31:29 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-11-26 21:31:29 INFO  c.l.simulator.SmartCitySimulator - [providerA] 2024-11-26 21:31:29 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1139 ms
+2024-11-26 21:31:29 INFO  c.l.simulator.SmartCitySimulator - [providerB] 2024-11-26 21:31:29 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-11-26 21:31:29 INFO  c.l.simulator.SmartCitySimulator - [providerB] 2024-11-26 21:31:29 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1149 ms
+2024-11-26 21:31:29 INFO  c.l.simulator.SmartCitySimulator - [providerC] 2024-11-26 21:31:29 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-11-26 21:31:29 INFO  c.l.simulator.SmartCitySimulator - [providerC] 2024-11-26 21:31:29 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1151 ms
+2024-11-26 21:31:29 INFO  c.l.simulator.SmartCitySimulator - [providerB] 2024-11-26 21:31:29 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-26 21:31:29 INFO  c.l.simulator.SmartCitySimulator - [providerA] 2024-11-26 21:31:29 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-26 21:31:29 INFO  c.l.simulator.SmartCitySimulator - [providerC] 2024-11-26 21:31:29 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-26 21:31:30 INFO  c.l.simulator.SmartCitySimulator - [providerB] 2024-11-26 21:31:30 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-11-26 21:31:30 INFO  c.l.simulator.SmartCitySimulator - [providerA] 2024-11-26 21:31:30 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-11-26 21:31:30 INFO  c.l.simulator.SmartCitySimulator - [providerB] 2024-11-26 21:31:30 INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-11-26 21:31:30 INFO  c.l.simulator.SmartCitySimulator - [providerC] 2024-11-26 21:31:30 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-11-26 21:31:30 INFO  c.l.simulator.SmartCitySimulator - [providerA] 2024-11-26 21:31:30 INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-11-26 21:31:30 INFO  c.l.simulator.SmartCitySimulator - [providerC] 2024-11-26 21:31:30 INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-11-26 21:31:30 INFO  c.l.simulator.SmartCitySimulator - [providerB] 2024-11-26 21:31:30 INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-26 21:31:30 INFO  c.l.simulator.SmartCitySimulator - [providerA] 2024-11-26 21:31:30 INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-26 21:31:30 INFO  c.l.simulator.SmartCitySimulator - [providerB] 2024-11-26 21:31:30 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-11-26 21:31:30 INFO  c.l.simulator.SmartCitySimulator - [providerA] 2024-11-26 21:31:30 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-11-26 21:31:30 INFO  c.l.simulator.SmartCitySimulator - [providerC] 2024-11-26 21:31:30 INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-26 21:31:30 INFO  c.l.simulator.SmartCitySimulator - [providerC] 2024-11-26 21:31:30 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-11-26 21:31:30 INFO  c.l.simulator.SmartCitySimulator - [providerB] 2024-11-26 21:31:30 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@5c839677
+2024-11-26 21:31:30 INFO  c.l.simulator.SmartCitySimulator - [providerB] 2024-11-26 21:31:30 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-11-26 21:31:30 INFO  c.l.simulator.SmartCitySimulator - [providerA] 2024-11-26 21:31:30 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@3193e21d
+2024-11-26 21:31:30 INFO  c.l.simulator.SmartCitySimulator - [providerA] 2024-11-26 21:31:30 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-11-26 21:31:30 INFO  c.l.simulator.SmartCitySimulator - [providerC] 2024-11-26 21:31:30 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@2b6262bc
+2024-11-26 21:31:30 INFO  c.l.simulator.SmartCitySimulator - [providerC] 2024-11-26 21:31:30 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-11-26 21:31:31 INFO  c.l.simulator.SmartCitySimulator - [providerB] 2024-11-26 21:31:31 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-11-26 21:31:31 INFO  c.l.simulator.SmartCitySimulator - [providerA] 2024-11-26 21:31:31 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-11-26 21:31:31 INFO  c.l.simulator.SmartCitySimulator - [providerC] 2024-11-26 21:31:31 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-11-26 21:31:31 INFO  c.l.simulator.SmartCitySimulator - [providerB] 2024-11-26 21:31:31 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-26 21:31:31 INFO  c.l.simulator.SmartCitySimulator - [providerA] 2024-11-26 21:31:31 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-26 21:31:31 INFO  c.l.simulator.SmartCitySimulator - Shutting down Smart City Simulator
+2024-11-26 21:31:53 INFO  com.louisfiges.simulator.Main - Starting Main using Java 23 with PID 73848 (C:\Users\louis\Desktop\Advanced Programming\Simulator\build\classes\java\main started by louis in C:\Users\louis\Desktop\Advanced Programming\Simulator)
+2024-11-26 21:31:53 INFO  com.louisfiges.simulator.Main - No active profile set, falling back to 1 default profile: "default"
+2024-11-26 21:31:54 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8087 (http)
+2024-11-26 21:31:54 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8087"]
+2024-11-26 21:31:54 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-11-26 21:31:54 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-11-26 21:31:54 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-11-26 21:31:54 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 404 ms
+2024-11-26 21:31:54 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8087"]
+2024-11-26 21:31:54 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8087 (http) with context path '/'
+2024-11-26 21:31:54 INFO  com.louisfiges.simulator.Main - Started Main in 0.868 seconds (process running for 1.161)
+2024-11-26 21:31:54 INFO  c.l.simulator.SmartCitySimulator - Started microservice with profile: providerA
+2024-11-26 21:31:54 INFO  c.l.simulator.SmartCitySimulator - Started microservice with profile: providerB
+2024-11-26 21:31:54 INFO  c.l.simulator.SmartCitySimulator - Started microservice with profile: providerC
+2024-11-26 21:31:54 INFO  c.l.simulator.SmartCitySimulator - Smart City Simulator started
+2024-11-26 21:31:59 INFO  c.l.simulator.SmartCitySimulator - Microservice with profile providerA is ready!
+2024-11-26 21:31:59 INFO  c.l.simulator.SmartCitySimulator - Microservice with profile providerB is ready!
+2024-11-26 21:31:59 INFO  c.l.simulator.SmartCitySimulator - Microservice with profile providerC is ready!
+2024-11-26 21:34:28 INFO  c.l.simulator.SmartCitySimulator - Shutting down Smart City Simulator
+2024-11-26 21:34:34 INFO  com.louisfiges.simulator.Main - Starting Main using Java 23 with PID 75240 (C:\Users\louis\Desktop\Advanced Programming\Simulator\build\classes\java\main started by louis in C:\Users\louis\Desktop\Advanced Programming\Simulator)
+2024-11-26 21:34:34 INFO  com.louisfiges.simulator.Main - No active profile set, falling back to 1 default profile: "default"
+2024-11-26 21:34:34 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8087 (http)
+2024-11-26 21:34:34 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8087"]
+2024-11-26 21:34:34 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-11-26 21:34:34 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-11-26 21:34:34 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-11-26 21:34:34 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 423 ms
+2024-11-26 21:34:34 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8087"]
+2024-11-26 21:34:34 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8087 (http) with context path '/'
+2024-11-26 21:34:34 INFO  com.louisfiges.simulator.Main - Started Main in 0.87 seconds (process running for 1.151)
+2024-11-26 21:34:34 INFO  c.l.simulator.SmartCitySimulator - Starting microservice with profile: providerA
+2024-11-26 21:34:34 INFO  c.l.simulator.SmartCitySimulator - Starting microservice with profile: providerB
+2024-11-26 21:34:34 INFO  c.l.simulator.SmartCitySimulator - Starting microservice with profile: providerC
+2024-11-26 21:34:39 INFO  c.l.simulator.SmartCitySimulator - providerA is ready
+2024-11-26 21:34:39 INFO  c.l.simulator.SmartCitySimulator - providerB is ready
+2024-11-26 21:34:39 INFO  c.l.simulator.SmartCitySimulator - providerC is ready
+2024-11-26 21:34:39 INFO  c.l.simulator.SmartCitySimulator - All microservices are ready!
+2024-11-26 21:34:39 INFO  c.l.simulator.SmartCitySimulator - Simulating citizen data...
+2024-11-26 21:34:39 INFO  c.l.simulator.SmartCitySimulator - Simulating smart meter data...
+2024-11-26 21:34:39 ERROR c.l.simulator.MeterSimulation - Error sending subjects to provider: 400 Bad Request: "{"cause":"Invalid request, please check API documentation"}"
+2024-11-26 21:34:39 ERROR c.l.simulator.MeterSimulation - org.springframework.web.client.HttpClientErrorException$BadRequest: 400 Bad Request: "{"cause":"Invalid request, please check API documentation"}"
+2024-11-26 21:34:39 INFO  c.l.simulator.MeterSimulation - Sent subject: com.louisfiges.common.dtos.SubjectDTO@15d0d6c9
+2024-11-26 21:34:39 INFO  c.l.simulator.MeterSimulation - Sent subject: com.louisfiges.common.dtos.SubjectDTO@3ab35b9c
+2024-11-26 21:34:39 INFO  c.l.simulator.MeterSimulation - Sent subject: com.louisfiges.common.dtos.SubjectDTO@7741d346
+2024-11-26 21:34:39 INFO  c.l.simulator.MeterSimulation - Sent subject: com.louisfiges.common.dtos.SubjectDTO@52454457
+2024-11-26 21:34:39 INFO  c.l.simulator.MeterSimulation - Sent subject: com.louisfiges.common.dtos.SubjectDTO@4130a648
+2024-11-26 21:34:39 INFO  c.l.simulator.MeterSimulation - Sent subject: com.louisfiges.common.dtos.SubjectDTO@61ff6a49
+2024-11-26 21:34:39 INFO  c.l.simulator.MeterSimulation - Sent subject: com.louisfiges.common.dtos.SubjectDTO@18dd5ed3
+2024-11-26 21:34:39 INFO  c.l.simulator.MeterSimulation - Sent subject: com.louisfiges.common.dtos.SubjectDTO@6042d663
+2024-11-26 21:34:39 INFO  c.l.simulator.MeterSimulation - Sent subject: com.louisfiges.common.dtos.SubjectDTO@24043ec5
+2024-11-26 21:34:39 INFO  c.l.simulator.MeterSimulation - Sent subject: com.louisfiges.common.dtos.SubjectDTO@3e33b52e
+2024-11-26 21:34:39 INFO  c.l.simulator.MeterSimulation - Sent subject: com.louisfiges.common.dtos.SubjectDTO@4c6a4ffd
+2024-11-26 21:34:39 INFO  c.l.simulator.MeterSimulation - Sent subject: com.louisfiges.common.dtos.SubjectDTO@3aed69dd
+2024-11-26 21:34:39 INFO  c.l.simulator.MeterSimulation - Sent subject: com.louisfiges.common.dtos.SubjectDTO@3f1a9a53
+2024-11-26 21:34:39 INFO  c.l.simulator.MeterSimulation - Sent subject: com.louisfiges.common.dtos.SubjectDTO@1ca3d25b
+2024-11-26 21:34:39 INFO  c.l.simulator.MeterSimulation - Sent subject: com.louisfiges.common.dtos.SubjectDTO@2287395
+2024-11-26 21:34:39 INFO  c.l.simulator.MeterSimulation - Sent subject: com.louisfiges.common.dtos.SubjectDTO@535a518c
+2024-11-26 21:34:39 INFO  c.l.simulator.MeterSimulation - Sent subject: com.louisfiges.common.dtos.SubjectDTO@38f981b6
+2024-11-26 21:34:39 INFO  c.l.simulator.MeterSimulation - Sent subject: com.louisfiges.common.dtos.SubjectDTO@3a4aadf8
+2024-11-26 21:34:39 INFO  c.l.simulator.MeterSimulation - Sent subject: com.louisfiges.common.dtos.SubjectDTO@7bbfc5ff
+2024-11-26 21:34:39 INFO  c.l.simulator.MeterSimulation - Sent subject: com.louisfiges.common.dtos.SubjectDTO@7a682d35
+2024-11-26 21:34:39 INFO  c.l.simulator.MeterSimulation - Sent subject: com.louisfiges.common.dtos.SubjectDTO@ee8e7ff
+2024-11-26 21:34:39 INFO  c.l.simulator.MeterSimulation - Sent subject: com.louisfiges.common.dtos.SubjectDTO@61a2aeb7
+2024-11-26 21:34:39 INFO  c.l.simulator.MeterSimulation - Sent subject: com.louisfiges.common.dtos.SubjectDTO@64b70f41
+2024-11-26 21:34:39 INFO  c.l.simulator.MeterSimulation - Sent subject: com.louisfiges.common.dtos.SubjectDTO@5f8d9767
+2024-11-26 21:34:39 INFO  c.l.simulator.MeterSimulation - Sent subject: com.louisfiges.common.dtos.SubjectDTO@16134476
+2024-11-26 21:34:39 INFO  c.l.simulator.MeterSimulation - Sent subject: com.louisfiges.common.dtos.SubjectDTO@62b09715
+2024-11-26 21:34:39 INFO  c.l.simulator.MeterSimulation - Sent subject: com.louisfiges.common.dtos.SubjectDTO@3e214105
+2024-11-26 21:34:39 INFO  c.l.simulator.MeterSimulation - Sent subject: com.louisfiges.common.dtos.SubjectDTO@da4cf09
+2024-11-26 21:34:39 INFO  c.l.simulator.MeterSimulation - Sent subject: com.louisfiges.common.dtos.SubjectDTO@1980a3f
+2024-11-26 21:34:39 INFO  c.l.simulator.MeterSimulation - Sent subject: com.louisfiges.common.dtos.SubjectDTO@67f63d26
+2024-11-26 21:34:39 INFO  c.l.simulator.MeterSimulation - Sent subject: com.louisfiges.common.dtos.SubjectDTO@536b71b4
+2024-11-26 21:34:39 INFO  c.l.simulator.MeterSimulation - Sent subject: com.louisfiges.common.dtos.SubjectDTO@789c3057
+2024-11-26 21:34:39 INFO  c.l.simulator.MeterSimulation - Sent subject: com.louisfiges.common.dtos.SubjectDTO@39941489
+2024-11-26 21:34:39 INFO  c.l.simulator.MeterSimulation - Sent subject: com.louisfiges.common.dtos.SubjectDTO@6f5d0190
+2024-11-26 21:34:39 INFO  c.l.simulator.MeterSimulation - Sent subject: com.louisfiges.common.dtos.SubjectDTO@67332b1e
+2024-11-26 21:34:39 INFO  c.l.simulator.MeterSimulation - Sent subject: com.louisfiges.common.dtos.SubjectDTO@7e34b127
+2024-11-26 21:34:39 INFO  c.l.simulator.MeterSimulation - Sent subject: com.louisfiges.common.dtos.SubjectDTO@679dd234
+2024-11-26 21:34:39 INFO  c.l.simulator.MeterSimulation - Sent subject: com.louisfiges.common.dtos.SubjectDTO@60cb1ed6
+2024-11-26 21:34:39 INFO  c.l.simulator.MeterSimulation - Sent subject: com.louisfiges.common.dtos.SubjectDTO@1e5eb20a
+2024-11-26 21:34:39 INFO  c.l.simulator.MeterSimulation - Sent subject: com.louisfiges.common.dtos.SubjectDTO@4538856f
+2024-11-26 21:34:39 INFO  c.l.simulator.MeterSimulation - Sent subject: com.louisfiges.common.dtos.SubjectDTO@4c3de38e
+2024-11-26 21:34:39 INFO  c.l.simulator.MeterSimulation - Sent subject: com.louisfiges.common.dtos.SubjectDTO@74b86971
+2024-11-26 21:34:39 INFO  c.l.simulator.MeterSimulation - Sent subject: com.louisfiges.common.dtos.SubjectDTO@1f9d4b0e
+2024-11-26 21:34:39 INFO  c.l.simulator.MeterSimulation - Sent subject: com.louisfiges.common.dtos.SubjectDTO@1e8fb66f
+2024-11-26 21:34:39 INFO  c.l.simulator.MeterSimulation - Sent subject: com.louisfiges.common.dtos.SubjectDTO@3d8d17a3
+2024-11-26 21:34:39 INFO  c.l.simulator.MeterSimulation - Sent subject: com.louisfiges.common.dtos.SubjectDTO@ac91282
+2024-11-26 21:34:39 INFO  c.l.simulator.MeterSimulation - Sent subject: com.louisfiges.common.dtos.SubjectDTO@7f79edee
+2024-11-26 21:34:39 INFO  c.l.simulator.MeterSimulation - Sent subject: com.louisfiges.common.dtos.SubjectDTO@1ca610a0
+2024-11-26 21:34:39 INFO  c.l.simulator.MeterSimulation - Sent subject: com.louisfiges.common.dtos.SubjectDTO@49433c98
+2024-11-26 21:34:39 INFO  c.l.simulator.MeterSimulation - Sent subject: com.louisfiges.common.dtos.SubjectDTO@b5c6a30
+2024-11-26 21:34:39 ERROR c.l.simulator.MeterSimulation - Error sending subjects to provider: 400 Bad Request: "{"cause":"Invalid request, please check API documentation"}"
+2024-11-26 21:34:39 ERROR c.l.simulator.MeterSimulation - org.springframework.web.client.HttpClientErrorException$BadRequest: 400 Bad Request: "{"cause":"Invalid request, please check API documentation"}"
+2024-11-26 21:34:39 INFO  c.l.simulator.MeterSimulation - Sent subject: com.louisfiges.common.dtos.SubjectDTO@15d0d6c9
+2024-11-26 21:34:39 INFO  c.l.simulator.MeterSimulation - Sent subject: com.louisfiges.common.dtos.SubjectDTO@3ab35b9c
+2024-11-26 21:34:39 INFO  c.l.simulator.MeterSimulation - Sent subject: com.louisfiges.common.dtos.SubjectDTO@7741d346
+2024-11-26 21:34:39 INFO  c.l.simulator.MeterSimulation - Sent subject: com.louisfiges.common.dtos.SubjectDTO@52454457
+2024-11-26 21:34:39 INFO  c.l.simulator.MeterSimulation - Sent subject: com.louisfiges.common.dtos.SubjectDTO@4130a648
+2024-11-26 21:34:39 INFO  c.l.simulator.MeterSimulation - Sent subject: com.louisfiges.common.dtos.SubjectDTO@61ff6a49
+2024-11-26 21:34:39 INFO  c.l.simulator.MeterSimulation - Sent subject: com.louisfiges.common.dtos.SubjectDTO@18dd5ed3
+2024-11-26 21:34:39 INFO  c.l.simulator.MeterSimulation - Sent subject: com.louisfiges.common.dtos.SubjectDTO@6042d663
+2024-11-26 21:34:39 INFO  c.l.simulator.MeterSimulation - Sent subject: com.louisfiges.common.dtos.SubjectDTO@24043ec5
+2024-11-26 21:34:39 INFO  c.l.simulator.MeterSimulation - Sent subject: com.louisfiges.common.dtos.SubjectDTO@3e33b52e
+2024-11-26 21:34:39 INFO  c.l.simulator.MeterSimulation - Sent subject: com.louisfiges.common.dtos.SubjectDTO@4c6a4ffd
+2024-11-26 21:34:39 INFO  c.l.simulator.MeterSimulation - Sent subject: com.louisfiges.common.dtos.SubjectDTO@3aed69dd
+2024-11-26 21:34:39 INFO  c.l.simulator.MeterSimulation - Sent subject: com.louisfiges.common.dtos.SubjectDTO@3f1a9a53
+2024-11-26 21:34:39 INFO  c.l.simulator.MeterSimulation - Sent subject: com.louisfiges.common.dtos.SubjectDTO@1ca3d25b
+2024-11-26 21:34:39 INFO  c.l.simulator.MeterSimulation - Sent subject: com.louisfiges.common.dtos.SubjectDTO@2287395
+2024-11-26 21:34:39 INFO  c.l.simulator.MeterSimulation - Sent subject: com.louisfiges.common.dtos.SubjectDTO@535a518c
+2024-11-26 21:34:39 INFO  c.l.simulator.MeterSimulation - Sent subject: com.louisfiges.common.dtos.SubjectDTO@38f981b6
+2024-11-26 21:34:39 INFO  c.l.simulator.MeterSimulation - Sent subject: com.louisfiges.common.dtos.SubjectDTO@3a4aadf8
+2024-11-26 21:34:39 INFO  c.l.simulator.MeterSimulation - Sent subject: com.louisfiges.common.dtos.SubjectDTO@7bbfc5ff
+2024-11-26 21:34:39 INFO  c.l.simulator.MeterSimulation - Sent subject: com.louisfiges.common.dtos.SubjectDTO@7a682d35
+2024-11-26 21:34:39 INFO  c.l.simulator.MeterSimulation - Sent subject: com.louisfiges.common.dtos.SubjectDTO@ee8e7ff
+2024-11-26 21:34:39 INFO  c.l.simulator.MeterSimulation - Sent subject: com.louisfiges.common.dtos.SubjectDTO@61a2aeb7
+2024-11-26 21:34:39 INFO  c.l.simulator.MeterSimulation - Sent subject: com.louisfiges.common.dtos.SubjectDTO@64b70f41
+2024-11-26 21:34:39 INFO  c.l.simulator.MeterSimulation - Sent subject: com.louisfiges.common.dtos.SubjectDTO@5f8d9767
+2024-11-26 21:34:39 INFO  c.l.simulator.MeterSimulation - Sent subject: com.louisfiges.common.dtos.SubjectDTO@16134476
+2024-11-26 21:34:39 INFO  c.l.simulator.MeterSimulation - Sent subject: com.louisfiges.common.dtos.SubjectDTO@62b09715
+2024-11-26 21:34:39 INFO  c.l.simulator.MeterSimulation - Sent subject: com.louisfiges.common.dtos.SubjectDTO@3e214105
+2024-11-26 21:34:39 INFO  c.l.simulator.MeterSimulation - Sent subject: com.louisfiges.common.dtos.SubjectDTO@da4cf09
+2024-11-26 21:34:39 INFO  c.l.simulator.MeterSimulation - Sent subject: com.louisfiges.common.dtos.SubjectDTO@1980a3f
+2024-11-26 21:34:39 INFO  c.l.simulator.MeterSimulation - Sent subject: com.louisfiges.common.dtos.SubjectDTO@67f63d26
+2024-11-26 21:34:39 INFO  c.l.simulator.MeterSimulation - Sent subject: com.louisfiges.common.dtos.SubjectDTO@536b71b4
+2024-11-26 21:34:39 INFO  c.l.simulator.MeterSimulation - Sent subject: com.louisfiges.common.dtos.SubjectDTO@789c3057
+2024-11-26 21:34:39 INFO  c.l.simulator.MeterSimulation - Sent subject: com.louisfiges.common.dtos.SubjectDTO@39941489
+2024-11-26 21:34:39 INFO  c.l.simulator.MeterSimulation - Sent subject: com.louisfiges.common.dtos.SubjectDTO@6f5d0190
+2024-11-26 21:34:39 INFO  c.l.simulator.MeterSimulation - Sent subject: com.louisfiges.common.dtos.SubjectDTO@67332b1e
+2024-11-26 21:34:39 INFO  c.l.simulator.MeterSimulation - Sent subject: com.louisfiges.common.dtos.SubjectDTO@7e34b127
+2024-11-26 21:34:39 INFO  c.l.simulator.MeterSimulation - Sent subject: com.louisfiges.common.dtos.SubjectDTO@679dd234
+2024-11-26 21:34:39 INFO  c.l.simulator.MeterSimulation - Sent subject: com.louisfiges.common.dtos.SubjectDTO@60cb1ed6
+2024-11-26 21:34:39 INFO  c.l.simulator.MeterSimulation - Sent subject: com.louisfiges.common.dtos.SubjectDTO@1e5eb20a
+2024-11-26 21:34:39 INFO  c.l.simulator.MeterSimulation - Sent subject: com.louisfiges.common.dtos.SubjectDTO@4538856f
+2024-11-26 21:34:39 INFO  c.l.simulator.MeterSimulation - Sent subject: com.louisfiges.common.dtos.SubjectDTO@4c3de38e
+2024-11-26 21:34:39 INFO  c.l.simulator.MeterSimulation - Sent subject: com.louisfiges.common.dtos.SubjectDTO@74b86971
+2024-11-26 21:34:39 INFO  c.l.simulator.MeterSimulation - Sent subject: com.louisfiges.common.dtos.SubjectDTO@1f9d4b0e
+2024-11-26 21:34:39 INFO  c.l.simulator.MeterSimulation - Sent subject: com.louisfiges.common.dtos.SubjectDTO@1e8fb66f
+2024-11-26 21:34:39 INFO  c.l.simulator.MeterSimulation - Sent subject: com.louisfiges.common.dtos.SubjectDTO@3d8d17a3
+2024-11-26 21:34:39 INFO  c.l.simulator.MeterSimulation - Sent subject: com.louisfiges.common.dtos.SubjectDTO@ac91282
+2024-11-26 21:34:39 INFO  c.l.simulator.MeterSimulation - Sent subject: com.louisfiges.common.dtos.SubjectDTO@7f79edee
+2024-11-26 21:34:39 INFO  c.l.simulator.MeterSimulation - Sent subject: com.louisfiges.common.dtos.SubjectDTO@1ca610a0
+2024-11-26 21:34:39 INFO  c.l.simulator.MeterSimulation - Sent subject: com.louisfiges.common.dtos.SubjectDTO@49433c98
+2024-11-26 21:34:39 INFO  c.l.simulator.MeterSimulation - Sent subject: com.louisfiges.common.dtos.SubjectDTO@b5c6a30
+2024-11-26 21:34:39 ERROR c.l.simulator.MeterSimulation - Error sending subjects to provider: 400 Bad Request: "{"cause":"Invalid request, please check API documentation"}"
+2024-11-26 21:34:39 ERROR c.l.simulator.MeterSimulation - org.springframework.web.client.HttpClientErrorException$BadRequest: 400 Bad Request: "{"cause":"Invalid request, please check API documentation"}"
+2024-11-26 21:34:39 INFO  c.l.simulator.MeterSimulation - Sent subject: com.louisfiges.common.dtos.SubjectDTO@15d0d6c9
+2024-11-26 21:34:39 INFO  c.l.simulator.MeterSimulation - Sent subject: com.louisfiges.common.dtos.SubjectDTO@3ab35b9c
+2024-11-26 21:34:39 INFO  c.l.simulator.MeterSimulation - Sent subject: com.louisfiges.common.dtos.SubjectDTO@7741d346
+2024-11-26 21:34:39 INFO  c.l.simulator.MeterSimulation - Sent subject: com.louisfiges.common.dtos.SubjectDTO@52454457
+2024-11-26 21:34:39 INFO  c.l.simulator.MeterSimulation - Sent subject: com.louisfiges.common.dtos.SubjectDTO@4130a648
+2024-11-26 21:34:39 INFO  c.l.simulator.MeterSimulation - Sent subject: com.louisfiges.common.dtos.SubjectDTO@61ff6a49
+2024-11-26 21:34:39 INFO  c.l.simulator.MeterSimulation - Sent subject: com.louisfiges.common.dtos.SubjectDTO@18dd5ed3
+2024-11-26 21:34:39 INFO  c.l.simulator.MeterSimulation - Sent subject: com.louisfiges.common.dtos.SubjectDTO@6042d663
+2024-11-26 21:34:39 INFO  c.l.simulator.MeterSimulation - Sent subject: com.louisfiges.common.dtos.SubjectDTO@24043ec5
+2024-11-26 21:34:39 INFO  c.l.simulator.MeterSimulation - Sent subject: com.louisfiges.common.dtos.SubjectDTO@3e33b52e
+2024-11-26 21:34:39 INFO  c.l.simulator.MeterSimulation - Sent subject: com.louisfiges.common.dtos.SubjectDTO@4c6a4ffd
+2024-11-26 21:34:39 INFO  c.l.simulator.MeterSimulation - Sent subject: com.louisfiges.common.dtos.SubjectDTO@3aed69dd
+2024-11-26 21:34:39 INFO  c.l.simulator.MeterSimulation - Sent subject: com.louisfiges.common.dtos.SubjectDTO@3f1a9a53
+2024-11-26 21:34:39 INFO  c.l.simulator.MeterSimulation - Sent subject: com.louisfiges.common.dtos.SubjectDTO@1ca3d25b
+2024-11-26 21:34:39 INFO  c.l.simulator.MeterSimulation - Sent subject: com.louisfiges.common.dtos.SubjectDTO@2287395
+2024-11-26 21:34:39 INFO  c.l.simulator.MeterSimulation - Sent subject: com.louisfiges.common.dtos.SubjectDTO@535a518c
+2024-11-26 21:34:39 INFO  c.l.simulator.MeterSimulation - Sent subject: com.louisfiges.common.dtos.SubjectDTO@38f981b6
+2024-11-26 21:34:39 INFO  c.l.simulator.MeterSimulation - Sent subject: com.louisfiges.common.dtos.SubjectDTO@3a4aadf8
+2024-11-26 21:34:39 INFO  c.l.simulator.MeterSimulation - Sent subject: com.louisfiges.common.dtos.SubjectDTO@7bbfc5ff
+2024-11-26 21:34:39 INFO  c.l.simulator.MeterSimulation - Sent subject: com.louisfiges.common.dtos.SubjectDTO@7a682d35
+2024-11-26 21:34:39 INFO  c.l.simulator.MeterSimulation - Sent subject: com.louisfiges.common.dtos.SubjectDTO@ee8e7ff
+2024-11-26 21:34:39 INFO  c.l.simulator.MeterSimulation - Sent subject: com.louisfiges.common.dtos.SubjectDTO@61a2aeb7
+2024-11-26 21:34:39 INFO  c.l.simulator.MeterSimulation - Sent subject: com.louisfiges.common.dtos.SubjectDTO@64b70f41
+2024-11-26 21:34:39 INFO  c.l.simulator.MeterSimulation - Sent subject: com.louisfiges.common.dtos.SubjectDTO@5f8d9767
+2024-11-26 21:34:39 INFO  c.l.simulator.MeterSimulation - Sent subject: com.louisfiges.common.dtos.SubjectDTO@16134476
+2024-11-26 21:34:39 INFO  c.l.simulator.MeterSimulation - Sent subject: com.louisfiges.common.dtos.SubjectDTO@62b09715
+2024-11-26 21:34:39 INFO  c.l.simulator.MeterSimulation - Sent subject: com.louisfiges.common.dtos.SubjectDTO@3e214105
+2024-11-26 21:34:39 INFO  c.l.simulator.MeterSimulation - Sent subject: com.louisfiges.common.dtos.SubjectDTO@da4cf09
+2024-11-26 21:34:39 INFO  c.l.simulator.MeterSimulation - Sent subject: com.louisfiges.common.dtos.SubjectDTO@1980a3f
+2024-11-26 21:34:39 INFO  c.l.simulator.MeterSimulation - Sent subject: com.louisfiges.common.dtos.SubjectDTO@67f63d26
+2024-11-26 21:34:39 INFO  c.l.simulator.MeterSimulation - Sent subject: com.louisfiges.common.dtos.SubjectDTO@536b71b4
+2024-11-26 21:34:39 INFO  c.l.simulator.MeterSimulation - Sent subject: com.louisfiges.common.dtos.SubjectDTO@789c3057
+2024-11-26 21:34:39 INFO  c.l.simulator.MeterSimulation - Sent subject: com.louisfiges.common.dtos.SubjectDTO@39941489
+2024-11-26 21:34:39 INFO  c.l.simulator.MeterSimulation - Sent subject: com.louisfiges.common.dtos.SubjectDTO@6f5d0190
+2024-11-26 21:34:39 INFO  c.l.simulator.MeterSimulation - Sent subject: com.louisfiges.common.dtos.SubjectDTO@67332b1e
+2024-11-26 21:34:39 INFO  c.l.simulator.MeterSimulation - Sent subject: com.louisfiges.common.dtos.SubjectDTO@7e34b127
+2024-11-26 21:34:39 INFO  c.l.simulator.MeterSimulation - Sent subject: com.louisfiges.common.dtos.SubjectDTO@679dd234
+2024-11-26 21:34:39 INFO  c.l.simulator.MeterSimulation - Sent subject: com.louisfiges.common.dtos.SubjectDTO@60cb1ed6
+2024-11-26 21:34:39 INFO  c.l.simulator.MeterSimulation - Sent subject: com.louisfiges.common.dtos.SubjectDTO@1e5eb20a
+2024-11-26 21:34:39 INFO  c.l.simulator.MeterSimulation - Sent subject: com.louisfiges.common.dtos.SubjectDTO@4538856f
+2024-11-26 21:34:39 INFO  c.l.simulator.MeterSimulation - Sent subject: com.louisfiges.common.dtos.SubjectDTO@4c3de38e
+2024-11-26 21:34:39 INFO  c.l.simulator.MeterSimulation - Sent subject: com.louisfiges.common.dtos.SubjectDTO@74b86971
+2024-11-26 21:34:39 INFO  c.l.simulator.MeterSimulation - Sent subject: com.louisfiges.common.dtos.SubjectDTO@1f9d4b0e
+2024-11-26 21:34:39 INFO  c.l.simulator.MeterSimulation - Sent subject: com.louisfiges.common.dtos.SubjectDTO@1e8fb66f
+2024-11-26 21:34:39 INFO  c.l.simulator.MeterSimulation - Sent subject: com.louisfiges.common.dtos.SubjectDTO@3d8d17a3
+2024-11-26 21:34:39 INFO  c.l.simulator.MeterSimulation - Sent subject: com.louisfiges.common.dtos.SubjectDTO@ac91282
+2024-11-26 21:34:39 INFO  c.l.simulator.MeterSimulation - Sent subject: com.louisfiges.common.dtos.SubjectDTO@7f79edee
+2024-11-26 21:34:39 INFO  c.l.simulator.MeterSimulation - Sent subject: com.louisfiges.common.dtos.SubjectDTO@1ca610a0
+2024-11-26 21:34:39 INFO  c.l.simulator.MeterSimulation - Sent subject: com.louisfiges.common.dtos.SubjectDTO@49433c98
+2024-11-26 21:34:39 INFO  c.l.simulator.MeterSimulation - Sent subject: com.louisfiges.common.dtos.SubjectDTO@b5c6a30
+2024-11-26 21:34:52 INFO  c.l.simulator.SmartCitySimulator - Shutting down Smart City Simulator

@@ -1,0 +1,450 @@
+2024-12-01 19:08:30 INFO  c.l.provider.ProviderApplication - Starting ProviderApplication v2.0.5-RELEASE using Java 23 with PID 46020 (C:\Users\louis\Desktop\Finalised Programming\provider\provider-2.0.5-RELEASE.jar started by louis in C:\Users\louis\Desktop\Advanced Programming\Simulator)
+2024-12-01 19:08:30 INFO  c.l.provider.ProviderApplication - The following 1 profile is active: "providerB"
+2024-12-01 19:08:31 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-01 19:08:31 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 44 ms. Found 4 JPA repository interfaces.
+2024-12-01 19:08:32 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8083 (http)
+2024-12-01 19:08:32 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8083"]
+2024-12-01 19:08:32 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-12-01 19:08:32 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-12-01 19:08:32 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-12-01 19:08:32 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1232 ms
+2024-12-01 19:08:32 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-01 19:08:32 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-12-01 19:08:32 INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-12-01 19:08:32 INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-01 19:08:33 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-12-01 19:08:33 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@165d1d54
+2024-12-01 19:08:33 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-12-01 19:08:34 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-01 19:08:34 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-01 19:08:34 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-01 19:08:35 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8083"]
+2024-12-01 19:08:35 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8083 (http) with context path '/'
+2024-12-01 19:08:35 INFO  c.l.provider.ProviderApplication - Started ProviderApplication in 5.7 seconds (process running for 6.254)
+2024-12-01 19:08:45 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-01 19:08:45 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-12-01 19:08:45 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2024-12-01 21:21:57 INFO  c.l.provider.ProviderApplication - Starting ProviderApplication v2.0.5-RELEASE using Java 23 with PID 26720 (C:\Users\louis\Desktop\Finalised Programming\provider\provider-2.0.5-RELEASE.jar started by louis in C:\Users\louis\Desktop\Advanced Programming\Simulator)
+2024-12-01 21:21:57 INFO  c.l.provider.ProviderApplication - The following 1 profile is active: "providerB"
+2024-12-01 21:21:58 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-01 21:21:58 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 58 ms. Found 4 JPA repository interfaces.
+2024-12-01 21:21:59 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8083 (http)
+2024-12-01 21:21:59 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8083"]
+2024-12-01 21:21:59 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-12-01 21:21:59 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-12-01 21:21:59 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-12-01 21:21:59 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1399 ms
+2024-12-01 21:21:59 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-01 21:21:59 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-12-01 21:21:59 INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-12-01 21:22:00 INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-01 21:22:00 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-12-01 21:22:00 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@4be12f6c
+2024-12-01 21:22:00 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-12-01 21:22:01 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-01 21:22:01 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-01 21:22:17 INFO  c.l.provider.ProviderApplication - Starting ProviderApplication v2.0.5-RELEASE using Java 23 with PID 57068 (C:\Users\louis\Desktop\Finalised Programming\provider\provider-2.0.5-RELEASE.jar started by louis in C:\Users\louis\Desktop\Advanced Programming\Simulator)
+2024-12-01 21:22:17 INFO  c.l.provider.ProviderApplication - The following 1 profile is active: "providerB"
+2024-12-01 21:22:18 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-01 21:22:18 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 51 ms. Found 4 JPA repository interfaces.
+2024-12-01 21:22:19 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8083 (http)
+2024-12-01 21:22:19 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8083"]
+2024-12-01 21:22:19 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-12-01 21:22:19 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-12-01 21:22:19 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-12-01 21:22:19 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1330 ms
+2024-12-01 21:22:19 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-01 21:22:19 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-12-01 21:22:19 INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-12-01 21:22:20 INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-01 21:22:20 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-12-01 21:22:20 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@5df64b2a
+2024-12-01 21:22:20 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-12-01 21:22:21 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-01 21:22:21 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-01 21:22:22 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-01 21:22:22 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8083"]
+2024-12-01 21:22:22 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8083 (http) with context path '/'
+2024-12-01 21:22:22 INFO  c.l.provider.ProviderApplication - Started ProviderApplication in 5.055 seconds (process running for 5.729)
+2024-12-01 21:25:42 INFO  c.l.provider.ProviderApplication - Starting ProviderApplication v2.0.5-RELEASE using Java 23 with PID 55680 (C:\Users\louis\Desktop\Finalised Programming\provider\provider-2.0.5-RELEASE.jar started by louis in C:\Users\louis\Desktop\Advanced Programming\Simulator)
+2024-12-01 21:25:42 INFO  c.l.provider.ProviderApplication - The following 1 profile is active: "providerB"
+2024-12-01 21:25:42 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-01 21:25:42 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 40 ms. Found 4 JPA repository interfaces.
+2024-12-01 21:25:43 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8083 (http)
+2024-12-01 21:25:43 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8083"]
+2024-12-01 21:25:43 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-12-01 21:25:43 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-12-01 21:25:43 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-12-01 21:25:43 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1191 ms
+2024-12-01 21:25:43 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-01 21:25:43 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-12-01 21:25:43 INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-12-01 21:25:44 INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-01 21:25:44 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-12-01 21:25:44 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@7bbdb220
+2024-12-01 21:25:44 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-12-01 21:25:45 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-01 21:25:45 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-01 21:25:46 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-01 21:25:46 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8083"]
+2024-12-01 21:25:46 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8083 (http) with context path '/'
+2024-12-01 21:25:46 INFO  c.l.provider.ProviderApplication - Started ProviderApplication in 4.894 seconds (process running for 5.456)
+2024-12-01 21:41:09 INFO  c.l.provider.ProviderApplication - Starting ProviderApplication v2.0.5-RELEASE using Java 23 with PID 55556 (C:\Users\louis\Desktop\Finalised Programming\provider\provider-2.0.5-RELEASE.jar started by louis in C:\Users\louis\Desktop\Advanced Programming\Simulator)
+2024-12-01 21:41:09 INFO  c.l.provider.ProviderApplication - The following 1 profile is active: "providerB"
+2024-12-01 21:41:09 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-01 21:41:09 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 47 ms. Found 4 JPA repository interfaces.
+2024-12-01 21:41:10 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8083 (http)
+2024-12-01 21:41:10 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8083"]
+2024-12-01 21:41:10 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-12-01 21:41:10 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-12-01 21:41:10 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-12-01 21:41:10 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1302 ms
+2024-12-01 21:41:10 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-01 21:41:10 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-12-01 21:41:10 INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-12-01 21:41:11 INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-01 21:41:11 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-12-01 21:41:11 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@485deee1
+2024-12-01 21:41:11 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-12-01 21:41:12 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-01 21:41:12 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-01 21:41:13 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-01 21:41:13 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8083"]
+2024-12-01 21:41:13 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8083 (http) with context path '/'
+2024-12-01 21:41:13 INFO  c.l.provider.ProviderApplication - Started ProviderApplication in 5.167 seconds (process running for 5.765)
+2024-12-01 21:48:13 INFO  c.l.provider.ProviderApplication - Starting ProviderApplication v2.0.5-RELEASE using Java 23 with PID 53152 (C:\Users\louis\Desktop\Finalised Programming\provider\provider-2.0.5-RELEASE.jar started by louis in C:\Users\louis\Desktop\Advanced Programming\Simulator)
+2024-12-01 21:48:13 INFO  c.l.provider.ProviderApplication - The following 1 profile is active: "providerB"
+2024-12-01 21:48:14 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-01 21:48:14 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 42 ms. Found 4 JPA repository interfaces.
+2024-12-01 21:48:14 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8083 (http)
+2024-12-01 21:48:14 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8083"]
+2024-12-01 21:48:14 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-12-01 21:48:14 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-12-01 21:48:14 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-12-01 21:48:14 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1247 ms
+2024-12-01 21:48:15 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-01 21:48:15 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-12-01 21:48:15 INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-12-01 21:48:15 INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-01 21:48:15 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-12-01 21:48:15 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@5ee77baf
+2024-12-01 21:48:15 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-12-01 21:48:16 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-01 21:48:16 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-01 21:48:17 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-01 21:48:17 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8083"]
+2024-12-01 21:48:17 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8083 (http) with context path '/'
+2024-12-01 21:48:17 INFO  c.l.provider.ProviderApplication - Started ProviderApplication in 4.406 seconds (process running for 5.046)
+2024-12-01 21:48:51 INFO  c.l.provider.ProviderApplication - Starting ProviderApplication v2.0.5-RELEASE using Java 23 with PID 58344 (C:\Users\louis\Desktop\Finalised Programming\provider\provider-2.0.5-RELEASE.jar started by louis in C:\Users\louis\Desktop\Advanced Programming\Simulator)
+2024-12-01 21:48:51 INFO  c.l.provider.ProviderApplication - The following 1 profile is active: "providerB"
+2024-12-01 21:48:52 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-01 21:48:52 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 51 ms. Found 4 JPA repository interfaces.
+2024-12-01 21:48:52 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8083 (http)
+2024-12-01 21:48:52 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8083"]
+2024-12-01 21:48:52 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-12-01 21:48:52 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-12-01 21:48:52 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-12-01 21:48:52 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1348 ms
+2024-12-01 21:48:53 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-01 21:48:53 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-12-01 21:48:53 INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-12-01 21:48:53 INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-01 21:48:53 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-12-01 21:48:54 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@52cb52bd
+2024-12-01 21:48:54 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-12-01 21:48:55 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-01 21:48:55 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-01 21:48:55 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-01 21:48:56 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8083"]
+2024-12-01 21:48:56 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8083 (http) with context path '/'
+2024-12-01 21:48:56 INFO  c.l.provider.ProviderApplication - Started ProviderApplication in 5.24 seconds (process running for 5.77)
+2024-12-01 21:49:10 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-01 21:49:10 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-12-01 21:49:10 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2024-12-01 22:25:46 INFO  c.l.p.controllers.ReadingController - Creating reading: com.louisfiges.common.dtos.reading.ReadingDTO@f82f181
+2024-12-01 22:25:46 INFO  c.l.provider.services.ReadingService - Validating reading: com.louisfiges.provider.daos.ReadingDAO@44ef7cd9
+2024-12-01 22:25:46 INFO  c.l.provider.services.ReadingService - Latest reading: Optional[com.louisfiges.provider.daos.ReadingDAO@30ef8e5c]
+2024-12-01 22:25:46 INFO  c.l.provider.services.ReadingService - Found last readings: false
+2024-12-01 22:25:46 INFO  c.l.provider.services.ReadingService - prev + 32863.41
+2024-12-01 22:25:46 ERROR c.l.provider.services.ReadingService - Reading must be greater than the last reading
+2024-12-01 22:25:49 INFO  c.l.p.controllers.ReadingController - Creating reading: com.louisfiges.common.dtos.reading.ReadingDTO@2e2b5439
+2024-12-01 22:25:49 INFO  c.l.provider.services.ReadingService - Validating reading: com.louisfiges.provider.daos.ReadingDAO@7e029beb
+2024-12-01 22:25:49 INFO  c.l.provider.services.ReadingService - Latest reading: Optional[com.louisfiges.provider.daos.ReadingDAO@48085f04]
+2024-12-01 22:25:49 INFO  c.l.provider.services.ReadingService - Found last readings: false
+2024-12-01 22:25:49 INFO  c.l.provider.services.ReadingService - prev + 32863.41
+2024-12-01 22:25:49 ERROR c.l.provider.services.ReadingService - Reading must be greater than the last reading
+2024-12-01 22:25:53 INFO  c.l.p.controllers.ReadingController - Creating reading: com.louisfiges.common.dtos.reading.ReadingDTO@371c8d7
+2024-12-01 22:25:53 INFO  c.l.provider.services.ReadingService - Validating reading: com.louisfiges.provider.daos.ReadingDAO@5e5e7782
+2024-12-01 22:25:53 INFO  c.l.provider.services.ReadingService - Latest reading: Optional[com.louisfiges.provider.daos.ReadingDAO@6f5f5bc]
+2024-12-01 22:25:53 INFO  c.l.provider.services.ReadingService - Found last readings: false
+2024-12-01 22:25:53 INFO  c.l.provider.services.ReadingService - prev + 32863.41
+2024-12-01 22:25:53 ERROR c.l.provider.services.ReadingService - Reading must be greater than the last reading
+2024-12-01 22:25:56 INFO  c.l.p.controllers.ReadingController - Creating reading: com.louisfiges.common.dtos.reading.ReadingDTO@49f6db01
+2024-12-01 22:25:56 INFO  c.l.provider.services.ReadingService - Validating reading: com.louisfiges.provider.daos.ReadingDAO@6d5ac4f4
+2024-12-01 22:25:56 INFO  c.l.provider.services.ReadingService - Latest reading: Optional[com.louisfiges.provider.daos.ReadingDAO@5cd17718]
+2024-12-01 22:25:56 INFO  c.l.provider.services.ReadingService - Found last readings: false
+2024-12-01 22:25:56 INFO  c.l.provider.services.ReadingService - prev + 32863.41
+2024-12-01 22:25:56 ERROR c.l.provider.services.ReadingService - Reading must be after the last reading
+2024-12-01 22:25:59 INFO  c.l.p.controllers.ReadingController - Creating reading: com.louisfiges.common.dtos.reading.ReadingDTO@45596c82
+2024-12-01 22:25:59 INFO  c.l.provider.services.ReadingService - Validating reading: com.louisfiges.provider.daos.ReadingDAO@99d693c
+2024-12-01 22:25:59 INFO  c.l.provider.services.ReadingService - Latest reading: Optional[com.louisfiges.provider.daos.ReadingDAO@5b73589a]
+2024-12-01 22:25:59 INFO  c.l.provider.services.ReadingService - Found last readings: false
+2024-12-01 22:25:59 INFO  c.l.provider.services.ReadingService - prev + 32863.41
+2024-12-01 22:25:59 ERROR c.l.provider.services.ReadingService - Reading must be after the last reading
+2024-12-01 22:26:03 INFO  c.l.p.controllers.ReadingController - Creating reading: com.louisfiges.common.dtos.reading.ReadingDTO@7d3a89b8
+2024-12-01 22:26:03 INFO  c.l.provider.services.ReadingService - Validating reading: com.louisfiges.provider.daos.ReadingDAO@2883a611
+2024-12-01 22:26:03 INFO  c.l.provider.services.ReadingService - Latest reading: Optional[com.louisfiges.provider.daos.ReadingDAO@1005ec35]
+2024-12-01 22:26:03 INFO  c.l.provider.services.ReadingService - Found last readings: false
+2024-12-01 22:26:03 INFO  c.l.provider.services.ReadingService - prev + 32863.41
+2024-12-01 22:26:03 INFO  c.l.p.controllers.ReadingController - Reading is valid
+2024-12-01 22:55:13 INFO  c.l.provider.ProviderApplication - Starting ProviderApplication v2.0.5-RELEASE using Java 23 with PID 61952 (C:\Users\louis\Desktop\Finalised Programming\provider\provider-2.0.5-RELEASE.jar started by louis in C:\Users\louis\Desktop\Advanced Programming\Simulator)
+2024-12-01 22:55:13 INFO  c.l.provider.ProviderApplication - The following 1 profile is active: "providerB"
+2024-12-01 22:55:14 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-01 22:55:14 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 59 ms. Found 4 JPA repository interfaces.
+2024-12-01 22:55:14 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8083 (http)
+2024-12-01 22:55:14 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8083"]
+2024-12-01 22:55:14 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-12-01 22:55:14 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-12-01 22:55:14 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-12-01 22:55:14 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1439 ms
+2024-12-01 22:55:15 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-01 22:55:15 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-12-01 22:55:15 INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-12-01 22:55:15 INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-01 22:55:15 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-12-01 22:55:16 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@52cb52bd
+2024-12-01 22:55:16 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-12-01 22:55:17 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-01 22:55:17 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-01 22:55:18 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-01 22:55:18 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8083"]
+2024-12-01 22:55:19 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8083 (http) with context path '/'
+2024-12-01 22:55:19 INFO  c.l.provider.ProviderApplication - Started ProviderApplication in 6.211 seconds (process running for 6.831)
+2024-12-01 22:55:28 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-01 22:55:28 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-12-01 22:55:28 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-12-01 22:56:52 INFO  c.l.provider.ProviderApplication - Starting ProviderApplication v2.0.5-RELEASE using Java 23 with PID 77176 (C:\Users\louis\Desktop\Finalised Programming\provider\provider-2.0.5-RELEASE.jar started by louis in C:\Users\louis\Desktop\Advanced Programming\Simulator)
+2024-12-01 22:56:52 INFO  c.l.provider.ProviderApplication - The following 1 profile is active: "providerB"
+2024-12-01 22:56:53 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-01 22:56:53 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 47 ms. Found 4 JPA repository interfaces.
+2024-12-01 22:56:54 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8083 (http)
+2024-12-01 22:56:54 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8083"]
+2024-12-01 22:56:54 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-12-01 22:56:54 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-12-01 22:56:54 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-12-01 22:56:54 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1236 ms
+2024-12-01 22:56:54 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-01 22:56:54 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-12-01 22:56:54 INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-12-01 22:56:54 INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-01 22:56:54 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-12-01 22:56:55 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@2905b568
+2024-12-01 22:56:55 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-12-01 22:56:56 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-01 22:56:56 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-01 22:56:56 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-01 22:56:57 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8083"]
+2024-12-01 22:56:57 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8083 (http) with context path '/'
+2024-12-01 22:56:57 INFO  c.l.provider.ProviderApplication - Started ProviderApplication in 5.017 seconds (process running for 5.575)
+2024-12-01 22:57:08 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-01 22:57:08 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-12-01 22:57:08 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-12-01 23:07:55 INFO  c.l.provider.ProviderApplication - Starting ProviderApplication v2.0.5-RELEASE using Java 23 with PID 77520 (C:\Users\louis\Desktop\Finalised Programming\provider\provider-2.0.5-RELEASE.jar started by louis in C:\Users\louis\Desktop\Advanced Programming\Simulator)
+2024-12-01 23:07:55 INFO  c.l.provider.ProviderApplication - The following 1 profile is active: "providerB"
+2024-12-01 23:07:56 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-01 23:07:56 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 51 ms. Found 4 JPA repository interfaces.
+2024-12-01 23:07:56 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8083 (http)
+2024-12-01 23:07:56 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8083"]
+2024-12-01 23:07:56 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-12-01 23:07:56 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-12-01 23:07:56 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-12-01 23:07:56 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1261 ms
+2024-12-01 23:07:56 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-01 23:07:57 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-12-01 23:07:57 INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-12-01 23:07:57 INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-01 23:07:57 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-12-01 23:07:57 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@4be12f6c
+2024-12-01 23:07:57 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-12-01 23:07:58 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-01 23:07:58 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-01 23:07:59 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-01 23:08:00 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8083"]
+2024-12-01 23:08:00 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8083 (http) with context path '/'
+2024-12-01 23:08:00 INFO  c.l.provider.ProviderApplication - Started ProviderApplication in 5.331 seconds (process running for 5.893)
+2024-12-01 23:09:24 INFO  c.l.provider.ProviderApplication - Starting ProviderApplication v2.0.5-RELEASE using Java 23 with PID 71216 (C:\Users\louis\Desktop\Finalised Programming\provider\provider-2.0.5-RELEASE.jar started by louis in C:\Users\louis\Desktop\Advanced Programming\Simulator)
+2024-12-01 23:09:24 INFO  c.l.provider.ProviderApplication - The following 1 profile is active: "providerB"
+2024-12-01 23:09:25 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-01 23:09:25 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 66 ms. Found 4 JPA repository interfaces.
+2024-12-01 23:09:26 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8083 (http)
+2024-12-01 23:09:26 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8083"]
+2024-12-01 23:09:26 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-12-01 23:09:26 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-12-01 23:09:26 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-12-01 23:09:26 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1576 ms
+2024-12-01 23:09:26 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-01 23:09:26 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-12-01 23:09:26 INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-12-01 23:09:27 INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-01 23:09:27 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-12-01 23:09:27 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@52cb52bd
+2024-12-01 23:09:27 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-12-01 23:09:28 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-01 23:09:28 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-01 23:09:29 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-01 23:09:30 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8083"]
+2024-12-01 23:09:30 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8083 (http) with context path '/'
+2024-12-01 23:09:30 INFO  c.l.provider.ProviderApplication - Started ProviderApplication in 6.257 seconds (process running for 7.025)
+2024-12-01 23:11:01 INFO  c.l.provider.ProviderApplication - Starting ProviderApplication v2.0.5-RELEASE using Java 23 with PID 70824 (C:\Users\louis\Desktop\Finalised Programming\provider\provider-2.0.5-RELEASE.jar started by louis in C:\Users\louis\Desktop\Advanced Programming\Simulator)
+2024-12-01 23:11:01 INFO  c.l.provider.ProviderApplication - The following 1 profile is active: "providerB"
+2024-12-01 23:11:02 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-01 23:11:02 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 47 ms. Found 4 JPA repository interfaces.
+2024-12-01 23:11:03 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8083 (http)
+2024-12-01 23:11:03 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8083"]
+2024-12-01 23:11:03 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-12-01 23:11:03 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-12-01 23:11:03 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-12-01 23:11:03 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1239 ms
+2024-12-01 23:11:03 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-01 23:11:03 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-12-01 23:11:03 INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-12-01 23:11:03 INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-01 23:11:03 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-12-01 23:11:04 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@4be12f6c
+2024-12-01 23:11:04 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-12-01 23:11:05 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-01 23:11:05 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-01 23:11:05 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-01 23:11:06 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8083"]
+2024-12-01 23:11:06 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8083 (http) with context path '/'
+2024-12-01 23:11:06 INFO  c.l.provider.ProviderApplication - Started ProviderApplication in 5.002 seconds (process running for 5.564)
+2024-12-01 23:15:50 INFO  c.l.provider.ProviderApplication - Starting ProviderApplication v2.0.5-RELEASE using Java 23 with PID 62824 (C:\Users\louis\Desktop\Finalised Programming\provider\provider-2.0.5-RELEASE.jar started by louis in C:\Users\louis\Desktop\Advanced Programming\Simulator)
+2024-12-01 23:15:50 INFO  c.l.provider.ProviderApplication - The following 1 profile is active: "providerB"
+2024-12-01 23:15:51 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-01 23:15:51 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 43 ms. Found 4 JPA repository interfaces.
+2024-12-01 23:15:52 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8083 (http)
+2024-12-01 23:15:52 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8083"]
+2024-12-01 23:15:52 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-12-01 23:15:52 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-12-01 23:15:52 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-12-01 23:15:52 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1276 ms
+2024-12-01 23:15:52 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-01 23:15:52 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-12-01 23:15:52 INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-12-01 23:15:52 INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-01 23:15:53 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-12-01 23:15:53 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@485deee1
+2024-12-01 23:15:53 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-12-01 23:15:54 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-01 23:15:54 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-01 23:15:54 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-01 23:15:55 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8083"]
+2024-12-01 23:15:55 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8083 (http) with context path '/'
+2024-12-01 23:15:55 INFO  c.l.provider.ProviderApplication - Started ProviderApplication in 5.309 seconds (process running for 5.916)
+2024-12-01 23:16:02 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-01 23:16:02 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-12-01 23:16:02 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2024-12-01 23:17:28 INFO  c.l.provider.ProviderApplication - Starting ProviderApplication v2.0.5-RELEASE using Java 23 with PID 77436 (C:\Users\louis\Desktop\Finalised Programming\provider\provider-2.0.5-RELEASE.jar started by louis in C:\Users\louis\Desktop\Advanced Programming\Simulator)
+2024-12-01 23:17:28 INFO  c.l.provider.ProviderApplication - The following 1 profile is active: "providerB"
+2024-12-01 23:17:29 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-01 23:17:29 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 43 ms. Found 4 JPA repository interfaces.
+2024-12-01 23:17:30 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8083 (http)
+2024-12-01 23:17:30 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8083"]
+2024-12-01 23:17:30 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-12-01 23:17:30 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-12-01 23:17:30 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-12-01 23:17:30 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1369 ms
+2024-12-01 23:17:30 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-01 23:17:30 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-12-01 23:17:30 INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-12-01 23:17:30 INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-01 23:17:30 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-12-01 23:17:31 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@5df64b2a
+2024-12-01 23:17:31 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-12-01 23:17:31 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-01 23:17:32 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-01 23:17:32 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-01 23:17:33 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8083"]
+2024-12-01 23:17:33 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8083 (http) with context path '/'
+2024-12-01 23:17:33 INFO  c.l.provider.ProviderApplication - Started ProviderApplication in 5.483 seconds (process running for 6.096)
+2024-12-01 23:17:37 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-01 23:17:37 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-12-01 23:17:37 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-12-01 23:23:37 INFO  c.l.provider.ProviderApplication - Starting ProviderApplication v2.0.5-RELEASE using Java 23 with PID 75040 (C:\Users\louis\Desktop\Finalised Programming\provider\provider-2.0.5-RELEASE.jar started by louis in C:\Users\louis\Desktop\Advanced Programming\Simulator)
+2024-12-01 23:23:37 INFO  c.l.provider.ProviderApplication - The following 1 profile is active: "providerB"
+2024-12-01 23:23:37 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-01 23:23:38 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 47 ms. Found 4 JPA repository interfaces.
+2024-12-01 23:23:38 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8083 (http)
+2024-12-01 23:23:38 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8083"]
+2024-12-01 23:23:38 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-12-01 23:23:38 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-12-01 23:23:38 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-12-01 23:23:38 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1362 ms
+2024-12-01 23:23:38 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-01 23:23:38 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-12-01 23:23:39 INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-12-01 23:23:39 INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-01 23:23:39 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-12-01 23:23:39 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@485deee1
+2024-12-01 23:23:39 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-12-01 23:23:40 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-01 23:23:40 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-01 23:23:41 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-01 23:23:41 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8083"]
+2024-12-01 23:23:41 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8083 (http) with context path '/'
+2024-12-01 23:23:42 INFO  c.l.provider.ProviderApplication - Started ProviderApplication in 5.264 seconds (process running for 5.869)
+2024-12-01 23:23:46 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-01 23:23:46 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-12-01 23:23:46 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-12-01 23:26:44 INFO  c.l.provider.ProviderApplication - Starting ProviderApplication v2.0.5-RELEASE using Java 23 with PID 46836 (C:\Users\louis\Desktop\Finalised Programming\provider\provider-2.0.5-RELEASE.jar started by louis in C:\Users\louis\Desktop\Advanced Programming\Simulator)
+2024-12-01 23:26:44 INFO  c.l.provider.ProviderApplication - The following 1 profile is active: "providerB"
+2024-12-01 23:26:44 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-01 23:26:44 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 45 ms. Found 4 JPA repository interfaces.
+2024-12-01 23:26:45 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8083 (http)
+2024-12-01 23:26:45 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8083"]
+2024-12-01 23:26:45 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-12-01 23:26:45 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-12-01 23:26:45 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-12-01 23:26:45 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1274 ms
+2024-12-01 23:26:45 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-01 23:26:45 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-12-01 23:26:45 INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-12-01 23:26:46 INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-01 23:26:46 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-12-01 23:26:46 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@52cb52bd
+2024-12-01 23:26:46 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-12-01 23:26:47 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-01 23:26:47 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-01 23:26:48 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-01 23:26:48 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8083"]
+2024-12-01 23:26:48 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8083 (http) with context path '/'
+2024-12-01 23:26:48 INFO  c.l.provider.ProviderApplication - Started ProviderApplication in 5.373 seconds (process running for 5.971)
+2024-12-01 23:26:53 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-01 23:26:53 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-12-01 23:26:53 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2024-12-01 23:30:03 INFO  c.l.provider.ProviderApplication - Starting ProviderApplication v2.0.5-RELEASE using Java 23 with PID 55340 (C:\Users\louis\Desktop\Finalised Programming\provider\provider-2.0.5-RELEASE.jar started by louis in C:\Users\louis\Desktop\Advanced Programming\Simulator)
+2024-12-01 23:30:03 INFO  c.l.provider.ProviderApplication - The following 1 profile is active: "providerB"
+2024-12-01 23:30:04 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-01 23:30:04 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 43 ms. Found 4 JPA repository interfaces.
+2024-12-01 23:30:04 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8083 (http)
+2024-12-01 23:30:04 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8083"]
+2024-12-01 23:30:04 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-12-01 23:30:04 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-12-01 23:30:04 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-12-01 23:30:04 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1270 ms
+2024-12-01 23:30:05 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-01 23:30:05 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-12-01 23:30:05 INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-12-01 23:30:05 INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-01 23:30:05 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-12-01 23:30:05 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@4be12f6c
+2024-12-01 23:30:05 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-12-01 23:30:06 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-01 23:30:07 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-01 23:30:07 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-01 23:30:08 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8083"]
+2024-12-01 23:30:08 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8083 (http) with context path '/'
+2024-12-01 23:30:08 INFO  c.l.provider.ProviderApplication - Started ProviderApplication in 5.276 seconds (process running for 5.891)
+2024-12-01 23:30:12 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-01 23:30:12 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-12-01 23:30:12 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms

@@ -1,0 +1,435 @@
+2024-12-31 00:25:23 INFO  com.louisfiges.simulator.Main - Starting Main using Java 23 with PID 146040 (C:\Users\louis\Documents\GitHub\kf7014-backend\Simulator\build\classes\java\main started by louis in C:\Users\louis\Documents\GitHub\kf7014-backend\Simulator)
+2024-12-31 00:25:23 INFO  com.louisfiges.simulator.Main - The following 1 profile is active: "newcastle"
+2024-12-31 00:25:24 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8087 (http)
+2024-12-31 00:25:24 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8087"]
+2024-12-31 00:25:24 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-12-31 00:25:24 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-12-31 00:25:24 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-12-31 00:25:24 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 440 ms
+2024-12-31 00:25:24 INFO  c.l.s.managers.DatabasesManager - Databases started successfully with Docker Compose
+2024-12-31 00:25:24 ERROR c.l.s.microservices.Microservice - File not found: APIGateway-1.0.0-RELEASE.jar
+2025-01-02 12:01:13 INFO  com.louisfiges.simulator.Main - Starting Main using Java 23 with PID 145072 (C:\Users\louis\Documents\GitHub\kf7014-backend\Simulator\build\classes\java\main started by louis in C:\Users\louis\Documents\GitHub\kf7014-backend\Simulator)
+2025-01-02 12:01:13 INFO  com.louisfiges.simulator.Main - The following 1 profile is active: "newcastle"
+2025-01-02 12:01:14 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8087 (http)
+2025-01-02 12:01:14 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8087"]
+2025-01-02 12:01:14 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-01-02 12:01:14 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2025-01-02 12:01:14 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-01-02 12:01:14 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 479 ms
+2025-01-02 12:01:14 INFO  c.l.s.microservices.Microservice - Starting ApiGatewayApplication microservice with profile: 
+2025-01-02 12:01:14 INFO  c.l.s.microservices.Microservice - Starting CitizenApplication microservice with profile: 
+2025-01-02 12:01:14 INFO  c.l.s.microservices.Microservice - Starting ProviderApplication microservice with profile: --spring.profiles.active=providerA --city=newcastle
+2025-01-02 12:01:14 INFO  c.l.s.microservices.Microservice - Starting ProviderApplication microservice with profile: --spring.profiles.active=providerB --city=newcastle
+2025-01-02 12:01:14 INFO  c.l.s.microservices.Microservice - Starting ProviderApplication microservice with profile: --spring.profiles.active=providerC --city=newcastle
+2025-01-02 12:01:14 INFO  c.l.s.microservices.Microservice - Starting SmartCityApplication microservice with profile: --city=newcastle
+2025-01-02 12:01:19 INFO  c.l.s.microservices.Microservice - 2025-01-02 12:01:19 WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Failed to initialize dependency 'dataSourceScriptDatabaseInitializer' of LoadTimeWeaverAware bean 'entityManagerFactory': Error creating bean with name 'dataSourceScriptDatabaseInitializer' defined in class path resource [org/springframework/boot/autoconfigure/sql/init/DataSourceInitializationConfiguration.class]: Unsatisfied dependency expressed through method 'dataSourceScriptDatabaseInitializer' parameter 0: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception with message: Failed to determine a suitable driver class
+2025-01-02 12:01:19 INFO  c.l.s.microservices.Microservice - 2025-01-02 12:01:19 WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Failed to initialize dependency 'dataSourceScriptDatabaseInitializer' of LoadTimeWeaverAware bean 'entityManagerFactory': Error creating bean with name 'dataSourceScriptDatabaseInitializer' defined in class path resource [org/springframework/boot/autoconfigure/sql/init/DataSourceInitializationConfiguration.class]: Unsatisfied dependency expressed through method 'dataSourceScriptDatabaseInitializer' parameter 0: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception with message: Failed to determine a suitable driver class
+2025-01-02 12:01:19 INFO  c.l.s.microservices.Microservice - 2025-01-02 12:01:19 WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Failed to initialize dependency 'dataSourceScriptDatabaseInitializer' of LoadTimeWeaverAware bean 'entityManagerFactory': Error creating bean with name 'dataSourceScriptDatabaseInitializer' defined in class path resource [org/springframework/boot/autoconfigure/sql/init/DataSourceInitializationConfiguration.class]: Unsatisfied dependency expressed through method 'dataSourceScriptDatabaseInitializer' parameter 0: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception with message: Failed to determine a suitable driver class
+2025-01-02 12:01:19 INFO  c.l.s.microservices.Microservice - Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-01-02 12:01:19 INFO  c.l.s.microservices.Microservice - Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-01-02 12:01:19 INFO  c.l.s.microservices.Microservice - Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-01-02 12:01:20 INFO  c.l.s.microservices.Microservice - 2025-01-02T12:01:20.099Z  WARN 10832 --- [smartcity] [           main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment] due to: Unable to determine Dialect without JDBC metadata (please set 'jakarta.persistence.jdbc.url' for common cases or 'hibernate.dialect' when a custom Dialect implementation must be provided)
+2025-01-02 12:01:20 INFO  c.l.s.microservices.Microservice - Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-01-02 12:01:20 INFO  c.l.s.microservices.Microservice - org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment] due to: Unable to determine Dialect without JDBC metadata (please set 'jakarta.persistence.jdbc.url' for common cases or 'hibernate.dialect' when a custom Dialect implementation must be provided)
+2025-01-02 12:01:21 INFO  c.l.s.microservices.Microservice - 2025-01-02T12:01:21.522Z  INFO 94488 --- [citizen] [           main] c.louisfiges.citizen.CitizenApplication  : Started CitizenApplication in 5.914 seconds (process running for 6.951)
+2025-01-02 12:01:24 INFO  c.l.s.microservices.Microservice - 2025-01-02T12:01:24.871Z  INFO 130844 --- [API Gateway] [           main] c.l.gateway.ApiGatewayApplication        : Started ApiGatewayApplication in 8.914 seconds (process running for 10.304)
+2025-01-02 12:01:26 INFO  c.l.s.microservices.Microservice - Microservices shut down.
+2025-01-02 12:01:26 INFO  c.l.s.microservices.Microservice - Microservices shut down.
+2025-01-02 12:01:26 INFO  c.l.s.microservices.Microservice - Microservices shut down.
+2025-01-02 12:01:26 INFO  c.l.s.microservices.Microservice - Microservices shut down.
+2025-01-02 12:01:26 INFO  c.l.s.microservices.Microservice - Microservices shut down.
+2025-01-02 12:01:26 INFO  c.l.s.microservices.Microservice - Microservices shut down.
+2025-01-02 12:01:26 INFO  c.louisfiges.simulator.SimExecutor - Shutting down Simulator
+2025-01-02 12:01:26 ERROR c.louisfiges.simulator.SimExecutor - Error starting microservices: null
+2025-01-02 12:01:26 INFO  c.l.s.microservices.Microservice - Microservices shut down.
+2025-01-02 12:01:26 INFO  c.l.s.microservices.Microservice - Microservices shut down.
+2025-01-02 12:01:26 INFO  c.l.s.microservices.Microservice - Microservices shut down.
+2025-01-02 12:01:26 INFO  c.l.s.microservices.Microservice - Microservices shut down.
+2025-01-02 12:01:26 INFO  c.l.s.microservices.Microservice - Microservices shut down.
+2025-01-02 12:01:26 INFO  c.l.s.microservices.Microservice - Microservices shut down.
+2025-01-02 12:01:26 INFO  c.louisfiges.simulator.SimExecutor - Shutting down Simulator
+2025-01-02 12:01:27 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8087 (http) with context path '/'
+2025-01-02 12:01:27 INFO  com.louisfiges.simulator.Main - Started Main in 13.362 seconds (process running for 13.751)
+2025-01-02 23:34:05 INFO  com.louisfiges.simulator.Main - Starting Main using Java 23 with PID 170196 (C:\Users\louis\Documents\GitHub\kf7014-backend\Simulator\build\classes\java\main started by louis in C:\Users\louis\Documents\GitHub\kf7014-backend\Simulator)
+2025-01-02 23:34:05 INFO  com.louisfiges.simulator.Main - No active profile set, falling back to 1 default profile: "default"
+2025-01-02 23:34:05 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8087 (http)
+2025-01-02 23:34:05 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8087"]
+2025-01-02 23:34:05 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-01-02 23:34:05 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2025-01-02 23:34:05 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-01-02 23:34:05 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 437 ms
+2025-01-02 23:34:05 WARN  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Multiple @RequestMapping annotations found on public org.springframework.http.ResponseEntity com.louisfiges.simulator.controllers.SimulationController.getAll(), but only the first will be used: [@org.springframework.web.bind.annotation.GetMapping(consumes={}, headers={}, name="", params={}, path={}, produces={}, value={}), @org.springframework.web.bind.annotation.PostMapping(consumes={}, headers={}, name="", params={}, path={}, produces={}, value={})]
+2025-01-02 23:34:05 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8087"]
+2025-01-02 23:34:05 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8087 (http) with context path '/'
+2025-01-02 23:34:05 INFO  com.louisfiges.simulator.Main - Started Main in 0.892 seconds (process running for 1.192)
+2025-01-02 23:34:28 INFO  com.louisfiges.simulator.Main - Starting Main using Java 23 with PID 58252 (C:\Users\louis\Documents\GitHub\kf7014-backend\Simulator\build\classes\java\main started by louis in C:\Users\louis\Documents\GitHub\kf7014-backend\Simulator)
+2025-01-02 23:34:28 INFO  com.louisfiges.simulator.Main - No active profile set, falling back to 1 default profile: "default"
+2025-01-02 23:34:29 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8087 (http)
+2025-01-02 23:34:29 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8087"]
+2025-01-02 23:34:29 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-01-02 23:34:29 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2025-01-02 23:34:29 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-01-02 23:34:29 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 438 ms
+2025-01-02 23:34:29 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8087"]
+2025-01-02 23:34:29 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8087 (http) with context path '/'
+2025-01-02 23:34:29 INFO  com.louisfiges.simulator.Main - Started Main in 0.879 seconds (process running for 1.167)
+2025-01-02 23:34:57 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-01-02 23:34:57 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-01-02 23:34:57 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-01-02 23:34:57 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://localhost:8080/prov-b/customer": Connection refused: connect
+2025-01-02 23:34:57 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://localhost:8080/prov-b/customer": Connection refused: connect
+2025-01-02 23:34:57 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://localhost:8080/prov-b/customer": Connection refused: connect
+2025-01-02 23:34:57 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://localhost:8080/prov-b/customer": Connection refused: connect
+2025-01-02 23:34:57 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://localhost:8080/prov-b/customer": Connection refused: connect
+2025-01-02 23:34:57 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://localhost:8080/prov-b/customer": Connection refused: connect
+2025-01-02 23:34:57 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://localhost:8080/prov-b/customer": Connection refused: connect
+2025-01-02 23:34:57 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://localhost:8080/prov-b/customer": Connection refused: connect
+2025-01-02 23:34:57 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://localhost:8080/prov-b/customer": Connection refused: connect
+2025-01-02 23:34:57 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://localhost:8080/prov-b/customer": Connection refused: connect
+2025-01-02 23:34:57 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://localhost:8080/prov-b/customer": Connection refused: connect
+2025-01-02 23:34:57 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://localhost:8080/prov-b/customer": Connection refused: connect
+2025-01-02 23:34:57 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://localhost:8080/prov-b/customer": Connection refused: connect
+2025-01-02 23:34:57 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://localhost:8080/prov-b/customer": Connection refused: connect
+2025-01-02 23:34:57 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://localhost:8080/prov-b/customer": Connection refused: connect
+2025-01-02 23:34:57 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://localhost:8080/prov-b/customer": Connection refused: connect
+2025-01-02 23:34:57 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://localhost:8080/prov-b/customer": Connection refused: connect
+2025-01-02 23:34:57 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://localhost:8080/prov-b/customer": Connection refused: connect
+2025-01-02 23:34:57 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://localhost:8080/prov-b/customer": Connection refused: connect
+2025-01-02 23:34:57 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://localhost:8080/prov-b/customer": Connection refused: connect
+2025-01-02 23:34:57 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://localhost:8080/prov-b/customer": Connection refused: connect
+2025-01-02 23:34:57 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://localhost:8080/prov-b/customer": Connection refused: connect
+2025-01-02 23:34:57 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://localhost:8080/prov-b/customer": Connection refused: connect
+2025-01-02 23:34:57 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://localhost:8080/prov-b/customer": Connection refused: connect
+2025-01-02 23:34:57 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://localhost:8080/prov-b/customer": Connection refused: connect
+2025-01-02 23:34:57 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://localhost:8080/prov-b/customer": Connection refused: connect
+2025-01-02 23:34:57 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://localhost:8080/prov-b/customer": Connection refused: connect
+2025-01-02 23:34:57 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://localhost:8080/prov-b/customer": Connection refused: connect
+2025-01-02 23:34:57 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://localhost:8080/prov-b/customer": Connection refused: connect
+2025-01-02 23:34:57 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://localhost:8080/prov-b/customer": Connection refused: connect
+2025-01-02 23:34:57 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://localhost:8080/prov-b/customer": Connection refused: connect
+2025-01-02 23:34:57 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://localhost:8080/prov-b/customer": Connection refused: connect
+2025-01-02 23:34:57 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://localhost:8080/prov-b/customer": Connection refused: connect
+2025-01-02 23:34:57 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://localhost:8080/prov-b/customer": Connection refused: connect
+2025-01-02 23:34:57 INFO  c.l.s.services.SimulationService - Sent 34 customers to provider: prov-b
+2025-01-02 23:34:57 INFO  c.l.s.services.SimulationService - Sent 34 subjects to provider: prov-b
+2025-01-02 23:34:57 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://localhost:8080/prov-c/customer": Connection refused: connect
+2025-01-02 23:34:57 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://localhost:8080/prov-c/customer": Connection refused: connect
+2025-01-02 23:34:57 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://localhost:8080/prov-c/customer": Connection refused: connect
+2025-01-02 23:34:57 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://localhost:8080/prov-c/customer": Connection refused: connect
+2025-01-02 23:34:57 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://localhost:8080/prov-c/customer": Connection refused: connect
+2025-01-02 23:34:57 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://localhost:8080/prov-c/customer": Connection refused: connect
+2025-01-02 23:34:57 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://localhost:8080/prov-c/customer": Connection refused: connect
+2025-01-02 23:34:57 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://localhost:8080/prov-c/customer": Connection refused: connect
+2025-01-02 23:34:57 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://localhost:8080/prov-c/customer": Connection refused: connect
+2025-01-02 23:34:57 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://localhost:8080/prov-c/customer": Connection refused: connect
+2025-01-02 23:34:57 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://localhost:8080/prov-c/customer": Connection refused: connect
+2025-01-02 23:34:57 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://localhost:8080/prov-c/customer": Connection refused: connect
+2025-01-02 23:34:57 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://localhost:8080/prov-c/customer": Connection refused: connect
+2025-01-02 23:34:57 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://localhost:8080/prov-c/customer": Connection refused: connect
+2025-01-02 23:34:57 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://localhost:8080/prov-c/customer": Connection refused: connect
+2025-01-02 23:34:57 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://localhost:8080/prov-c/customer": Connection refused: connect
+2025-01-02 23:34:57 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://localhost:8080/prov-c/customer": Connection refused: connect
+2025-01-02 23:34:57 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://localhost:8080/prov-c/customer": Connection refused: connect
+2025-01-02 23:34:57 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://localhost:8080/prov-c/customer": Connection refused: connect
+2025-01-02 23:34:57 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://localhost:8080/prov-c/customer": Connection refused: connect
+2025-01-02 23:34:57 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://localhost:8080/prov-c/customer": Connection refused: connect
+2025-01-02 23:34:57 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://localhost:8080/prov-c/customer": Connection refused: connect
+2025-01-02 23:34:57 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://localhost:8080/prov-c/customer": Connection refused: connect
+2025-01-02 23:34:57 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://localhost:8080/prov-c/customer": Connection refused: connect
+2025-01-02 23:34:57 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://localhost:8080/prov-c/customer": Connection refused: connect
+2025-01-02 23:34:57 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://localhost:8080/prov-c/customer": Connection refused: connect
+2025-01-02 23:34:57 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://localhost:8080/prov-c/customer": Connection refused: connect
+2025-01-02 23:34:57 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://localhost:8080/prov-c/customer": Connection refused: connect
+2025-01-02 23:34:57 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://localhost:8080/prov-c/customer": Connection refused: connect
+2025-01-02 23:34:57 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://localhost:8080/prov-c/customer": Connection refused: connect
+2025-01-02 23:34:57 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://localhost:8080/prov-c/customer": Connection refused: connect
+2025-01-02 23:34:57 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://localhost:8080/prov-c/customer": Connection refused: connect
+2025-01-02 23:34:57 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://localhost:8080/prov-c/customer": Connection refused: connect
+2025-01-02 23:34:57 INFO  c.l.s.services.SimulationService - Sent 33 customers to provider: prov-c
+2025-01-02 23:34:57 INFO  c.l.s.services.SimulationService - Sent 33 subjects to provider: prov-c
+2025-01-02 23:34:57 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://localhost:8080/prov-a/customer": Connection refused: connect
+2025-01-02 23:34:57 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://localhost:8080/prov-a/customer": Connection refused: connect
+2025-01-02 23:34:57 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://localhost:8080/prov-a/customer": Connection refused: connect
+2025-01-02 23:34:57 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://localhost:8080/prov-a/customer": Connection refused: connect
+2025-01-02 23:34:57 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://localhost:8080/prov-a/customer": Connection refused: connect
+2025-01-02 23:34:57 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://localhost:8080/prov-a/customer": Connection refused: connect
+2025-01-02 23:34:57 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://localhost:8080/prov-a/customer": Connection refused: connect
+2025-01-02 23:34:57 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://localhost:8080/prov-a/customer": Connection refused: connect
+2025-01-02 23:34:57 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://localhost:8080/prov-a/customer": Connection refused: connect
+2025-01-02 23:34:57 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://localhost:8080/prov-a/customer": Connection refused: connect
+2025-01-02 23:34:57 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://localhost:8080/prov-a/customer": Connection refused: connect
+2025-01-02 23:34:57 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://localhost:8080/prov-a/customer": Connection refused: connect
+2025-01-02 23:34:57 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://localhost:8080/prov-a/customer": Connection refused: connect
+2025-01-02 23:34:57 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://localhost:8080/prov-a/customer": Connection refused: connect
+2025-01-02 23:34:57 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://localhost:8080/prov-a/customer": Connection refused: connect
+2025-01-02 23:34:57 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://localhost:8080/prov-a/customer": Connection refused: connect
+2025-01-02 23:34:57 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://localhost:8080/prov-a/customer": Connection refused: connect
+2025-01-02 23:34:57 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://localhost:8080/prov-a/customer": Connection refused: connect
+2025-01-02 23:34:57 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://localhost:8080/prov-a/customer": Connection refused: connect
+2025-01-02 23:34:57 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://localhost:8080/prov-a/customer": Connection refused: connect
+2025-01-02 23:34:57 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://localhost:8080/prov-a/customer": Connection refused: connect
+2025-01-02 23:34:57 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://localhost:8080/prov-a/customer": Connection refused: connect
+2025-01-02 23:34:57 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://localhost:8080/prov-a/customer": Connection refused: connect
+2025-01-02 23:34:57 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://localhost:8080/prov-a/customer": Connection refused: connect
+2025-01-02 23:34:57 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://localhost:8080/prov-a/customer": Connection refused: connect
+2025-01-02 23:34:57 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://localhost:8080/prov-a/customer": Connection refused: connect
+2025-01-02 23:34:57 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://localhost:8080/prov-a/customer": Connection refused: connect
+2025-01-02 23:34:57 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://localhost:8080/prov-a/customer": Connection refused: connect
+2025-01-02 23:34:57 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://localhost:8080/prov-a/customer": Connection refused: connect
+2025-01-02 23:34:57 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://localhost:8080/prov-a/customer": Connection refused: connect
+2025-01-02 23:34:57 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://localhost:8080/prov-a/customer": Connection refused: connect
+2025-01-02 23:34:57 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://localhost:8080/prov-a/customer": Connection refused: connect
+2025-01-02 23:34:57 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://localhost:8080/prov-a/customer": Connection refused: connect
+2025-01-02 23:34:57 INFO  c.l.s.services.SimulationService - Sent 33 customers to provider: prov-a
+2025-01-02 23:34:57 INFO  c.l.s.services.SimulationService - Sent 33 subjects to provider: prov-a
+2025-01-02 23:34:57 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://localhost:8080/prov-a/customer": Connection refused: connect
+2025-01-02 23:34:57 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://localhost:8080/prov-a/customer": Connection refused: connect
+2025-01-02 23:34:57 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://localhost:8080/prov-a/customer": Connection refused: connect
+2025-01-02 23:34:57 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://localhost:8080/prov-a/customer": Connection refused: connect
+2025-01-02 23:34:57 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://localhost:8080/prov-a/customer": Connection refused: connect
+2025-01-02 23:34:57 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://localhost:8080/prov-a/customer": Connection refused: connect
+2025-01-02 23:34:57 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://localhost:8080/prov-a/customer": Connection refused: connect
+2025-01-02 23:34:57 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://localhost:8080/prov-a/customer": Connection refused: connect
+2025-01-02 23:34:57 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://localhost:8080/prov-a/customer": Connection refused: connect
+2025-01-02 23:34:57 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://localhost:8080/prov-a/customer": Connection refused: connect
+2025-01-02 23:34:57 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://localhost:8080/prov-a/customer": Connection refused: connect
+2025-01-02 23:34:57 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://localhost:8080/prov-a/customer": Connection refused: connect
+2025-01-02 23:34:57 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://localhost:8080/prov-a/customer": Connection refused: connect
+2025-01-02 23:34:57 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://localhost:8080/prov-a/customer": Connection refused: connect
+2025-01-02 23:34:57 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://localhost:8080/prov-a/customer": Connection refused: connect
+2025-01-02 23:34:57 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://localhost:8080/prov-a/customer": Connection refused: connect
+2025-01-02 23:34:57 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://localhost:8080/prov-a/customer": Connection refused: connect
+2025-01-02 23:34:57 INFO  c.l.s.services.SimulationService - Sent 17 customers to provider: prov-a
+2025-01-02 23:34:57 INFO  c.l.s.services.SimulationService - Sent 17 subjects to provider: prov-a
+2025-01-02 23:34:57 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://localhost:8080/prov-c/customer": Connection refused: connect
+2025-01-02 23:34:57 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://localhost:8080/prov-c/customer": Connection refused: connect
+2025-01-02 23:34:57 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://localhost:8080/prov-c/customer": Connection refused: connect
+2025-01-02 23:34:57 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://localhost:8080/prov-c/customer": Connection refused: connect
+2025-01-02 23:34:57 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://localhost:8080/prov-c/customer": Connection refused: connect
+2025-01-02 23:34:57 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://localhost:8080/prov-c/customer": Connection refused: connect
+2025-01-02 23:34:57 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://localhost:8080/prov-c/customer": Connection refused: connect
+2025-01-02 23:34:57 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://localhost:8080/prov-c/customer": Connection refused: connect
+2025-01-02 23:34:57 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://localhost:8080/prov-c/customer": Connection refused: connect
+2025-01-02 23:34:57 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://localhost:8080/prov-c/customer": Connection refused: connect
+2025-01-02 23:34:57 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://localhost:8080/prov-c/customer": Connection refused: connect
+2025-01-02 23:34:57 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://localhost:8080/prov-c/customer": Connection refused: connect
+2025-01-02 23:34:57 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://localhost:8080/prov-c/customer": Connection refused: connect
+2025-01-02 23:34:57 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://localhost:8080/prov-c/customer": Connection refused: connect
+2025-01-02 23:34:57 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://localhost:8080/prov-c/customer": Connection refused: connect
+2025-01-02 23:34:57 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://localhost:8080/prov-c/customer": Connection refused: connect
+2025-01-02 23:34:57 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://localhost:8080/prov-c/customer": Connection refused: connect
+2025-01-02 23:34:57 INFO  c.l.s.services.SimulationService - Sent 17 customers to provider: prov-c
+2025-01-02 23:34:57 INFO  c.l.s.services.SimulationService - Sent 17 subjects to provider: prov-c
+2025-01-02 23:34:57 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://localhost:8080/prov-b/customer": Connection refused: connect
+2025-01-02 23:34:57 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://localhost:8080/prov-b/customer": Connection refused: connect
+2025-01-02 23:34:57 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://localhost:8080/prov-b/customer": Connection refused: connect
+2025-01-02 23:34:57 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://localhost:8080/prov-b/customer": Connection refused: connect
+2025-01-02 23:34:57 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://localhost:8080/prov-b/customer": Connection refused: connect
+2025-01-02 23:34:57 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://localhost:8080/prov-b/customer": Connection refused: connect
+2025-01-02 23:34:57 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://localhost:8080/prov-b/customer": Connection refused: connect
+2025-01-02 23:34:57 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://localhost:8080/prov-b/customer": Connection refused: connect
+2025-01-02 23:34:57 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://localhost:8080/prov-b/customer": Connection refused: connect
+2025-01-02 23:34:57 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://localhost:8080/prov-b/customer": Connection refused: connect
+2025-01-02 23:34:57 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://localhost:8080/prov-b/customer": Connection refused: connect
+2025-01-02 23:34:57 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://localhost:8080/prov-b/customer": Connection refused: connect
+2025-01-02 23:34:57 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://localhost:8080/prov-b/customer": Connection refused: connect
+2025-01-02 23:34:57 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://localhost:8080/prov-b/customer": Connection refused: connect
+2025-01-02 23:34:57 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://localhost:8080/prov-b/customer": Connection refused: connect
+2025-01-02 23:34:57 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://localhost:8080/prov-b/customer": Connection refused: connect
+2025-01-02 23:34:57 INFO  c.l.s.services.SimulationService - Sent 16 customers to provider: prov-b
+2025-01-02 23:34:57 INFO  c.l.s.services.SimulationService - Sent 16 subjects to provider: prov-b
+2025-01-02 23:34:57 INFO  c.l.s.simulators.ReadingSimulator - Attempting simulation request to citizen
+2025-01-02 23:34:58 ERROR c.l.s.simulators.ReadingSimulator - Error requesting simulation of readings from citizen: I/O error on POST request for "http://localhost:8080/citizen/simulation": Connection refused: connect
+2025-01-02 23:34:58 INFO  c.l.s.services.SimulationService - Simulation request status: null
+2025-01-02 23:34:58 INFO  c.l.s.c.SimulationController - Scheduled request made
+2025-01-02 23:39:29 INFO  com.louisfiges.simulator.Main - Starting Main using Java 23 with PID 170924 (C:\Users\louis\Documents\GitHub\kf7014-backend\Simulator\build\classes\java\main started by louis in C:\Users\louis\Documents\GitHub\kf7014-backend\Simulator)
+2025-01-02 23:39:29 INFO  com.louisfiges.simulator.Main - No active profile set, falling back to 1 default profile: "default"
+2025-01-02 23:39:29 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8087 (http)
+2025-01-02 23:39:29 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8087"]
+2025-01-02 23:39:29 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-01-02 23:39:29 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2025-01-02 23:39:29 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-01-02 23:39:29 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 461 ms
+2025-01-02 23:39:30 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8087"]
+2025-01-02 23:39:30 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8087 (http) with context path '/'
+2025-01-02 23:39:30 INFO  com.louisfiges.simulator.Main - Started Main in 0.927 seconds (process running for 1.207)
+2025-01-02 23:39:40 INFO  com.louisfiges.simulator.Main - Starting Main using Java 23 with PID 162556 (C:\Users\louis\Documents\GitHub\kf7014-backend\Simulator\build\classes\java\main started by louis in C:\Users\louis\Documents\GitHub\kf7014-backend\Simulator)
+2025-01-02 23:39:40 INFO  com.louisfiges.simulator.Main - The following 1 profile is active: "newcastle"
+2025-01-02 23:39:41 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8087 (http)
+2025-01-02 23:39:41 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8087"]
+2025-01-02 23:39:41 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-01-02 23:39:41 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2025-01-02 23:39:41 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-01-02 23:39:41 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 431 ms
+2025-01-02 23:39:41 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8087"]
+2025-01-02 23:39:41 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8087 (http) with context path '/'
+2025-01-02 23:39:41 INFO  com.louisfiges.simulator.Main - Started Main in 0.886 seconds (process running for 1.179)
+2025-01-02 23:39:44 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-01-02 23:39:44 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-01-02 23:39:44 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2025-01-02 23:39:47 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://http/newcastle-api-gateway:8080/-api-gateway:8080/prov-b/customer": http
+2025-01-02 23:39:47 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://http/newcastle-api-gateway:8080/-api-gateway:8080/prov-b/customer": http
+2025-01-02 23:39:47 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://http/newcastle-api-gateway:8080/-api-gateway:8080/prov-b/customer": http
+2025-01-02 23:39:47 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://http/newcastle-api-gateway:8080/-api-gateway:8080/prov-b/customer": http
+2025-01-02 23:39:47 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://http/newcastle-api-gateway:8080/-api-gateway:8080/prov-b/customer": http
+2025-01-02 23:39:47 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://http/newcastle-api-gateway:8080/-api-gateway:8080/prov-b/customer": http
+2025-01-02 23:39:47 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://http/newcastle-api-gateway:8080/-api-gateway:8080/prov-b/customer": http
+2025-01-02 23:39:47 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://http/newcastle-api-gateway:8080/-api-gateway:8080/prov-b/customer": http
+2025-01-02 23:39:47 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://http/newcastle-api-gateway:8080/-api-gateway:8080/prov-b/customer": http
+2025-01-02 23:39:47 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://http/newcastle-api-gateway:8080/-api-gateway:8080/prov-b/customer": http
+2025-01-02 23:39:47 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://http/newcastle-api-gateway:8080/-api-gateway:8080/prov-b/customer": http
+2025-01-02 23:39:47 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://http/newcastle-api-gateway:8080/-api-gateway:8080/prov-b/customer": http
+2025-01-02 23:39:47 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://http/newcastle-api-gateway:8080/-api-gateway:8080/prov-b/customer": http
+2025-01-02 23:39:47 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://http/newcastle-api-gateway:8080/-api-gateway:8080/prov-b/customer": http
+2025-01-02 23:39:47 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://http/newcastle-api-gateway:8080/-api-gateway:8080/prov-b/customer": http
+2025-01-02 23:39:47 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://http/newcastle-api-gateway:8080/-api-gateway:8080/prov-b/customer": http
+2025-01-02 23:39:47 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://http/newcastle-api-gateway:8080/-api-gateway:8080/prov-b/customer": http
+2025-01-02 23:39:47 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://http/newcastle-api-gateway:8080/-api-gateway:8080/prov-b/customer": http
+2025-01-02 23:39:47 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://http/newcastle-api-gateway:8080/-api-gateway:8080/prov-b/customer": http
+2025-01-02 23:39:47 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://http/newcastle-api-gateway:8080/-api-gateway:8080/prov-b/customer": http
+2025-01-02 23:39:47 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://http/newcastle-api-gateway:8080/-api-gateway:8080/prov-b/customer": http
+2025-01-02 23:39:47 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://http/newcastle-api-gateway:8080/-api-gateway:8080/prov-b/customer": http
+2025-01-02 23:39:47 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://http/newcastle-api-gateway:8080/-api-gateway:8080/prov-b/customer": http
+2025-01-02 23:39:47 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://http/newcastle-api-gateway:8080/-api-gateway:8080/prov-b/customer": http
+2025-01-02 23:39:47 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://http/newcastle-api-gateway:8080/-api-gateway:8080/prov-b/customer": http
+2025-01-02 23:39:47 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://http/newcastle-api-gateway:8080/-api-gateway:8080/prov-b/customer": http
+2025-01-02 23:39:47 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://http/newcastle-api-gateway:8080/-api-gateway:8080/prov-b/customer": http
+2025-01-02 23:39:47 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://http/newcastle-api-gateway:8080/-api-gateway:8080/prov-b/customer": http
+2025-01-02 23:39:47 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://http/newcastle-api-gateway:8080/-api-gateway:8080/prov-b/customer": http
+2025-01-02 23:39:47 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://http/newcastle-api-gateway:8080/-api-gateway:8080/prov-b/customer": http
+2025-01-02 23:39:47 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://http/newcastle-api-gateway:8080/-api-gateway:8080/prov-b/customer": http
+2025-01-02 23:39:47 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://http/newcastle-api-gateway:8080/-api-gateway:8080/prov-b/customer": http
+2025-01-02 23:39:47 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://http/newcastle-api-gateway:8080/-api-gateway:8080/prov-b/customer": http
+2025-01-02 23:39:47 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://http/newcastle-api-gateway:8080/-api-gateway:8080/prov-b/customer": http
+2025-01-02 23:39:47 INFO  c.l.s.services.SimulationService - Sent 34 customers to provider: prov-b
+2025-01-02 23:39:47 INFO  c.l.s.services.SimulationService - Sent 34 subjects to provider: prov-b
+2025-01-02 23:39:47 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://http/newcastle-api-gateway:8080/-api-gateway:8080/prov-c/customer": http
+2025-01-02 23:39:47 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://http/newcastle-api-gateway:8080/-api-gateway:8080/prov-c/customer": http
+2025-01-02 23:39:47 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://http/newcastle-api-gateway:8080/-api-gateway:8080/prov-c/customer": http
+2025-01-02 23:39:47 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://http/newcastle-api-gateway:8080/-api-gateway:8080/prov-c/customer": http
+2025-01-02 23:39:47 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://http/newcastle-api-gateway:8080/-api-gateway:8080/prov-c/customer": http
+2025-01-02 23:39:47 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://http/newcastle-api-gateway:8080/-api-gateway:8080/prov-c/customer": http
+2025-01-02 23:39:47 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://http/newcastle-api-gateway:8080/-api-gateway:8080/prov-c/customer": http
+2025-01-02 23:39:47 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://http/newcastle-api-gateway:8080/-api-gateway:8080/prov-c/customer": http
+2025-01-02 23:39:47 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://http/newcastle-api-gateway:8080/-api-gateway:8080/prov-c/customer": http
+2025-01-02 23:39:47 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://http/newcastle-api-gateway:8080/-api-gateway:8080/prov-c/customer": http
+2025-01-02 23:39:47 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://http/newcastle-api-gateway:8080/-api-gateway:8080/prov-c/customer": http
+2025-01-02 23:39:47 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://http/newcastle-api-gateway:8080/-api-gateway:8080/prov-c/customer": http
+2025-01-02 23:39:47 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://http/newcastle-api-gateway:8080/-api-gateway:8080/prov-c/customer": http
+2025-01-02 23:39:47 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://http/newcastle-api-gateway:8080/-api-gateway:8080/prov-c/customer": http
+2025-01-02 23:39:47 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://http/newcastle-api-gateway:8080/-api-gateway:8080/prov-c/customer": http
+2025-01-02 23:39:47 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://http/newcastle-api-gateway:8080/-api-gateway:8080/prov-c/customer": http
+2025-01-02 23:39:47 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://http/newcastle-api-gateway:8080/-api-gateway:8080/prov-c/customer": http
+2025-01-02 23:39:47 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://http/newcastle-api-gateway:8080/-api-gateway:8080/prov-c/customer": http
+2025-01-02 23:39:47 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://http/newcastle-api-gateway:8080/-api-gateway:8080/prov-c/customer": http
+2025-01-02 23:39:47 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://http/newcastle-api-gateway:8080/-api-gateway:8080/prov-c/customer": http
+2025-01-02 23:39:47 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://http/newcastle-api-gateway:8080/-api-gateway:8080/prov-c/customer": http
+2025-01-02 23:39:47 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://http/newcastle-api-gateway:8080/-api-gateway:8080/prov-c/customer": http
+2025-01-02 23:39:47 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://http/newcastle-api-gateway:8080/-api-gateway:8080/prov-c/customer": http
+2025-01-02 23:39:47 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://http/newcastle-api-gateway:8080/-api-gateway:8080/prov-c/customer": http
+2025-01-02 23:39:47 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://http/newcastle-api-gateway:8080/-api-gateway:8080/prov-c/customer": http
+2025-01-02 23:39:47 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://http/newcastle-api-gateway:8080/-api-gateway:8080/prov-c/customer": http
+2025-01-02 23:39:47 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://http/newcastle-api-gateway:8080/-api-gateway:8080/prov-c/customer": http
+2025-01-02 23:39:47 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://http/newcastle-api-gateway:8080/-api-gateway:8080/prov-c/customer": http
+2025-01-02 23:39:47 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://http/newcastle-api-gateway:8080/-api-gateway:8080/prov-c/customer": http
+2025-01-02 23:39:47 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://http/newcastle-api-gateway:8080/-api-gateway:8080/prov-c/customer": http
+2025-01-02 23:39:47 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://http/newcastle-api-gateway:8080/-api-gateway:8080/prov-c/customer": http
+2025-01-02 23:39:47 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://http/newcastle-api-gateway:8080/-api-gateway:8080/prov-c/customer": http
+2025-01-02 23:39:47 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://http/newcastle-api-gateway:8080/-api-gateway:8080/prov-c/customer": http
+2025-01-02 23:39:47 INFO  c.l.s.services.SimulationService - Sent 33 customers to provider: prov-c
+2025-01-02 23:39:47 INFO  c.l.s.services.SimulationService - Sent 33 subjects to provider: prov-c
+2025-01-02 23:39:47 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://http/newcastle-api-gateway:8080/-api-gateway:8080/prov-a/customer": http
+2025-01-02 23:39:47 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://http/newcastle-api-gateway:8080/-api-gateway:8080/prov-a/customer": http
+2025-01-02 23:39:47 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://http/newcastle-api-gateway:8080/-api-gateway:8080/prov-a/customer": http
+2025-01-02 23:39:47 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://http/newcastle-api-gateway:8080/-api-gateway:8080/prov-a/customer": http
+2025-01-02 23:39:47 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://http/newcastle-api-gateway:8080/-api-gateway:8080/prov-a/customer": http
+2025-01-02 23:39:47 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://http/newcastle-api-gateway:8080/-api-gateway:8080/prov-a/customer": http
+2025-01-02 23:39:47 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://http/newcastle-api-gateway:8080/-api-gateway:8080/prov-a/customer": http
+2025-01-02 23:39:47 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://http/newcastle-api-gateway:8080/-api-gateway:8080/prov-a/customer": http
+2025-01-02 23:39:47 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://http/newcastle-api-gateway:8080/-api-gateway:8080/prov-a/customer": http
+2025-01-02 23:39:47 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://http/newcastle-api-gateway:8080/-api-gateway:8080/prov-a/customer": http
+2025-01-02 23:39:47 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://http/newcastle-api-gateway:8080/-api-gateway:8080/prov-a/customer": http
+2025-01-02 23:39:47 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://http/newcastle-api-gateway:8080/-api-gateway:8080/prov-a/customer": http
+2025-01-02 23:39:47 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://http/newcastle-api-gateway:8080/-api-gateway:8080/prov-a/customer": http
+2025-01-02 23:39:47 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://http/newcastle-api-gateway:8080/-api-gateway:8080/prov-a/customer": http
+2025-01-02 23:39:47 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://http/newcastle-api-gateway:8080/-api-gateway:8080/prov-a/customer": http
+2025-01-02 23:39:47 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://http/newcastle-api-gateway:8080/-api-gateway:8080/prov-a/customer": http
+2025-01-02 23:39:47 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://http/newcastle-api-gateway:8080/-api-gateway:8080/prov-a/customer": http
+2025-01-02 23:39:47 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://http/newcastle-api-gateway:8080/-api-gateway:8080/prov-a/customer": http
+2025-01-02 23:39:47 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://http/newcastle-api-gateway:8080/-api-gateway:8080/prov-a/customer": http
+2025-01-02 23:39:47 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://http/newcastle-api-gateway:8080/-api-gateway:8080/prov-a/customer": http
+2025-01-02 23:39:47 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://http/newcastle-api-gateway:8080/-api-gateway:8080/prov-a/customer": http
+2025-01-02 23:39:47 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://http/newcastle-api-gateway:8080/-api-gateway:8080/prov-a/customer": http
+2025-01-02 23:39:47 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://http/newcastle-api-gateway:8080/-api-gateway:8080/prov-a/customer": http
+2025-01-02 23:39:47 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://http/newcastle-api-gateway:8080/-api-gateway:8080/prov-a/customer": http
+2025-01-02 23:39:47 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://http/newcastle-api-gateway:8080/-api-gateway:8080/prov-a/customer": http
+2025-01-02 23:39:47 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://http/newcastle-api-gateway:8080/-api-gateway:8080/prov-a/customer": http
+2025-01-02 23:39:47 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://http/newcastle-api-gateway:8080/-api-gateway:8080/prov-a/customer": http
+2025-01-02 23:39:47 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://http/newcastle-api-gateway:8080/-api-gateway:8080/prov-a/customer": http
+2025-01-02 23:39:47 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://http/newcastle-api-gateway:8080/-api-gateway:8080/prov-a/customer": http
+2025-01-02 23:39:47 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://http/newcastle-api-gateway:8080/-api-gateway:8080/prov-a/customer": http
+2025-01-02 23:39:47 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://http/newcastle-api-gateway:8080/-api-gateway:8080/prov-a/customer": http
+2025-01-02 23:39:47 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://http/newcastle-api-gateway:8080/-api-gateway:8080/prov-a/customer": http
+2025-01-02 23:39:47 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://http/newcastle-api-gateway:8080/-api-gateway:8080/prov-a/customer": http
+2025-01-02 23:39:47 INFO  c.l.s.services.SimulationService - Sent 33 customers to provider: prov-a
+2025-01-02 23:39:47 INFO  c.l.s.services.SimulationService - Sent 33 subjects to provider: prov-a
+2025-01-02 23:39:47 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://http/newcastle-api-gateway:8080/-api-gateway:8080/prov-a/customer": http
+2025-01-02 23:39:47 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://http/newcastle-api-gateway:8080/-api-gateway:8080/prov-a/customer": http
+2025-01-02 23:39:47 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://http/newcastle-api-gateway:8080/-api-gateway:8080/prov-a/customer": http
+2025-01-02 23:39:47 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://http/newcastle-api-gateway:8080/-api-gateway:8080/prov-a/customer": http
+2025-01-02 23:39:47 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://http/newcastle-api-gateway:8080/-api-gateway:8080/prov-a/customer": http
+2025-01-02 23:39:47 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://http/newcastle-api-gateway:8080/-api-gateway:8080/prov-a/customer": http
+2025-01-02 23:39:47 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://http/newcastle-api-gateway:8080/-api-gateway:8080/prov-a/customer": http
+2025-01-02 23:39:47 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://http/newcastle-api-gateway:8080/-api-gateway:8080/prov-a/customer": http
+2025-01-02 23:39:47 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://http/newcastle-api-gateway:8080/-api-gateway:8080/prov-a/customer": http
+2025-01-02 23:39:47 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://http/newcastle-api-gateway:8080/-api-gateway:8080/prov-a/customer": http
+2025-01-02 23:39:47 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://http/newcastle-api-gateway:8080/-api-gateway:8080/prov-a/customer": http
+2025-01-02 23:39:47 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://http/newcastle-api-gateway:8080/-api-gateway:8080/prov-a/customer": http
+2025-01-02 23:39:47 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://http/newcastle-api-gateway:8080/-api-gateway:8080/prov-a/customer": http
+2025-01-02 23:39:47 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://http/newcastle-api-gateway:8080/-api-gateway:8080/prov-a/customer": http
+2025-01-02 23:39:47 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://http/newcastle-api-gateway:8080/-api-gateway:8080/prov-a/customer": http
+2025-01-02 23:39:47 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://http/newcastle-api-gateway:8080/-api-gateway:8080/prov-a/customer": http
+2025-01-02 23:39:47 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://http/newcastle-api-gateway:8080/-api-gateway:8080/prov-a/customer": http
+2025-01-02 23:39:47 INFO  c.l.s.services.SimulationService - Sent 17 customers to provider: prov-a
+2025-01-02 23:39:47 INFO  c.l.s.services.SimulationService - Sent 17 subjects to provider: prov-a
+2025-01-02 23:39:47 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://http/newcastle-api-gateway:8080/-api-gateway:8080/prov-c/customer": http
+2025-01-02 23:39:47 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://http/newcastle-api-gateway:8080/-api-gateway:8080/prov-c/customer": http
+2025-01-02 23:39:47 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://http/newcastle-api-gateway:8080/-api-gateway:8080/prov-c/customer": http
+2025-01-02 23:39:47 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://http/newcastle-api-gateway:8080/-api-gateway:8080/prov-c/customer": http
+2025-01-02 23:39:47 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://http/newcastle-api-gateway:8080/-api-gateway:8080/prov-c/customer": http
+2025-01-02 23:39:47 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://http/newcastle-api-gateway:8080/-api-gateway:8080/prov-c/customer": http
+2025-01-02 23:39:47 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://http/newcastle-api-gateway:8080/-api-gateway:8080/prov-c/customer": http
+2025-01-02 23:39:47 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://http/newcastle-api-gateway:8080/-api-gateway:8080/prov-c/customer": http
+2025-01-02 23:39:47 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://http/newcastle-api-gateway:8080/-api-gateway:8080/prov-c/customer": http
+2025-01-02 23:39:47 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://http/newcastle-api-gateway:8080/-api-gateway:8080/prov-c/customer": http
+2025-01-02 23:39:47 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://http/newcastle-api-gateway:8080/-api-gateway:8080/prov-c/customer": http
+2025-01-02 23:39:47 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://http/newcastle-api-gateway:8080/-api-gateway:8080/prov-c/customer": http
+2025-01-02 23:39:47 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://http/newcastle-api-gateway:8080/-api-gateway:8080/prov-c/customer": http
+2025-01-02 23:39:47 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://http/newcastle-api-gateway:8080/-api-gateway:8080/prov-c/customer": http
+2025-01-02 23:39:47 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://http/newcastle-api-gateway:8080/-api-gateway:8080/prov-c/customer": http
+2025-01-02 23:39:47 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://http/newcastle-api-gateway:8080/-api-gateway:8080/prov-c/customer": http
+2025-01-02 23:39:47 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://http/newcastle-api-gateway:8080/-api-gateway:8080/prov-c/customer": http
+2025-01-02 23:39:47 INFO  c.l.s.services.SimulationService - Sent 17 customers to provider: prov-c
+2025-01-02 23:39:47 INFO  c.l.s.services.SimulationService - Sent 17 subjects to provider: prov-c
+2025-01-02 23:39:47 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://http/newcastle-api-gateway:8080/-api-gateway:8080/prov-b/customer": http
+2025-01-02 23:39:47 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://http/newcastle-api-gateway:8080/-api-gateway:8080/prov-b/customer": http
+2025-01-02 23:39:47 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://http/newcastle-api-gateway:8080/-api-gateway:8080/prov-b/customer": http
+2025-01-02 23:39:47 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://http/newcastle-api-gateway:8080/-api-gateway:8080/prov-b/customer": http
+2025-01-02 23:39:47 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://http/newcastle-api-gateway:8080/-api-gateway:8080/prov-b/customer": http
+2025-01-02 23:39:47 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://http/newcastle-api-gateway:8080/-api-gateway:8080/prov-b/customer": http
+2025-01-02 23:39:47 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://http/newcastle-api-gateway:8080/-api-gateway:8080/prov-b/customer": http
+2025-01-02 23:39:47 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://http/newcastle-api-gateway:8080/-api-gateway:8080/prov-b/customer": http
+2025-01-02 23:39:47 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://http/newcastle-api-gateway:8080/-api-gateway:8080/prov-b/customer": http
+2025-01-02 23:39:47 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://http/newcastle-api-gateway:8080/-api-gateway:8080/prov-b/customer": http
+2025-01-02 23:39:47 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://http/newcastle-api-gateway:8080/-api-gateway:8080/prov-b/customer": http
+2025-01-02 23:39:47 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://http/newcastle-api-gateway:8080/-api-gateway:8080/prov-b/customer": http
+2025-01-02 23:39:47 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://http/newcastle-api-gateway:8080/-api-gateway:8080/prov-b/customer": http
+2025-01-02 23:39:47 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://http/newcastle-api-gateway:8080/-api-gateway:8080/prov-b/customer": http
+2025-01-02 23:39:47 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://http/newcastle-api-gateway:8080/-api-gateway:8080/prov-b/customer": http
+2025-01-02 23:39:47 ERROR c.l.s.simulators.CustomerSimulator - Error sending customer to provider: I/O error on POST request for "http://http/newcastle-api-gateway:8080/-api-gateway:8080/prov-b/customer": http
+2025-01-02 23:39:47 INFO  c.l.s.services.SimulationService - Sent 16 customers to provider: prov-b
+2025-01-02 23:39:47 INFO  c.l.s.services.SimulationService - Sent 16 subjects to provider: prov-b
+2025-01-02 23:39:47 INFO  c.l.s.simulators.ReadingSimulator - Attempting simulation request to citizen
+2025-01-02 23:39:48 ERROR c.l.s.simulators.ReadingSimulator - Error requesting simulation of readings from citizen: I/O error on POST request for "http://newcastle-api-gateway:8080/citizen/simulation": newcastle-api-gateway
+2025-01-02 23:39:48 INFO  c.l.s.services.SimulationService - Simulation request status: null
+2025-01-02 23:39:48 INFO  c.l.s.c.SimulationController - Scheduled request made

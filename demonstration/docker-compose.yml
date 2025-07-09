@@ -1,0 +1,468 @@
+networks:
+  newcastle_network:
+    driver: bridge
+  darlington_network:
+    driver: bridge
+  durham_network:
+    driver: bridge
+  central_network:
+    driver: bridge
+  shared_network:
+    driver: bridge
+
+services:
+  frontend:
+    image: httpd:latest
+    container_name: frontend
+    ports:
+      - "80:80"
+    volumes:
+      - ./build:/usr/local/apache2/htdocs:ro
+      - ./build/.htaccess:/usr/local/apache2/htdocs/.htaccess:ro
+    restart: always
+    networks:
+      - central_network
+  #Central Services
+  central-api-gateway:
+    image: openjdk:23
+    container_name: central-api-gateway
+    volumes:
+      - ./CityGateway-0.0.1-SNAPSHOT.jar:/app/CityGateway-0.0.1-SNAPSHOT.jar
+      - ./.env:/app/.env
+    working_dir: /app
+    command: ["java", "-jar", "CityGateway-0.0.1-SNAPSHOT.jar"]
+    ports:
+      - "8000:8000"
+    networks:
+      - central_network
+      - shared_network
+  auth-service:
+    image: openjdk:23
+    container_name: auth-service
+    volumes:
+      - ./AuthService-0.0.4-RELEASE.jar:/app/AuthService-0.0.4-RELEASE.jar
+      - ./.env:/app/.env
+    working_dir: /app
+    command: ["java", "-jar", "AuthService-0.0.4-RELEASE.jar"]
+    ports:
+      - "8010:8010"
+    networks:
+      - central_network
+  # Newcastle Services
+  newcastle-api-gateway:
+    image: openjdk:23
+    container_name: newcastle-api-gateway
+    volumes:
+      - ./APIGateway-1.0.0-RELEASE.jar:/app/APIGateway-1.0.0-RELEASE.jar
+    working_dir: /app
+    command: ["java", "-jar", "APIGateway-1.0.0-RELEASE.jar", "--city.name=newcastle"]
+    ports:
+      - "8080:8080"
+    networks:
+      - newcastle_network
+      - shared_network
+  newcastle-citizen:
+    image: openjdk:23
+    container_name: newcastle-citizen
+    volumes:
+      - ./citizen-1.0.2-SNAPSHOT.jar:/app/citizen-1.0.2-SNAPSHOT.jar
+    working_dir: /app
+    command: ["java", "-jar", "citizen-1.0.2-SNAPSHOT.jar", "--spring.profiles.active=newcastle"]
+    networks:
+      - newcastle_network
+  newcastle-provider-a:
+    image: openjdk:23
+    container_name: newcastle-provider-a
+    volumes:
+      - ./provider-2.0.5-RELEASE.jar:/app/provider-2.0.5-RELEASE.jar
+    working_dir: /app
+    command: ["java", "-jar", "provider-2.0.5-RELEASE.jar", "--spring.profiles.active=providerA", "--city.name=newcastle"]
+    networks:
+      - newcastle_network
+    depends_on:
+      - newcastle-provider-a-db
+  newcastle-provider-b:
+    image: openjdk:23
+    container_name: newcastle-provider-b
+    volumes:
+      - ./provider-2.0.5-RELEASE.jar:/app/provider-2.0.5-RELEASE.jar
+    working_dir: /app
+    command: ["java", "-jar", "provider-2.0.5-RELEASE.jar", "--spring.profiles.active=providerB", "--city.name=newcastle"]
+    networks:
+      - newcastle_network
+    depends_on:
+      - newcastle-provider-b-db
+  newcastle-provider-c:
+    image: openjdk:23
+    container_name: newcastle-provider-c
+    volumes:
+      - ./provider-2.0.5-RELEASE.jar:/app/provider-2.0.5-RELEASE.jar
+    working_dir: /app
+    command: ["java", "-jar", "provider-2.0.5-RELEASE.jar", "--spring.profiles.active=providerC", "--city.name=newcastle"]
+    networks:
+      - newcastle_network
+    depends_on:
+      - newcastle-provider-c-db
+  newcastle-smartcity:
+    image: openjdk:23
+    container_name: newcastle-smartcity
+    volumes:
+      - ./smartcity-1.0.1-RELEASE.jar:/app/smartcity-1.0.1-RELEASE.jar
+    working_dir: /app
+    command: ["java", "-jar", "smartcity-1.0.1-RELEASE.jar", "--spring.profiles.active=newcastle"]
+    networks:
+      - newcastle_network
+    depends_on:
+      - newcastle-smartcity-db
+  newcastle-simulator:
+    image: openjdk:23
+    container_name: newcastle-simulator
+    volumes:
+      - ./Simulator-1.0.1-RELEASE.jar:/app/Simulator-1.0.1-RELEASE.jar
+    working_dir: /app
+    command: ["java", "-jar", "Simulator-1.0.1-RELEASE.jar", "--spring.profiles.active=newcastle"]
+    networks:
+      - newcastle_network
+    depends_on:
+      - newcastle-api-gateway
+      - newcastle-citizen
+      - newcastle-provider-a
+      - newcastle-provider-b
+      - newcastle-provider-c
+      - newcastle-smartcity
+  # Database for Provider A
+  newcastle-provider-a-db:
+    image: postgres:latest
+    container_name: newcastle-provider-a-db
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: "cold-in-june"
+      POSTGRES_DB: provider-a
+    networks:
+      - newcastle_network
+    volumes:
+      - newcastle_provider_data_a:/var/lib/postgresql/data
+
+  # Database for Provider B
+  newcastle-provider-b-db:
+    image: postgres:latest
+    container_name: newcastle-provider-b-db
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: "cold-in-june"
+      POSTGRES_DB: provider-b
+    networks:
+      - newcastle_network
+    volumes:
+      - newcastle_provider_data_b:/var/lib/postgresql/data
+
+  # Database for Provider C
+  newcastle-provider-c-db:
+    image: postgres:latest
+    container_name: newcastle-provider-c-db
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: "cold-in-june"
+      POSTGRES_DB: provider-c
+    networks:
+      - newcastle_network
+    volumes:
+      - newcastle_provider_data_c:/var/lib/postgresql/data
+
+  # Database for Smart City
+  newcastle-smartcity-db:
+    image: postgres:latest
+    container_name: newcastle-smartcity-db
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: "cold-in-june"
+      POSTGRES_DB: smart-city
+    networks:
+      - newcastle_network
+    volumes:
+      - newcastle_smartcity_data:/var/lib/postgresql/data
+
+  # Darlington Services
+  darlington-api-gateway:
+    image: openjdk:23
+    container_name: darlington-api-gateway
+    volumes:
+      - ./APIGateway-1.0.0-RELEASE.jar:/app/APIGateway-1.0.0-RELEASE.jar
+    working_dir: /app
+    command: ["java", "-jar", "APIGateway-1.0.0-RELEASE.jar", "--city.name=darlington"]
+    ports:
+      - "8083:8080"
+    networks:
+      - darlington_network
+      - shared_network
+  darlington-citizen:
+    image: openjdk:23
+    container_name: darlington-citizen
+    volumes:
+      - ./citizen-1.0.2-SNAPSHOT.jar:/app/citizen-1.0.2-SNAPSHOT.jar
+    working_dir: /app
+    command: ["java", "-jar", "citizen-1.0.2-SNAPSHOT.jar", "--spring.profiles.active=darlington"]
+    networks:
+      - darlington_network
+  darlington-provider-a:
+    image: openjdk:23
+    container_name: darlington-provider-a
+    volumes:
+      - ./provider-2.0.5-RELEASE.jar:/app/provider-2.0.5-RELEASE.jar
+    working_dir: /app
+    command: ["java", "-jar", "provider-2.0.5-RELEASE.jar", "--spring.profiles.active=providerA", "--city.name=darlington"]
+    networks:
+      - darlington_network
+    depends_on:
+      - darlington-provider-a-db
+  darlington-provider-b:
+    image: openjdk:23
+    container_name: darlington-provider-b
+    volumes:
+      - ./provider-2.0.5-RELEASE.jar:/app/provider-2.0.5-RELEASE.jar
+    working_dir: /app
+    command: ["java", "-jar", "provider-2.0.5-RELEASE.jar", "--spring.profiles.active=providerB", "--city.name=darlington"]
+    networks:
+      - darlington_network
+    depends_on:
+      - darlington-provider-b-db
+  darlington-provider-c:
+    image: openjdk:23
+    container_name: darlington-provider-c
+    volumes:
+      - ./provider-2.0.5-RELEASE.jar:/app/provider-2.0.5-RELEASE.jar
+    working_dir: /app
+    command: ["java", "-jar", "provider-2.0.5-RELEASE.jar", "--spring.profiles.active=providerC", "--city.name=darlington"]
+    networks:
+      - darlington_network
+    depends_on:
+      - darlington-provider-c-db
+  darlington-smartcity:
+    image: openjdk:23
+    container_name: darlington-smartcity
+    volumes:
+      - ./smartcity-1.0.1-RELEASE.jar:/app/smartcity-1.0.1-RELEASE.jar
+    working_dir: /app
+    command: ["java", "-jar", "smartcity-1.0.1-RELEASE.jar", "--spring.profiles.active=darlington"]
+    networks:
+      - darlington_network
+    depends_on:
+      - darlington-smartcity-db
+  darlington-simulator:
+    image: openjdk:23
+    container_name: darlington-simulator
+    volumes:
+      - ./Simulator-1.0.1-RELEASE.jar:/app/Simulator-1.0.1-RELEASE.jar
+    working_dir: /app
+    command: ["java", "-jar", "Simulator-1.0.1-RELEASE.jar", "--spring.profiles.active=darlington"]
+    networks:
+      - darlington_network
+    depends_on:
+      - darlington-api-gateway
+      - darlington-citizen
+      - darlington-provider-a
+      - darlington-provider-b
+      - darlington-provider-c
+      - darlington-smartcity
+  # Database for Provider A
+  darlington-provider-a-db:
+    image: postgres:latest
+    container_name: darlington-provider-a-db
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: "cold-in-june"
+      POSTGRES_DB: provider-a
+    networks:
+      - darlington_network
+    volumes:
+      - darlington_provider_data_a:/var/lib/postgresql/data
+
+  # Database for Provider B
+  darlington-provider-b-db:
+    image: postgres:latest
+    container_name: darlington-provider-b-db
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: "cold-in-june"
+      POSTGRES_DB: provider-b
+    networks:
+      - darlington_network
+    volumes:
+      - darlington_provider_data_b:/var/lib/postgresql/data
+
+  # Database for Provider C
+  darlington-provider-c-db:
+    image: postgres:latest
+    container_name: darlington-provider-c-db
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: "cold-in-june"
+      POSTGRES_DB: provider-c
+    networks:
+      - darlington_network
+    volumes:
+      - darlington_provider_data_c:/var/lib/postgresql/data
+
+  # Database for Smart City
+  darlington-smartcity-db:
+    image: postgres:latest
+    container_name: darlington-smartcity-db
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: "cold-in-june"
+      POSTGRES_DB: smart-city
+    networks:
+      - darlington_network
+    volumes:
+      - darlington_smartcity_data:/var/lib/postgresql/data
+    
+# durham Services
+  durham-api-gateway:
+    image: openjdk:23
+    container_name: durham-api-gateway
+    volumes:
+      - ./APIGateway-1.0.0-RELEASE.jar:/app/APIGateway-1.0.0-RELEASE.jar
+    working_dir: /app
+    command: ["java", "-jar", "APIGateway-1.0.0-RELEASE.jar", "--city.name=durham"]
+    ports:
+      - "8082:8080"
+    networks:
+      - durham_network
+      - shared_network
+  durham-citizen:
+    image: openjdk:23
+    container_name: durham-citizen
+    volumes:
+      - ./citizen-1.0.2-SNAPSHOT.jar:/app/citizen-1.0.2-SNAPSHOT.jar
+    working_dir: /app
+    command: ["java", "-jar", "citizen-1.0.2-SNAPSHOT.jar", "--spring.profiles.active=durham"]
+    networks:
+      - durham_network
+  durham-provider-a:
+    image: openjdk:23
+    container_name: durham-provider-a
+    volumes:
+      - ./provider-2.0.5-RELEASE.jar:/app/provider-2.0.5-RELEASE.jar
+    working_dir: /app
+    command: ["java", "-jar", "provider-2.0.5-RELEASE.jar", "--spring.profiles.active=providerA", "--city.name=durham"]
+    networks:
+      - durham_network
+    depends_on:
+      - durham-provider-a-db
+  durham-provider-b:
+    image: openjdk:23
+    container_name: durham-provider-b
+    volumes:
+      - ./provider-2.0.5-RELEASE.jar:/app/provider-2.0.5-RELEASE.jar
+    working_dir: /app
+    command: ["java", "-jar", "provider-2.0.5-RELEASE.jar", "--spring.profiles.active=providerB", "--city.name=durham"]
+    networks:
+      - durham_network
+    depends_on:
+      - durham-provider-b-db
+  durham-provider-c:
+    image: openjdk:23
+    container_name: durham-provider-c
+    volumes:
+      - ./provider-2.0.5-RELEASE.jar:/app/provider-2.0.5-RELEASE.jar
+    working_dir: /app
+    command: ["java", "-jar", "provider-2.0.5-RELEASE.jar", "--spring.profiles.active=providerC", "--city.name=durham"]
+    networks:
+      - durham_network
+    depends_on:
+      - durham-provider-c-db
+  durham-smartcity:
+    image: openjdk:23
+    container_name: durham-smartcity
+    volumes:
+      - ./smartcity-1.0.1-RELEASE.jar:/app/smartcity-1.0.1-RELEASE.jar
+    working_dir: /app
+    command: ["java", "-jar", "smartcity-1.0.1-RELEASE.jar", "--spring.profiles.active=durham"]
+    networks:
+      - durham_network
+    depends_on:
+      - durham-smartcity-db
+  durham-simulator:
+    image: openjdk:23
+    container_name: durham-simulator
+    volumes:
+      - ./Simulator-1.0.1-RELEASE.jar:/app/Simulator-1.0.1-RELEASE.jar
+    working_dir: /app
+    command: ["java", "-jar", "Simulator-1.0.1-RELEASE.jar", "--spring.profiles.active=durham"]
+    networks:
+      - durham_network
+    depends_on:
+      - durham-api-gateway
+      - durham-citizen
+      - durham-provider-a
+      - durham-provider-b
+      - durham-provider-c
+      - durham-smartcity
+  # Database for Provider A
+  durham-provider-a-db:
+    image: postgres:latest
+    container_name: durham-provider-a-db
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: "cold-in-june"
+      POSTGRES_DB: provider-a
+    networks:
+      - durham_network
+    volumes:
+      - durham_provider_data_a:/var/lib/postgresql/data
+
+  # Database for Provider B
+  durham-provider-b-db:
+    image: postgres:latest
+    container_name: durham-provider-b-db
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: "cold-in-june"
+      POSTGRES_DB: provider-b
+    networks:
+      - durham_network
+    volumes:
+      - durham_provider_data_b:/var/lib/postgresql/data
+
+  # Database for Provider C
+  durham-provider-c-db:
+    image: postgres:latest
+    container_name: durham-provider-c-db
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: "cold-in-june"
+      POSTGRES_DB: provider-c
+    networks:
+      - durham_network
+    volumes:
+      - durham_provider_data_c:/var/lib/postgresql/data
+
+  # Database for Smart City
+  durham-smartcity-db:
+    image: postgres:latest
+    container_name: durham-smartcity-db
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: "cold-in-june"
+      POSTGRES_DB: smart-city
+    networks:
+      - durham_network
+    volumes:
+      - durham_smartcity_data:/var/lib/postgresql/data      
+  
+  # PUT YOUR CITIES HERE SUNDERLAND
+
+volumes:
+  newcastle_provider_data_a:
+  newcastle_provider_data_b:
+  newcastle_provider_data_c:
+  newcastle_smartcity_data:
+  darlington_provider_data_a:
+  darlington_provider_data_b:
+  darlington_provider_data_c:
+  darlington_smartcity_data:
+  durham_provider_data_a:
+  durham_provider_data_b:
+  durham_provider_data_c:
+  durham_smartcity_data:
+  # PUT YOUR CITIES HERE SUNDERLAND

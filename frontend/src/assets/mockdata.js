@@ -1,0 +1,20 @@
+export const tempData = [
+    {
+        readingId:1,
+        subjectId:1,
+        readingKwh:100,
+        readingCreated:2024-10-10
+    },
+    {
+        readingId:2,
+        subjectId:1,
+        readingKwh:200,
+        readingCreated:2024-11-10
+    },
+    {
+        readingId:3,
+        subjectId:2,
+        readingKwh:200,
+        readingCreated:2024-12-10
+    }
+]

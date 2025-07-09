@@ -1,0 +1,176 @@
+2024-12-30 21:05:20 INFO  com.louisfiges.simulator.Main - Starting Main using Java 23 with PID 130988 (C:\Users\louis\Desktop\Advanced Programming\Simulator\build\classes\java\main started by louis in C:\Users\louis\Desktop\Advanced Programming\Simulator)
+2024-12-30 21:05:20 INFO  com.louisfiges.simulator.Main - No active profile set, falling back to 1 default profile: "default"
+2024-12-30 21:05:21 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8087 (http)
+2024-12-30 21:05:21 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8087"]
+2024-12-30 21:05:21 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-12-30 21:05:21 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-12-30 21:05:21 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-12-30 21:05:21 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 631 ms
+2024-12-30 21:05:21 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8087"]
+2024-12-30 21:05:21 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8087 (http) with context path '/'
+2024-12-30 21:05:21 INFO  com.louisfiges.simulator.Main - Started Main in 1.149 seconds (process running for 1.441)
+2024-12-30 21:05:21 ERROR c.l.s.microservices.Microservice - File not found: APIGateway-1.0.0-RELEASE.jar
+2024-12-30 23:32:03 INFO  com.louisfiges.simulator.Main - Starting Main using Java 23 with PID 142416 (C:\Users\louis\Documents\GitHub\kf7014-backend\Simulator\build\classes\java\main started by louis in C:\Users\louis\Documents\GitHub\kf7014-backend\Simulator)
+2024-12-30 23:32:03 INFO  com.louisfiges.simulator.Main - No active profile set, falling back to 1 default profile: "default"
+2024-12-30 23:32:03 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8087 (http)
+2024-12-30 23:32:03 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8087"]
+2024-12-30 23:32:03 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-12-30 23:32:03 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-12-30 23:32:03 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-12-30 23:32:03 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 447 ms
+2024-12-30 23:32:03 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8087"]
+2024-12-30 23:32:03 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8087 (http) with context path '/'
+2024-12-30 23:32:03 INFO  com.louisfiges.simulator.Main - Started Main in 0.931 seconds (process running for 1.256)
+2024-12-30 23:32:04 INFO  c.l.s.managers.DatabasesManager - Databases started successfully with Docker Compose
+2024-12-30 23:32:04 ERROR c.l.s.microservices.Microservice - File not found: APIGateway-1.0.0-RELEASE.jar
+2024-12-30 23:43:39 INFO  com.louisfiges.simulator.Main - Starting Main using Java 23 with PID 144240 (C:\Users\louis\Documents\GitHub\kf7014-backend\Simulator\build\classes\java\main started by louis in C:\Users\louis\Documents\GitHub\kf7014-backend\Simulator)
+2024-12-30 23:43:39 INFO  com.louisfiges.simulator.Main - No active profile set, falling back to 1 default profile: "default"
+2024-12-30 23:43:39 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8087 (http)
+2024-12-30 23:43:39 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8087"]
+2024-12-30 23:43:39 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-12-30 23:43:39 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-12-30 23:43:39 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-12-30 23:43:39 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 414 ms
+2024-12-30 23:43:39 WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'simExecutor': Injection of autowired dependencies failed
+2024-12-30 23:43:39 INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2024-12-30 23:43:39 INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-12-30 23:43:39 ERROR o.s.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'simExecutor': Injection of autowired dependencies failed
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:515)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1439)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:599)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:975)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:971)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:625)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352)
+	at com.louisfiges.simulator.Main.main(Main.java:10)
+Caused by: java.lang.IllegalArgumentException: Could not resolve placeholder 'simulator.city' in value "${simulator.city}"
+	at org.springframework.util.PropertyPlaceholderHelper.parseStringValue(PropertyPlaceholderHelper.java:180)
+	at org.springframework.util.PropertyPlaceholderHelper.replacePlaceholders(PropertyPlaceholderHelper.java:126)
+	at org.springframework.core.env.AbstractPropertyResolver.doResolvePlaceholders(AbstractPropertyResolver.java:239)
+	at org.springframework.core.env.AbstractPropertyResolver.resolveRequiredPlaceholders(AbstractPropertyResolver.java:210)
+	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer.lambda$processProperties$0(PropertySourcesPlaceholderConfigurer.java:200)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveEmbeddedValue(AbstractBeanFactory.java:964)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1374)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1353)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:785)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:768)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:145)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:509)
+	... 17 common frames omitted
+2024-12-30 23:46:54 INFO  com.louisfiges.simulator.Main - Starting Main using Java 23 with PID 145704 (C:\Users\louis\Documents\GitHub\kf7014-backend\Simulator\build\classes\java\main started by louis in C:\Users\louis\Documents\GitHub\kf7014-backend\Simulator)
+2024-12-30 23:46:54 INFO  com.louisfiges.simulator.Main - No active profile set, falling back to 1 default profile: "default"
+2024-12-30 23:46:54 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8087 (http)
+2024-12-30 23:46:54 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8087"]
+2024-12-30 23:46:54 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-12-30 23:46:54 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-12-30 23:46:54 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-12-30 23:46:54 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 409 ms
+2024-12-30 23:46:54 INFO  c.louisfiges.simulator.SimExecutor - null
+2024-12-30 23:46:54 WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'simExecutor': Injection of autowired dependencies failed
+2024-12-30 23:46:54 INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2024-12-30 23:46:54 INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-12-30 23:46:54 ERROR o.s.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'simExecutor': Injection of autowired dependencies failed
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:515)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1439)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:599)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:975)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:971)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:625)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352)
+	at com.louisfiges.simulator.Main.main(Main.java:10)
+Caused by: java.lang.IllegalArgumentException: Could not resolve placeholder 'simulator.city' in value "${simulator.city}"
+	at org.springframework.util.PropertyPlaceholderHelper.parseStringValue(PropertyPlaceholderHelper.java:180)
+	at org.springframework.util.PropertyPlaceholderHelper.replacePlaceholders(PropertyPlaceholderHelper.java:126)
+	at org.springframework.core.env.AbstractPropertyResolver.doResolvePlaceholders(AbstractPropertyResolver.java:239)
+	at org.springframework.core.env.AbstractPropertyResolver.resolveRequiredPlaceholders(AbstractPropertyResolver.java:210)
+	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer.lambda$processProperties$0(PropertySourcesPlaceholderConfigurer.java:200)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveEmbeddedValue(AbstractBeanFactory.java:964)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1374)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1353)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:785)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:768)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:145)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:509)
+	... 17 common frames omitted
+2024-12-30 23:50:10 INFO  com.louisfiges.simulator.Main - Starting Main using Java 23 with PID 146940 (C:\Users\louis\Documents\GitHub\kf7014-backend\Simulator\build\classes\java\main started by louis in C:\Users\louis\Documents\GitHub\kf7014-backend\Simulator)
+2024-12-30 23:50:10 INFO  com.louisfiges.simulator.Main - No active profile set, falling back to 1 default profile: "default"
+2024-12-30 23:50:10 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8087 (http)
+2024-12-30 23:50:10 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8087"]
+2024-12-30 23:50:10 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-12-30 23:50:10 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-12-30 23:50:10 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-12-30 23:50:10 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 402 ms
+2024-12-30 23:50:10 INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - Autowired annotation is not supported on static fields: private static java.lang.String com.louisfiges.simulator.Main.city
+2024-12-30 23:50:11 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8087"]
+2024-12-30 23:50:11 WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2024-12-30 23:50:11 INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-12-30 23:50:11 ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8087 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8087 or configure this application to listen on another port.
+
+2024-12-30 23:50:22 INFO  com.louisfiges.simulator.Main - Starting Main using Java 23 with PID 139432 (C:\Users\louis\Documents\GitHub\kf7014-backend\Simulator\build\classes\java\main started by louis in C:\Users\louis\Documents\GitHub\kf7014-backend\Simulator)
+2024-12-30 23:50:22 INFO  com.louisfiges.simulator.Main - No active profile set, falling back to 1 default profile: "default"
+2024-12-30 23:50:22 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8087 (http)
+2024-12-30 23:50:22 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8087"]
+2024-12-30 23:50:22 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-12-30 23:50:22 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-12-30 23:50:22 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-12-30 23:50:22 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 411 ms
+2024-12-30 23:50:22 INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - Autowired annotation is not supported on static fields: private static java.lang.String com.louisfiges.simulator.Main.city
+2024-12-30 23:50:22 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8087"]
+2024-12-30 23:50:22 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8087 (http) with context path '/'
+2024-12-30 23:50:22 INFO  com.louisfiges.simulator.Main - Started Main in 0.861 seconds (process running for 1.149)
+2024-12-30 23:50:23 INFO  c.l.s.managers.DatabasesManager - Databases started successfully with Docker Compose
+2024-12-30 23:50:23 ERROR c.l.s.microservices.Microservice - File not found: APIGateway-1.0.0-RELEASE.jar
+2024-12-30 23:50:41 INFO  com.louisfiges.simulator.Main - Starting Main using Java 23 with PID 131496 (C:\Users\louis\Documents\GitHub\kf7014-backend\Simulator\build\classes\java\main started by louis in C:\Users\louis\Documents\GitHub\kf7014-backend\Simulator)
+2024-12-30 23:50:41 INFO  com.louisfiges.simulator.Main - No active profile set, falling back to 1 default profile: "default"
+2024-12-30 23:50:42 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8087 (http)
+2024-12-30 23:50:42 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8087"]
+2024-12-30 23:50:42 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-12-30 23:50:42 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-12-30 23:50:42 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-12-30 23:50:42 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 424 ms
+2024-12-30 23:50:42 INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - Autowired annotation is not supported on static fields: private static java.lang.String com.louisfiges.simulator.Main.city
+2024-12-30 23:50:42 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8087"]
+2024-12-30 23:50:42 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8087 (http) with context path '/'
+2024-12-30 23:50:42 INFO  com.louisfiges.simulator.Main - Started Main in 0.887 seconds (process running for 1.178)
+2024-12-30 23:50:42 INFO  c.l.s.managers.DatabasesManager - Databases started successfully with Docker Compose
+2024-12-30 23:50:42 ERROR c.l.s.microservices.Microservice - File not found: APIGateway-1.0.0-RELEASE.jar

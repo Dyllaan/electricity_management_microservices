@@ -1,0 +1,145 @@
+networks:
+  newcastle_network:
+    driver: bridge
+
+services:
+  newcastle-api-gateway:
+    image: openjdk:23
+    container_name: newcastle-api-gateway
+    volumes:
+      - ./APIGateway-1.0.0-RELEASE.jar:/app/APIGateway-1.0.0-RELEASE.jar
+    working_dir: /app
+    command: ["java", "-jar", "APIGateway-1.0.0-RELEASE.jar", "--city.name=newcastle"]
+    ports:
+      - "8080:8080"
+    networks:
+      - newcastle_network
+  newcastle-citizen:
+    image: openjdk:23
+    container_name: newcastle-citizen
+    volumes:
+      - ./citizen-1.0.1-SNAPSHOT.jar:/app/citizen-1.0.1-SNAPSHOT.jar
+    working_dir: /app
+    command: ["java", "-jar", "citizen-1.0.1-SNAPSHOT.jar", --spring.profiles.active=newcastle"]
+    ports:
+      - "8081:8080"
+    networks:
+      - newcastle_network
+  newcastle-provider-a:
+    image: openjdk:23
+    container_name: newcastle-provider-a
+    volumes:
+      - ./provider-2.0.5-RELEASE.jar:/app/provider-2.0.5-RELEASE.jar
+    working_dir: /app
+    command: ["java", "-jar", "provider-2.0.5-RELEASE.jar", "--spring.profiles.active=providerA", "--city.name=newcastle"]
+    ports:
+      - "8082:8080"
+    networks:
+      - newcastle_network
+    depends_on:
+      - newcastle-provider-a-db
+  newcastle-provider-b:
+    image: openjdk:23
+    container_name: newcastle-provider-b
+    volumes:
+      - ./provider-2.0.5-RELEASE.jar:/app/provider-2.0.5-RELEASE.jar
+    working_dir: /app
+    command: ["java", "-jar", "provider-2.0.5-RELEASE.jar", "--spring.profiles.active=providerB", "--city.name=newcastle"]
+    ports:
+      - "8083:8080"
+    networks:
+      - newcastle_network
+    depends_on:
+      - newcastle-provider-b-db
+  newcastle-provider-c:
+    image: openjdk:23
+    container_name: newcastle-provider-c
+    volumes:
+      - ./provider-2.0.5-RELEASE.jar:/app/provider-2.0.5-RELEASE.jar
+    working_dir: /app
+    command: ["java", "-jar", "provider-2.0.5-RELEASE.jar", "--spring.profiles.active=providerC", "--city.name=newcastle"]
+    ports:
+      - "8084:8080"
+    networks:
+      - newcastle_network
+    depends_on:
+      - newcastle-provider-c-db
+  newcastle-smartcity:
+    image: openjdk:23
+    container_name: newcastle-smartcity
+    volumes:
+      - ./smartcity-1.0.1-RELEASE.jar:/app/smartcity-1.0.1-RELEASE.jar
+    working_dir: /app
+    command: ["java", "-jar", "smartcity-1.0.1-RELEASE.jar", "--spring.profiles.active=newcastle"]
+    ports:
+      - "8085:8080"
+    networks:
+      - newcastle_network
+    depends_on:
+      - newcastle-smartcity-db
+
+  # Database for Provider A
+  newcastle-provider-a-db:
+    image: postgres:latest
+    container_name: newcastle-provider-a-db
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: "cold-in-june"
+      POSTGRES_DB: provider-a
+    networks:
+      - newcastle_network
+    ports:
+      - "5432:5432"
+    volumes:
+      - provider_data_a:/var/lib/postgresql/data
+
+  # Database for Provider B
+  newcastle-provider-b-db:
+    image: postgres:latest
+    container_name: newcastle-provider-b-db
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: "cold-in-june"
+      POSTGRES_DB: provider-b
+    networks:
+      - newcastle_network
+    ports:
+      - "5433:5433"
+    volumes:
+      - provider_data_b:/var/lib/postgresql/data
+
+  # Database for Provider C
+  newcastle-provider-c-db:
+    image: postgres:latest
+    container_name: newcastle-provider-c-db
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: "cold-in-june"
+      POSTGRES_DB: provider-c
+    networks:
+      - newcastle_network
+    ports:
+      - "5434:5434"
+    volumes:
+      - provider_data_c:/var/lib/postgresql/data
+
+  # Database for Smart City
+  newcastle-smartcity-db:
+    image: postgres:latest
+    container_name: newcastle-smartcity-db
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: "cold-in-june"
+      POSTGRES_DB: smart-city
+    networks:
+      - newcastle_network
+    ports:
+      - "5435:5435"
+    volumes:
+      - smartcity_data:/var/lib/postgresql/data
+
+volumes:
+  provider_data_a:
+  provider_data_b:
+  provider_data_c:
+  smartcity_data:

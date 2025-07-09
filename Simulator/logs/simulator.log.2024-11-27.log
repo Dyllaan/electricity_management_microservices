@@ -1,0 +1,884 @@
+2024-11-27 00:18:19 INFO  com.louisfiges.simulator.Main - Starting Main using Java 23 with PID 79004 (C:\Users\louis\Desktop\Advanced Programming\Simulator\build\classes\java\main started by louis in C:\Users\louis\Desktop\Advanced Programming\Simulator)
+2024-11-27 00:18:19 INFO  com.louisfiges.simulator.Main - No active profile set, falling back to 1 default profile: "default"
+2024-11-27 00:18:19 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8087 (http)
+2024-11-27 00:18:19 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8087"]
+2024-11-27 00:18:19 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-11-27 00:18:19 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-11-27 00:18:19 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-11-27 00:18:19 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 441 ms
+2024-11-27 00:18:19 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8087"]
+2024-11-27 00:18:19 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8087 (http) with context path '/'
+2024-11-27 00:18:19 INFO  com.louisfiges.simulator.Main - Started Main in 0.915 seconds (process running for 1.232)
+2024-11-27 00:18:19 INFO  c.l.simulator.SmartCitySimulator - Starting microservice with profile: providerA
+2024-11-27 00:18:19 INFO  c.l.simulator.SmartCitySimulator - Starting microservice with profile: providerB
+2024-11-27 00:18:19 INFO  c.l.simulator.SmartCitySimulator - Starting microservice with profile: providerC
+2024-11-27 00:18:24 INFO  c.l.simulator.SmartCitySimulator - providerC is ready
+2024-11-27 00:18:25 INFO  c.l.simulator.SmartCitySimulator - providerB is ready
+2024-11-27 00:18:25 INFO  c.l.simulator.SmartCitySimulator - providerA is ready
+2024-11-27 00:18:25 INFO  c.l.simulator.SmartCitySimulator - All microservices are ready!
+2024-11-27 00:18:25 INFO  c.l.simulator.SmartCitySimulator - Simulating citizen data...
+2024-11-27 00:18:25 INFO  c.l.simulator.SmartCitySimulator - Simulating smart meter data...
+2024-11-27 00:18:25 ERROR c.l.simulator.MeterSimulation - Error sending subjects to provider: 400 Bad Request: "{"cause":"Invalid request, please check API documentation"}"
+2024-11-27 00:18:25 ERROR c.l.simulator.MeterSimulation - org.springframework.web.client.HttpClientErrorException$BadRequest: 400 Bad Request: "{"cause":"Invalid request, please check API documentation"}"
+2024-11-27 00:18:25 ERROR c.l.simulator.MeterSimulation - Error sending subjects to provider: 400 Bad Request: "{"cause":"Invalid request, please check API documentation"}"
+2024-11-27 00:18:25 ERROR c.l.simulator.MeterSimulation - org.springframework.web.client.HttpClientErrorException$BadRequest: 400 Bad Request: "{"cause":"Invalid request, please check API documentation"}"
+2024-11-27 00:18:25 ERROR c.l.simulator.MeterSimulation - Error sending subjects to provider: 400 Bad Request: "{"cause":"Invalid request, please check API documentation"}"
+2024-11-27 00:18:25 ERROR c.l.simulator.MeterSimulation - org.springframework.web.client.HttpClientErrorException$BadRequest: 400 Bad Request: "{"cause":"Invalid request, please check API documentation"}"
+2024-11-27 00:18:31 INFO  c.l.simulator.SmartCitySimulator - Shutting down Smart City Simulator
+2024-11-27 00:18:43 INFO  com.louisfiges.simulator.Main - Starting Main using Java 23 with PID 69432 (C:\Users\louis\Desktop\Advanced Programming\Simulator\build\classes\java\main started by louis in C:\Users\louis\Desktop\Advanced Programming\Simulator)
+2024-11-27 00:18:43 INFO  com.louisfiges.simulator.Main - No active profile set, falling back to 1 default profile: "default"
+2024-11-27 00:18:43 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8087 (http)
+2024-11-27 00:18:43 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8087"]
+2024-11-27 00:18:43 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-11-27 00:18:43 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-11-27 00:18:43 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-11-27 00:18:43 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 442 ms
+2024-11-27 00:18:44 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8087"]
+2024-11-27 00:18:44 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8087 (http) with context path '/'
+2024-11-27 00:18:44 INFO  com.louisfiges.simulator.Main - Started Main in 0.924 seconds (process running for 1.231)
+2024-11-27 00:18:44 INFO  c.l.simulator.SmartCitySimulator - Starting microservice with profile: providerA
+2024-11-27 00:18:44 INFO  c.l.simulator.SmartCitySimulator - Starting microservice with profile: providerB
+2024-11-27 00:18:44 INFO  c.l.simulator.SmartCitySimulator - Starting microservice with profile: providerC
+2024-11-27 00:18:49 INFO  c.l.simulator.SmartCitySimulator - providerB is ready
+2024-11-27 00:18:49 INFO  c.l.simulator.SmartCitySimulator - providerA is ready
+2024-11-27 00:18:49 INFO  c.l.simulator.SmartCitySimulator - providerC is ready
+2024-11-27 00:18:49 INFO  c.l.simulator.SmartCitySimulator - All microservices are ready!
+2024-11-27 00:59:12 INFO  c.l.simulator.SmartCitySimulator - Shutting down Smart City Simulator
+2024-11-27 00:59:13 INFO  com.louisfiges.simulator.Main - Starting Main using Java 23 with PID 79544 (C:\Users\louis\Desktop\Advanced Programming\Simulator\build\classes\java\main started by louis in C:\Users\louis\Desktop\Advanced Programming\Simulator)
+2024-11-27 00:59:13 INFO  com.louisfiges.simulator.Main - No active profile set, falling back to 1 default profile: "default"
+2024-11-27 00:59:14 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8087 (http)
+2024-11-27 00:59:14 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8087"]
+2024-11-27 00:59:14 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-11-27 00:59:14 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-11-27 00:59:14 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-11-27 00:59:14 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 398 ms
+2024-11-27 00:59:14 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8087"]
+2024-11-27 00:59:14 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8087 (http) with context path '/'
+2024-11-27 00:59:14 INFO  com.louisfiges.simulator.Main - Started Main in 0.85 seconds (process running for 1.218)
+2024-11-27 00:59:14 INFO  c.l.simulator.SmartCitySimulator - Starting microservice with profile: providerA
+2024-11-27 00:59:14 INFO  c.l.simulator.SmartCitySimulator - Starting microservice with profile: providerB
+2024-11-27 00:59:14 INFO  c.l.simulator.SmartCitySimulator - Starting microservice with profile: providerC
+2024-11-27 00:59:19 INFO  c.l.simulator.SmartCitySimulator - providerA is ready
+2024-11-27 00:59:19 INFO  c.l.simulator.SmartCitySimulator - providerC is ready
+2024-11-27 00:59:19 INFO  c.l.simulator.SmartCitySimulator - providerB is ready
+2024-11-27 00:59:19 INFO  c.l.simulator.SmartCitySimulator - All microservices are ready!
+2024-11-27 01:00:33 INFO  c.l.simulator.SmartCitySimulator - Shutting down Smart City Simulator
+2024-11-27 01:00:35 INFO  com.louisfiges.simulator.Main - Starting Main using Java 23 with PID 72040 (C:\Users\louis\Desktop\Advanced Programming\Simulator\build\classes\java\main started by louis in C:\Users\louis\Desktop\Advanced Programming\Simulator)
+2024-11-27 01:00:35 INFO  com.louisfiges.simulator.Main - No active profile set, falling back to 1 default profile: "default"
+2024-11-27 01:00:35 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8087 (http)
+2024-11-27 01:00:35 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8087"]
+2024-11-27 01:00:35 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-11-27 01:00:35 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-11-27 01:00:36 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-11-27 01:00:36 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 409 ms
+2024-11-27 01:00:36 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8087"]
+2024-11-27 01:00:36 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8087 (http) with context path '/'
+2024-11-27 01:00:36 INFO  com.louisfiges.simulator.Main - Started Main in 0.943 seconds (process running for 1.225)
+2024-11-27 01:00:36 INFO  c.l.simulator.SmartCitySimulator - Starting microservice with profile: providerA
+2024-11-27 01:00:36 INFO  c.l.simulator.SmartCitySimulator - Starting microservice with profile: providerB
+2024-11-27 01:00:36 INFO  c.l.simulator.SmartCitySimulator - Starting microservice with profile: providerC
+2024-11-27 01:00:41 INFO  c.l.simulator.SmartCitySimulator - providerB is ready
+2024-11-27 01:00:41 INFO  c.l.simulator.SmartCitySimulator - providerC is ready
+2024-11-27 01:00:41 INFO  c.l.simulator.SmartCitySimulator - providerA is ready
+2024-11-27 01:00:41 INFO  c.l.simulator.SmartCitySimulator - All microservices are ready!
+2024-11-27 01:04:12 INFO  c.l.simulator.SmartCitySimulator - Shutting down Smart City Simulator
+2024-11-27 01:04:13 INFO  com.louisfiges.simulator.Main - Starting Main using Java 23 with PID 59716 (C:\Users\louis\Desktop\Advanced Programming\Simulator\build\classes\java\main started by louis in C:\Users\louis\Desktop\Advanced Programming\Simulator)
+2024-11-27 01:04:13 INFO  com.louisfiges.simulator.Main - No active profile set, falling back to 1 default profile: "default"
+2024-11-27 01:04:14 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8087 (http)
+2024-11-27 01:04:14 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8087"]
+2024-11-27 01:04:14 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-11-27 01:04:14 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-11-27 01:04:14 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-11-27 01:04:14 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 416 ms
+2024-11-27 01:04:14 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8087"]
+2024-11-27 01:04:14 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8087 (http) with context path '/'
+2024-11-27 01:04:14 INFO  com.louisfiges.simulator.Main - Started Main in 0.903 seconds (process running for 1.188)
+2024-11-27 01:04:14 INFO  c.l.simulator.SmartCitySimulator - Starting microservice with profile: providerA
+2024-11-27 01:04:14 INFO  c.l.simulator.SmartCitySimulator - Starting microservice with profile: providerB
+2024-11-27 01:04:14 INFO  c.l.simulator.SmartCitySimulator - Starting microservice with profile: providerC
+2024-11-27 01:04:19 INFO  c.l.simulator.SmartCitySimulator - providerC is ready
+2024-11-27 01:04:19 INFO  c.l.simulator.SmartCitySimulator - providerB is ready
+2024-11-27 01:04:19 INFO  c.l.simulator.SmartCitySimulator - providerA is ready
+2024-11-27 01:04:19 INFO  c.l.simulator.SmartCitySimulator - All microservices are ready!
+2024-11-27 01:10:08 INFO  c.l.simulator.SmartCitySimulator - Shutting down Smart City Simulator
+2024-11-27 01:10:09 INFO  com.louisfiges.simulator.Main - Starting Main using Java 23 with PID 78252 (C:\Users\louis\Desktop\Advanced Programming\Simulator\build\classes\java\main started by louis in C:\Users\louis\Desktop\Advanced Programming\Simulator)
+2024-11-27 01:10:09 INFO  com.louisfiges.simulator.Main - No active profile set, falling back to 1 default profile: "default"
+2024-11-27 01:10:10 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8087 (http)
+2024-11-27 01:10:10 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8087"]
+2024-11-27 01:10:10 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-11-27 01:10:10 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-11-27 01:10:10 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-11-27 01:10:10 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 410 ms
+2024-11-27 01:10:10 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8087"]
+2024-11-27 01:10:10 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8087 (http) with context path '/'
+2024-11-27 01:10:10 INFO  com.louisfiges.simulator.Main - Started Main in 0.899 seconds (process running for 1.201)
+2024-11-27 01:10:10 INFO  c.l.simulator.SmartCitySimulator - Starting microservice with profile: providerA
+2024-11-27 01:10:10 INFO  c.l.simulator.SmartCitySimulator - Starting microservice with profile: providerB
+2024-11-27 01:10:10 INFO  c.l.simulator.SmartCitySimulator - Starting microservice with profile: providerC
+2024-11-27 01:10:15 INFO  c.l.simulator.SmartCitySimulator - providerA is ready
+2024-11-27 01:10:15 INFO  c.l.simulator.SmartCitySimulator - providerC is ready
+2024-11-27 01:10:15 INFO  c.l.simulator.SmartCitySimulator - providerB is ready
+2024-11-27 01:10:15 INFO  c.l.simulator.SmartCitySimulator - All microservices are ready!
+2024-11-27 01:10:15 INFO  c.l.simulator.SmartCitySimulator - Simulating customer data...
+2024-11-27 01:10:15 INFO  c.l.simulator.SmartCitySimulator - Sent customer: CustomerDTO[customerId=802, firstName=Customer, lastName=zkuiz, customerCreated=2024-11-27T01:10:15.510877500, subjects=[]]
+2024-11-27 01:10:15 INFO  c.l.simulator.SmartCitySimulator - Sent customer: CustomerDTO[customerId=803, firstName=Customer, lastName=rpdgd, customerCreated=2024-11-27T01:10:15.609235400, subjects=[]]
+2024-11-27 01:10:15 INFO  c.l.simulator.SmartCitySimulator - Sent customer: CustomerDTO[customerId=804, firstName=Customer, lastName=zhvzf, customerCreated=2024-11-27T01:10:15.622731600, subjects=[]]
+2024-11-27 01:10:15 INFO  c.l.simulator.SmartCitySimulator - Sent customer: CustomerDTO[customerId=805, firstName=Customer, lastName=pmxlf, customerCreated=2024-11-27T01:10:15.642153100, subjects=[]]
+2024-11-27 01:10:15 INFO  c.l.simulator.SmartCitySimulator - Sent customer: CustomerDTO[customerId=806, firstName=Customer, lastName=tjgat, customerCreated=2024-11-27T01:10:15.653366400, subjects=[]]
+2024-11-27 01:22:36 INFO  c.l.simulator.SmartCitySimulator - Shutting down Smart City Simulator
+2024-11-27 01:22:38 INFO  com.louisfiges.simulator.Main - Starting Main using Java 23 with PID 52216 (C:\Users\louis\Desktop\Advanced Programming\Simulator\build\classes\java\main started by louis in C:\Users\louis\Desktop\Advanced Programming\Simulator)
+2024-11-27 01:22:38 INFO  com.louisfiges.simulator.Main - No active profile set, falling back to 1 default profile: "default"
+2024-11-27 01:22:38 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8087 (http)
+2024-11-27 01:22:38 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8087"]
+2024-11-27 01:22:38 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-11-27 01:22:38 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-11-27 01:22:38 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-11-27 01:22:38 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 403 ms
+2024-11-27 01:22:38 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8087"]
+2024-11-27 01:22:38 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8087 (http) with context path '/'
+2024-11-27 01:22:38 INFO  com.louisfiges.simulator.Main - Started Main in 0.871 seconds (process running for 1.155)
+2024-11-27 01:22:38 INFO  c.louisfiges.simulator.SimExecutor - Starting microservice with profile: providerA
+2024-11-27 01:22:38 INFO  c.louisfiges.simulator.SimExecutor - Starting microservice with profile: providerB
+2024-11-27 01:22:38 INFO  c.louisfiges.simulator.SimExecutor - Starting microservice with profile: providerC
+2024-11-27 01:22:43 INFO  c.louisfiges.simulator.SimExecutor - providerA is ready
+2024-11-27 01:22:43 INFO  c.louisfiges.simulator.SimExecutor - providerC is ready
+2024-11-27 01:22:43 INFO  c.louisfiges.simulator.SimExecutor - providerB is ready
+2024-11-27 01:22:43 INFO  c.louisfiges.simulator.SimExecutor - All microservices are ready!
+2024-11-27 01:22:43 INFO  c.louisfiges.simulator.SimExecutor - Simulating customer data...
+2024-11-27 01:22:43 INFO  c.louisfiges.simulator.SimExecutor - Sent customer: CustomerDTO[customerId=1, firstName=Customer, lastName=nmnnj, customerCreated=2024-11-27T01:22:43.755196200, subjects=[]]
+2024-11-27 01:22:43 INFO  c.louisfiges.simulator.SimExecutor - Sent customer: CustomerDTO[customerId=2, firstName=Customer, lastName=kowrh, customerCreated=2024-11-27T01:22:43.867193400, subjects=[]]
+2024-11-27 01:22:43 INFO  c.louisfiges.simulator.SimExecutor - Sent customer: CustomerDTO[customerId=3, firstName=Customer, lastName=tbtgr, customerCreated=2024-11-27T01:22:43.881048200, subjects=[]]
+2024-11-27 01:22:43 INFO  c.louisfiges.simulator.SimExecutor - Sent customer: CustomerDTO[customerId=4, firstName=Customer, lastName=ckowd, customerCreated=2024-11-27T01:22:43.896129900, subjects=[]]
+2024-11-27 01:22:43 INFO  c.louisfiges.simulator.SimExecutor - Sent customer: CustomerDTO[customerId=5, firstName=Customer, lastName=nkmbd, customerCreated=2024-11-27T01:22:43.910806100, subjects=[]]
+2024-11-27 01:22:43 INFO  c.louisfiges.simulator.SimExecutor - Simulating customer data...
+2024-11-27 01:22:44 INFO  c.louisfiges.simulator.SimExecutor - Sent customer: CustomerDTO[customerId=1, firstName=Customer, lastName=ujrsl, customerCreated=2024-11-27T01:22:44.011037700, subjects=[]]
+2024-11-27 01:22:44 INFO  c.louisfiges.simulator.SimExecutor - Sent customer: CustomerDTO[customerId=2, firstName=Customer, lastName=rzxqr, customerCreated=2024-11-27T01:22:44.080924200, subjects=[]]
+2024-11-27 01:22:44 INFO  c.louisfiges.simulator.SimExecutor - Sent customer: CustomerDTO[customerId=3, firstName=Customer, lastName=hrgpr, customerCreated=2024-11-27T01:22:44.095537600, subjects=[]]
+2024-11-27 01:22:44 INFO  c.louisfiges.simulator.SimExecutor - Sent customer: CustomerDTO[customerId=4, firstName=Customer, lastName=aqlye, customerCreated=2024-11-27T01:22:44.110935100, subjects=[]]
+2024-11-27 01:22:44 INFO  c.louisfiges.simulator.SimExecutor - Sent customer: CustomerDTO[customerId=5, firstName=Customer, lastName=crtax, customerCreated=2024-11-27T01:22:44.126236700, subjects=[]]
+2024-11-27 01:22:44 INFO  c.louisfiges.simulator.SimExecutor - Simulating customer data...
+2024-11-27 01:22:44 INFO  c.louisfiges.simulator.SimExecutor - Sent customer: CustomerDTO[customerId=852, firstName=Customer, lastName=vhvih, customerCreated=2024-11-27T01:22:44.227141800, subjects=[]]
+2024-11-27 01:22:44 INFO  c.louisfiges.simulator.SimExecutor - Sent customer: CustomerDTO[customerId=853, firstName=Customer, lastName=haglf, customerCreated=2024-11-27T01:22:44.298476700, subjects=[]]
+2024-11-27 01:22:44 INFO  c.louisfiges.simulator.SimExecutor - Sent customer: CustomerDTO[customerId=854, firstName=Customer, lastName=psiqa, customerCreated=2024-11-27T01:22:44.313280600, subjects=[]]
+2024-11-27 01:22:44 INFO  c.louisfiges.simulator.SimExecutor - Sent customer: CustomerDTO[customerId=855, firstName=Customer, lastName=dhucc, customerCreated=2024-11-27T01:22:44.328517300, subjects=[]]
+2024-11-27 01:22:44 INFO  c.louisfiges.simulator.SimExecutor - Sent customer: CustomerDTO[customerId=856, firstName=Customer, lastName=mceia, customerCreated=2024-11-27T01:22:44.344044800, subjects=[]]
+2024-11-27 01:22:44 INFO  c.louisfiges.simulator.SimExecutor - {prov-a=[CustomerDTO[customerId=1, firstName=Customer, lastName=nmnnj, customerCreated=2024-11-27T01:22:43.755196200, subjects=[]], CustomerDTO[customerId=2, firstName=Customer, lastName=kowrh, customerCreated=2024-11-27T01:22:43.867193400, subjects=[]], CustomerDTO[customerId=3, firstName=Customer, lastName=tbtgr, customerCreated=2024-11-27T01:22:43.881048200, subjects=[]], CustomerDTO[customerId=4, firstName=Customer, lastName=ckowd, customerCreated=2024-11-27T01:22:43.896129900, subjects=[]], CustomerDTO[customerId=5, firstName=Customer, lastName=nkmbd, customerCreated=2024-11-27T01:22:43.910806100, subjects=[]]], prov-c=[CustomerDTO[customerId=1, firstName=Customer, lastName=ujrsl, customerCreated=2024-11-27T01:22:44.011037700, subjects=[]], CustomerDTO[customerId=2, firstName=Customer, lastName=rzxqr, customerCreated=2024-11-27T01:22:44.080924200, subjects=[]], CustomerDTO[customerId=3, firstName=Customer, lastName=hrgpr, customerCreated=2024-11-27T01:22:44.095537600, subjects=[]], CustomerDTO[customerId=4, firstName=Customer, lastName=aqlye, customerCreated=2024-11-27T01:22:44.110935100, subjects=[]], CustomerDTO[customerId=5, firstName=Customer, lastName=crtax, customerCreated=2024-11-27T01:22:44.126236700, subjects=[]]], prov-b=[CustomerDTO[customerId=852, firstName=Customer, lastName=vhvih, customerCreated=2024-11-27T01:22:44.227141800, subjects=[]], CustomerDTO[customerId=853, firstName=Customer, lastName=haglf, customerCreated=2024-11-27T01:22:44.298476700, subjects=[]], CustomerDTO[customerId=854, firstName=Customer, lastName=psiqa, customerCreated=2024-11-27T01:22:44.313280600, subjects=[]], CustomerDTO[customerId=855, firstName=Customer, lastName=dhucc, customerCreated=2024-11-27T01:22:44.328517300, subjects=[]], CustomerDTO[customerId=856, firstName=Customer, lastName=mceia, customerCreated=2024-11-27T01:22:44.344044800, subjects=[]]]}
+2024-11-27 01:32:14 INFO  c.louisfiges.simulator.SimExecutor - Shutting down Smart City Simulator
+2024-11-27 01:32:15 INFO  com.louisfiges.simulator.Main - Starting Main using Java 23 with PID 82032 (C:\Users\louis\Desktop\Advanced Programming\Simulator\build\classes\java\main started by louis in C:\Users\louis\Desktop\Advanced Programming\Simulator)
+2024-11-27 01:32:15 INFO  com.louisfiges.simulator.Main - No active profile set, falling back to 1 default profile: "default"
+2024-11-27 01:32:16 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8087 (http)
+2024-11-27 01:32:16 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8087"]
+2024-11-27 01:32:16 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-11-27 01:32:16 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-11-27 01:32:16 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-11-27 01:32:16 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 398 ms
+2024-11-27 01:32:16 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8087"]
+2024-11-27 01:32:16 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8087 (http) with context path '/'
+2024-11-27 01:32:16 INFO  com.louisfiges.simulator.Main - Started Main in 0.867 seconds (process running for 1.16)
+2024-11-27 01:32:16 INFO  c.louisfiges.simulator.SimExecutor - Starting microservice with profile: providerA
+2024-11-27 01:32:16 INFO  c.louisfiges.simulator.SimExecutor - Starting microservice with profile: providerB
+2024-11-27 01:32:16 INFO  c.louisfiges.simulator.SimExecutor - Starting microservice with profile: providerC
+2024-11-27 01:32:20 INFO  c.louisfiges.simulator.SimExecutor - providerA is ready
+2024-11-27 01:32:20 INFO  c.louisfiges.simulator.SimExecutor - providerB is ready
+2024-11-27 01:32:20 INFO  c.louisfiges.simulator.SimExecutor - providerC is ready
+2024-11-27 01:32:20 INFO  c.louisfiges.simulator.SimExecutor - All microservices are ready!
+2024-11-27 01:32:20 INFO  c.louisfiges.simulator.SimExecutor - Simulating customer data...prov-a : manual
+2024-11-27 01:32:21 INFO  c.louisfiges.simulator.SimExecutor - Sent customer: CustomerDTO[customerId=52, firstName=Customer, lastName=mgova, customerCreated=2024-11-27T01:32:21.098154100, subjects=[]]
+2024-11-27 01:32:21 INFO  c.louisfiges.simulator.SimExecutor - Sent customer: CustomerDTO[customerId=53, firstName=Customer, lastName=tksdm, customerCreated=2024-11-27T01:32:21.198540600, subjects=[]]
+2024-11-27 01:32:21 INFO  c.louisfiges.simulator.SimExecutor - Sent customer: CustomerDTO[customerId=54, firstName=Customer, lastName=wiqoe, customerCreated=2024-11-27T01:32:21.213401, subjects=[]]
+2024-11-27 01:32:21 INFO  c.louisfiges.simulator.SimExecutor - Sent customer: CustomerDTO[customerId=55, firstName=Customer, lastName=mdiep, customerCreated=2024-11-27T01:32:21.228194300, subjects=[]]
+2024-11-27 01:32:21 INFO  c.louisfiges.simulator.SimExecutor - Sent customer: CustomerDTO[customerId=56, firstName=Customer, lastName=xrdqz, customerCreated=2024-11-27T01:32:21.243269100, subjects=[]]
+2024-11-27 01:32:21 INFO  c.louisfiges.simulator.SimExecutor - Sent subject: SubjectDTO[subjectId=643fdfa8-e769-4e8f-bbe2-95005ea8c5dc, sourceName=manual, subjectAdded=2024-11-27T01:32:21.466909400, customerId=52]
+2024-11-27 01:32:21 INFO  c.louisfiges.simulator.SimExecutor - Sent subject: SubjectDTO[subjectId=228d0b4b-70cb-43c4-8e7c-be672af1fd20, sourceName=manual, subjectAdded=2024-11-27T01:32:21.497955400, customerId=53]
+2024-11-27 01:32:21 INFO  c.louisfiges.simulator.SimExecutor - Sent subject: SubjectDTO[subjectId=06f5bdaf-6d07-4a4e-b151-4ab2611ff098, sourceName=manual, subjectAdded=2024-11-27T01:32:21.528049, customerId=54]
+2024-11-27 01:32:21 INFO  c.louisfiges.simulator.SimExecutor - Sent subject: SubjectDTO[subjectId=8b2c7970-9a9b-4212-a7fb-b9dccf1e114b, sourceName=manual, subjectAdded=2024-11-27T01:32:21.542051700, customerId=55]
+2024-11-27 01:32:21 INFO  c.louisfiges.simulator.SimExecutor - Sent subject: SubjectDTO[subjectId=6977f75e-21cf-4451-ab93-df616005b107, sourceName=manual, subjectAdded=2024-11-27T01:32:21.557067400, customerId=56]
+2024-11-27 01:32:21 INFO  c.louisfiges.simulator.SimExecutor - Simulating customer data...prov-a : smart-meter
+2024-11-27 01:32:21 INFO  c.louisfiges.simulator.SimExecutor - Sent customer: CustomerDTO[customerId=57, firstName=Customer, lastName=cynoz, customerCreated=2024-11-27T01:32:21.568446800, subjects=[]]
+2024-11-27 01:32:21 INFO  c.louisfiges.simulator.SimExecutor - Sent customer: CustomerDTO[customerId=58, firstName=Customer, lastName=vbsdq, customerCreated=2024-11-27T01:32:21.583086, subjects=[]]
+2024-11-27 01:32:21 INFO  c.louisfiges.simulator.SimExecutor - Sent customer: CustomerDTO[customerId=59, firstName=Customer, lastName=mczto, customerCreated=2024-11-27T01:32:21.598106, subjects=[]]
+2024-11-27 01:32:21 INFO  c.louisfiges.simulator.SimExecutor - Sent customer: CustomerDTO[customerId=60, firstName=Customer, lastName=bzxvy, customerCreated=2024-11-27T01:32:21.614093800, subjects=[]]
+2024-11-27 01:32:21 INFO  c.louisfiges.simulator.SimExecutor - Sent customer: CustomerDTO[customerId=61, firstName=Customer, lastName=owwwi, customerCreated=2024-11-27T01:32:21.629711100, subjects=[]]
+2024-11-27 01:32:21 INFO  c.louisfiges.simulator.SimExecutor - Sent subject: SubjectDTO[subjectId=04bd2750-13d1-4060-b0aa-750855f08a9f, sourceName=smart-meter, subjectAdded=2024-11-27T01:32:21.651065, customerId=57]
+2024-11-27 01:32:21 INFO  c.louisfiges.simulator.SimExecutor - Sent subject: SubjectDTO[subjectId=691c6cce-6292-470f-b2c2-311fa4e83531, sourceName=smart-meter, subjectAdded=2024-11-27T01:32:21.680478900, customerId=58]
+2024-11-27 01:32:21 INFO  c.louisfiges.simulator.SimExecutor - Sent subject: SubjectDTO[subjectId=72c38280-0ab0-4e6a-a37f-0ff19dde8282, sourceName=smart-meter, subjectAdded=2024-11-27T01:32:21.710885400, customerId=59]
+2024-11-27 01:32:21 INFO  c.louisfiges.simulator.SimExecutor - Sent subject: SubjectDTO[subjectId=d3968212-fb61-4d6b-b011-4db41085b6a2, sourceName=smart-meter, subjectAdded=2024-11-27T01:32:21.724876200, customerId=60]
+2024-11-27 01:32:21 INFO  c.louisfiges.simulator.SimExecutor - Sent subject: SubjectDTO[subjectId=c2265739-dfc6-4f43-b850-9101899f5303, sourceName=smart-meter, subjectAdded=2024-11-27T01:32:21.739929400, customerId=61]
+2024-11-27 01:32:21 INFO  c.louisfiges.simulator.SimExecutor - Simulating customer data...prov-b : manual
+2024-11-27 01:32:21 INFO  c.louisfiges.simulator.SimExecutor - Sent customer: CustomerDTO[customerId=902, firstName=Customer, lastName=zwyzi, customerCreated=2024-11-27T01:32:21.838762100, subjects=[]]
+2024-11-27 01:32:21 INFO  c.louisfiges.simulator.SimExecutor - Sent customer: CustomerDTO[customerId=903, firstName=Customer, lastName=vvjfo, customerCreated=2024-11-27T01:32:21.904120900, subjects=[]]
+2024-11-27 01:32:21 INFO  c.louisfiges.simulator.SimExecutor - Sent customer: CustomerDTO[customerId=904, firstName=Customer, lastName=olfzo, customerCreated=2024-11-27T01:32:21.920314800, subjects=[]]
+2024-11-27 01:32:21 INFO  c.louisfiges.simulator.SimExecutor - Sent customer: CustomerDTO[customerId=905, firstName=Customer, lastName=xjikf, customerCreated=2024-11-27T01:32:21.935734400, subjects=[]]
+2024-11-27 01:32:21 INFO  c.louisfiges.simulator.SimExecutor - Sent customer: CustomerDTO[customerId=906, firstName=Customer, lastName=exmly, customerCreated=2024-11-27T01:32:21.950945600, subjects=[]]
+2024-11-27 01:32:22 INFO  c.louisfiges.simulator.SimExecutor - Sent subject: SubjectDTO[subjectId=abede296-e8fb-4acb-8238-fde1af0f76f5, sourceName=manual, subjectAdded=2024-11-27T01:32:22.159810400, customerId=902]
+2024-11-27 01:32:22 INFO  c.louisfiges.simulator.SimExecutor - Sent subject: SubjectDTO[subjectId=d6a3a6d4-3be5-4ff7-a360-f529bae17f16, sourceName=manual, subjectAdded=2024-11-27T01:32:22.190945600, customerId=903]
+2024-11-27 01:32:22 INFO  c.louisfiges.simulator.SimExecutor - Sent subject: SubjectDTO[subjectId=ceb6c33a-c3a5-4190-9789-9b2d65a896fb, sourceName=manual, subjectAdded=2024-11-27T01:32:22.220824900, customerId=904]
+2024-11-27 01:32:22 INFO  c.louisfiges.simulator.SimExecutor - Sent subject: SubjectDTO[subjectId=3da92eae-cd42-4a37-83b0-45ef5421333a, sourceName=manual, subjectAdded=2024-11-27T01:32:22.251620800, customerId=905]
+2024-11-27 01:32:22 INFO  c.louisfiges.simulator.SimExecutor - Sent subject: SubjectDTO[subjectId=c6d7f58b-b7c2-4af9-83f6-e182b3d7fa25, sourceName=manual, subjectAdded=2024-11-27T01:32:22.280796900, customerId=906]
+2024-11-27 01:32:22 INFO  c.louisfiges.simulator.SimExecutor - Simulating customer data...prov-b : smart-meter
+2024-11-27 01:32:22 INFO  c.louisfiges.simulator.SimExecutor - Sent customer: CustomerDTO[customerId=907, firstName=Customer, lastName=ufaay, customerCreated=2024-11-27T01:32:22.306553300, subjects=[]]
+2024-11-27 01:32:22 INFO  c.louisfiges.simulator.SimExecutor - Sent customer: CustomerDTO[customerId=908, firstName=Customer, lastName=gnwmu, customerCreated=2024-11-27T01:32:22.321514200, subjects=[]]
+2024-11-27 01:32:22 INFO  c.louisfiges.simulator.SimExecutor - Sent customer: CustomerDTO[customerId=909, firstName=Customer, lastName=tfqtj, customerCreated=2024-11-27T01:32:22.336492300, subjects=[]]
+2024-11-27 01:32:22 INFO  c.louisfiges.simulator.SimExecutor - Sent customer: CustomerDTO[customerId=910, firstName=Customer, lastName=ykxbl, customerCreated=2024-11-27T01:32:22.351300800, subjects=[]]
+2024-11-27 01:32:22 INFO  c.louisfiges.simulator.SimExecutor - Sent customer: CustomerDTO[customerId=911, firstName=Customer, lastName=kjswz, customerCreated=2024-11-27T01:32:22.366068, subjects=[]]
+2024-11-27 01:32:22 INFO  c.louisfiges.simulator.SimExecutor - Sent subject: SubjectDTO[subjectId=79c6f835-7a0f-46e0-b851-eb29fb6d7e15, sourceName=smart-meter, subjectAdded=2024-11-27T01:32:22.386182700, customerId=907]
+2024-11-27 01:32:22 INFO  c.louisfiges.simulator.SimExecutor - Sent subject: SubjectDTO[subjectId=2100191e-1d78-41e1-a817-dab9a5c08dda, sourceName=smart-meter, subjectAdded=2024-11-27T01:32:22.400906800, customerId=908]
+2024-11-27 01:32:22 INFO  c.louisfiges.simulator.SimExecutor - Sent subject: SubjectDTO[subjectId=1f64729e-8d20-4eaf-886b-f446f983529b, sourceName=smart-meter, subjectAdded=2024-11-27T01:32:22.415883500, customerId=909]
+2024-11-27 01:32:22 INFO  c.louisfiges.simulator.SimExecutor - Sent subject: SubjectDTO[subjectId=a906cbab-42c4-4ada-88d3-55fe5eff05fd, sourceName=smart-meter, subjectAdded=2024-11-27T01:32:22.430952800, customerId=910]
+2024-11-27 01:32:22 INFO  c.louisfiges.simulator.SimExecutor - Sent subject: SubjectDTO[subjectId=39b17dc1-38f6-4a55-8df3-ee533c6f4fa4, sourceName=smart-meter, subjectAdded=2024-11-27T01:32:22.446059200, customerId=911]
+2024-11-27 01:32:22 INFO  c.louisfiges.simulator.SimExecutor - Simulating customer data...prov-c : manual
+2024-11-27 01:32:22 INFO  c.louisfiges.simulator.SimExecutor - Sent customer: CustomerDTO[customerId=52, firstName=Customer, lastName=deham, customerCreated=2024-11-27T01:32:22.551748600, subjects=[]]
+2024-11-27 01:32:22 INFO  c.louisfiges.simulator.SimExecutor - Sent customer: CustomerDTO[customerId=53, firstName=Customer, lastName=mwfmx, customerCreated=2024-11-27T01:32:22.627898900, subjects=[]]
+2024-11-27 01:32:22 INFO  c.louisfiges.simulator.SimExecutor - Sent customer: CustomerDTO[customerId=54, firstName=Customer, lastName=jawrf, customerCreated=2024-11-27T01:32:22.642953800, subjects=[]]
+2024-11-27 01:32:22 INFO  c.louisfiges.simulator.SimExecutor - Sent customer: CustomerDTO[customerId=55, firstName=Customer, lastName=hipcq, customerCreated=2024-11-27T01:32:22.658443200, subjects=[]]
+2024-11-27 01:32:22 INFO  c.louisfiges.simulator.SimExecutor - Sent customer: CustomerDTO[customerId=56, firstName=Customer, lastName=qinoi, customerCreated=2024-11-27T01:32:22.674106, subjects=[]]
+2024-11-27 01:32:23 INFO  c.louisfiges.simulator.SimExecutor - Sent subject: SubjectDTO[subjectId=8d74a18a-712f-4d6e-8348-ebf75c29cef5, sourceName=manual, subjectAdded=2024-11-27T01:32:22.910996800, customerId=52]
+2024-11-27 01:32:23 INFO  c.louisfiges.simulator.SimExecutor - Sent subject: SubjectDTO[subjectId=560171f6-8f4a-4a60-b570-0f1ed5fc63ff, sourceName=manual, subjectAdded=2024-11-27T01:32:22.940996800, customerId=53]
+2024-11-27 01:32:23 INFO  c.louisfiges.simulator.SimExecutor - Sent subject: SubjectDTO[subjectId=84beaaf5-1c08-46eb-9d00-fb2e99026ac4, sourceName=manual, subjectAdded=2024-11-27T01:32:22.971808200, customerId=54]
+2024-11-27 01:32:23 INFO  c.louisfiges.simulator.SimExecutor - Sent subject: SubjectDTO[subjectId=87daa638-74a8-4eed-adc7-058624fbbd19, sourceName=manual, subjectAdded=2024-11-27T01:32:23.001347700, customerId=55]
+2024-11-27 01:32:23 INFO  c.louisfiges.simulator.SimExecutor - Sent subject: SubjectDTO[subjectId=0835ee33-183f-4675-9740-744253fa6753, sourceName=manual, subjectAdded=2024-11-27T01:32:23.031707600, customerId=56]
+2024-11-27 01:32:23 INFO  c.louisfiges.simulator.SimExecutor - Simulating customer data...prov-c : smart-meter
+2024-11-27 01:32:23 INFO  c.louisfiges.simulator.SimExecutor - Sent customer: CustomerDTO[customerId=57, firstName=Customer, lastName=cpmmj, customerCreated=2024-11-27T01:32:23.057917900, subjects=[]]
+2024-11-27 01:32:23 INFO  c.louisfiges.simulator.SimExecutor - Sent customer: CustomerDTO[customerId=58, firstName=Customer, lastName=hpjks, customerCreated=2024-11-27T01:32:23.072571, subjects=[]]
+2024-11-27 01:32:23 INFO  c.louisfiges.simulator.SimExecutor - Sent customer: CustomerDTO[customerId=59, firstName=Customer, lastName=augqh, customerCreated=2024-11-27T01:32:23.088380200, subjects=[]]
+2024-11-27 01:32:23 INFO  c.louisfiges.simulator.SimExecutor - Sent customer: CustomerDTO[customerId=60, firstName=Customer, lastName=vtwbc, customerCreated=2024-11-27T01:32:23.103904100, subjects=[]]
+2024-11-27 01:32:23 INFO  c.louisfiges.simulator.SimExecutor - Sent customer: CustomerDTO[customerId=61, firstName=Customer, lastName=kngig, customerCreated=2024-11-27T01:32:23.118562500, subjects=[]]
+2024-11-27 01:32:23 INFO  c.louisfiges.simulator.SimExecutor - Sent subject: SubjectDTO[subjectId=8f04c863-3d91-4ebf-a46f-3aa95c0fe10b, sourceName=smart-meter, subjectAdded=2024-11-27T01:32:23.139650, customerId=57]
+2024-11-27 01:32:23 INFO  c.louisfiges.simulator.SimExecutor - Sent subject: SubjectDTO[subjectId=443c9a59-7acb-46dc-8965-c6ba27a3737a, sourceName=smart-meter, subjectAdded=2024-11-27T01:32:23.169236800, customerId=58]
+2024-11-27 01:32:23 INFO  c.louisfiges.simulator.SimExecutor - Sent subject: SubjectDTO[subjectId=5c146b96-37a2-4444-b82e-230e93bf5007, sourceName=smart-meter, subjectAdded=2024-11-27T01:32:23.183838700, customerId=59]
+2024-11-27 01:32:23 INFO  c.louisfiges.simulator.SimExecutor - Sent subject: SubjectDTO[subjectId=09e00ad1-2457-49f2-9567-41659864d840, sourceName=smart-meter, subjectAdded=2024-11-27T01:32:23.198899700, customerId=60]
+2024-11-27 01:32:23 INFO  c.louisfiges.simulator.SimExecutor - Sent subject: SubjectDTO[subjectId=4132a17f-6fa4-45e2-826b-612d01b56f49, sourceName=smart-meter, subjectAdded=2024-11-27T01:32:23.213975400, customerId=61]
+2024-11-27 02:24:18 INFO  c.louisfiges.simulator.SimExecutor - Shutting down Smart City Simulator
+2024-11-27 15:37:12 INFO  com.louisfiges.simulator.Main - Starting Main using Java 23 with PID 76328 (C:\Users\louis\Desktop\Advanced Programming\Simulator\build\classes\java\main started by louis in C:\Users\louis\Desktop\Advanced Programming\Simulator)
+2024-11-27 15:37:12 INFO  com.louisfiges.simulator.Main - No active profile set, falling back to 1 default profile: "default"
+2024-11-27 15:37:12 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8087 (http)
+2024-11-27 15:37:12 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8087"]
+2024-11-27 15:37:12 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-11-27 15:37:12 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-11-27 15:37:12 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-11-27 15:37:12 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 432 ms
+2024-11-27 15:37:12 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8087"]
+2024-11-27 15:37:12 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8087 (http) with context path '/'
+2024-11-27 15:37:12 INFO  com.louisfiges.simulator.Main - Started Main in 0.876 seconds (process running for 1.207)
+2024-11-27 15:37:12 INFO  c.louisfiges.simulator.SimExecutor - Starting microservice with profile: providerA
+2024-11-27 15:37:12 INFO  c.louisfiges.simulator.SimExecutor - Starting microservice with profile: providerB
+2024-11-27 15:37:12 INFO  c.louisfiges.simulator.SimExecutor - Starting microservice with profile: providerC
+2024-11-27 15:37:30 INFO  c.louisfiges.simulator.SimExecutor - Shutting down Smart City Simulator
+2024-11-27 15:38:43 INFO  com.louisfiges.simulator.Main - Starting Main using Java 23 with PID 22684 (C:\Users\louis\Desktop\Advanced Programming\Simulator\build\classes\java\main started by louis in C:\Users\louis\Desktop\Advanced Programming\Simulator)
+2024-11-27 15:38:43 INFO  com.louisfiges.simulator.Main - No active profile set, falling back to 1 default profile: "default"
+2024-11-27 15:38:43 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8087 (http)
+2024-11-27 15:38:43 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8087"]
+2024-11-27 15:38:43 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-11-27 15:38:43 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-11-27 15:38:43 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-11-27 15:38:43 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 409 ms
+2024-11-27 15:38:43 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8087"]
+2024-11-27 15:38:43 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8087 (http) with context path '/'
+2024-11-27 15:38:43 INFO  com.louisfiges.simulator.Main - Started Main in 0.848 seconds (process running for 1.153)
+2024-11-27 15:38:47 INFO  c.louisfiges.simulator.SimExecutor - Shutting down Smart City Simulator
+2024-11-27 15:39:20 INFO  com.louisfiges.simulator.Main - Starting Main using Java 23 with PID 58924 (C:\Users\louis\Desktop\Advanced Programming\Simulator\build\classes\java\main started by louis in C:\Users\louis\Desktop\Advanced Programming\Simulator)
+2024-11-27 15:39:20 INFO  com.louisfiges.simulator.Main - No active profile set, falling back to 1 default profile: "default"
+2024-11-27 15:39:20 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8087 (http)
+2024-11-27 15:39:20 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8087"]
+2024-11-27 15:39:20 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-11-27 15:39:20 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-11-27 15:39:20 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-11-27 15:39:20 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 435 ms
+2024-11-27 15:39:20 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8087"]
+2024-11-27 15:39:20 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8087 (http) with context path '/'
+2024-11-27 15:39:20 INFO  com.louisfiges.simulator.Main - Started Main in 0.887 seconds (process running for 1.217)
+2024-11-27 15:39:24 INFO  c.louisfiges.simulator.SimExecutor - Shutting down Smart City Simulator
+2024-11-27 21:28:23 INFO  com.louisfiges.simulator.Main - Starting Main using Java 23 with PID 53492 (C:\Users\louis\Desktop\Advanced Programming\Simulator\build\classes\java\main started by louis in C:\Users\louis\Desktop\Advanced Programming\Simulator)
+2024-11-27 21:28:23 INFO  com.louisfiges.simulator.Main - No active profile set, falling back to 1 default profile: "default"
+2024-11-27 21:28:23 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8087 (http)
+2024-11-27 21:28:23 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8087"]
+2024-11-27 21:28:23 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-11-27 21:28:23 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-11-27 21:28:23 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-11-27 21:28:23 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 413 ms
+2024-11-27 21:28:23 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8087"]
+2024-11-27 21:28:23 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8087 (http) with context path '/'
+2024-11-27 21:28:23 INFO  com.louisfiges.simulator.Main - Started Main in 0.856 seconds (process running for 1.149)
+2024-11-27 21:28:24 INFO  c.louisfiges.simulator.SimExecutor - Starting microservice with profile: providerA
+2024-11-27 21:28:24 INFO  c.louisfiges.simulator.SimExecutor - Starting microservice with profile: providerB
+2024-11-27 21:28:24 INFO  c.louisfiges.simulator.SimExecutor - Starting microservice with profile: providerC
+2024-11-27 21:28:41 INFO  com.louisfiges.simulator.Main - Starting Main using Java 23 with PID 22624 (C:\Users\louis\Desktop\Advanced Programming\Simulator\build\classes\java\main started by louis in C:\Users\louis\Desktop\Advanced Programming\Simulator)
+2024-11-27 21:28:41 INFO  com.louisfiges.simulator.Main - No active profile set, falling back to 1 default profile: "default"
+2024-11-27 21:28:42 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8087 (http)
+2024-11-27 21:28:42 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8087"]
+2024-11-27 21:28:42 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-11-27 21:28:42 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-11-27 21:28:42 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-11-27 21:28:42 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 402 ms
+2024-11-27 21:28:42 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8087"]
+2024-11-27 21:28:42 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8087 (http) with context path '/'
+2024-11-27 21:28:42 INFO  com.louisfiges.simulator.Main - Started Main in 0.834 seconds (process running for 1.116)
+2024-11-27 21:28:42 INFO  c.louisfiges.simulator.SimExecutor - Starting microservice with profile: providerA
+2024-11-27 21:28:42 INFO  c.louisfiges.simulator.SimExecutor - Starting microservice with profile: providerB
+2024-11-27 21:28:42 INFO  c.louisfiges.simulator.SimExecutor - Starting microservice with profile: providerC
+2024-11-27 21:30:38 INFO  com.louisfiges.simulator.Main - Starting Main using Java 23 with PID 90136 (C:\Users\louis\Desktop\Advanced Programming\Simulator\build\classes\java\main started by louis in C:\Users\louis\Desktop\Advanced Programming\Simulator)
+2024-11-27 21:30:38 INFO  com.louisfiges.simulator.Main - No active profile set, falling back to 1 default profile: "default"
+2024-11-27 21:30:39 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8087 (http)
+2024-11-27 21:30:39 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8087"]
+2024-11-27 21:30:39 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-11-27 21:30:39 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-11-27 21:30:39 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-11-27 21:30:39 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 406 ms
+2024-11-27 21:30:39 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8087"]
+2024-11-27 21:30:39 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8087 (http) with context path '/'
+2024-11-27 21:30:39 INFO  com.louisfiges.simulator.Main - Started Main in 0.864 seconds (process running for 1.154)
+2024-11-27 21:30:40 INFO  c.louisfiges.simulator.SimExecutor - Starting microservice with profile: providerA
+2024-11-27 21:30:40 INFO  c.louisfiges.simulator.SimExecutor - Starting microservice with profile: providerB
+2024-11-27 21:30:40 INFO  c.louisfiges.simulator.SimExecutor - Starting microservice with profile: providerC
+2024-11-27 21:30:45 INFO  c.louisfiges.simulator.SimExecutor - providerB is ready
+2024-11-27 21:30:45 INFO  c.louisfiges.simulator.SimExecutor - providerC is ready
+2024-11-27 21:30:45 INFO  c.louisfiges.simulator.SimExecutor - providerA is ready
+2024-11-27 21:30:45 INFO  c.louisfiges.simulator.SimExecutor - All microservices are ready!
+2024-11-27 21:47:03 INFO  com.louisfiges.simulator.Main - Starting Main using Java 23 with PID 91092 (C:\Users\louis\Desktop\Advanced Programming\Simulator\build\classes\java\main started by louis in C:\Users\louis\Desktop\Advanced Programming\Simulator)
+2024-11-27 21:47:03 INFO  com.louisfiges.simulator.Main - No active profile set, falling back to 1 default profile: "default"
+2024-11-27 21:47:04 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8087 (http)
+2024-11-27 21:47:04 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8087"]
+2024-11-27 21:47:04 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-11-27 21:47:04 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-11-27 21:47:04 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-11-27 21:47:04 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 420 ms
+2024-11-27 21:47:04 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8087"]
+2024-11-27 21:47:04 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8087 (http) with context path '/'
+2024-11-27 21:47:04 INFO  com.louisfiges.simulator.Main - Started Main in 0.854 seconds (process running for 1.134)
+2024-11-27 21:47:05 ERROR c.louisfiges.simulator.SimExecutor - File not found: C:\Users\louis\Desktop\Finalised Programming\gateway\gateway-1.0.0-RELEASE.jar
+2024-11-27 21:47:42 INFO  com.louisfiges.simulator.Main - Starting Main using Java 23 with PID 19588 (C:\Users\louis\Desktop\Advanced Programming\Simulator\build\classes\java\main started by louis in C:\Users\louis\Desktop\Advanced Programming\Simulator)
+2024-11-27 21:47:42 INFO  com.louisfiges.simulator.Main - No active profile set, falling back to 1 default profile: "default"
+2024-11-27 21:47:43 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8087 (http)
+2024-11-27 21:47:43 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8087"]
+2024-11-27 21:47:43 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-11-27 21:47:43 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-11-27 21:47:43 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-11-27 21:47:43 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 421 ms
+2024-11-27 21:47:43 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8087"]
+2024-11-27 21:47:43 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8087 (http) with context path '/'
+2024-11-27 21:47:43 INFO  com.louisfiges.simulator.Main - Started Main in 0.87 seconds (process running for 1.156)
+2024-11-27 21:47:44 INFO  c.louisfiges.simulator.SimExecutor - Starting ApiGatewayApplication microservice with profile: 
+2024-11-27 21:47:44 INFO  c.louisfiges.simulator.SimExecutor - Starting ProviderApplication microservice with profile: providerA
+2024-11-27 21:47:44 INFO  c.louisfiges.simulator.SimExecutor - Starting ProviderApplication microservice with profile: providerB
+2024-11-27 21:47:44 INFO  c.louisfiges.simulator.SimExecutor - Starting ProviderApplication microservice with profile: providerC
+2024-11-27 21:47:47 INFO  c.louisfiges.simulator.SimExecutor - 2024-11-27T21:47:47.897Z  INFO 57144 --- [API Gateway] [           main] c.l.gateway.ApiGatewayApplication        : Started ApiGatewayApplication in 2.64 seconds (process running for 3.312)
+2024-11-27 21:49:17 INFO  com.louisfiges.simulator.Main - Starting Main using Java 23 with PID 65264 (C:\Users\louis\Desktop\Advanced Programming\Simulator\build\classes\java\main started by louis in C:\Users\louis\Desktop\Advanced Programming\Simulator)
+2024-11-27 21:49:17 INFO  com.louisfiges.simulator.Main - No active profile set, falling back to 1 default profile: "default"
+2024-11-27 21:49:17 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8087 (http)
+2024-11-27 21:49:17 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8087"]
+2024-11-27 21:49:17 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-11-27 21:49:17 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-11-27 21:49:17 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-11-27 21:49:17 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 404 ms
+2024-11-27 21:49:17 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8087"]
+2024-11-27 21:49:17 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8087 (http) with context path '/'
+2024-11-27 21:49:17 INFO  com.louisfiges.simulator.Main - Started Main in 0.871 seconds (process running for 1.153)
+2024-11-27 21:49:19 INFO  c.louisfiges.simulator.SimExecutor - Starting ApiGatewayApplication microservice with profile: 
+2024-11-27 21:49:19 INFO  c.louisfiges.simulator.SimExecutor - Starting ProviderApplication microservice with profile: providerA
+2024-11-27 21:49:19 INFO  c.louisfiges.simulator.SimExecutor - Starting ProviderApplication microservice with profile: providerB
+2024-11-27 21:49:19 INFO  c.louisfiges.simulator.SimExecutor - Starting ProviderApplication microservice with profile: providerC
+2024-11-27 21:49:19 INFO  c.louisfiges.simulator.SimExecutor - ApiGatewayApplication:
+2024-11-27 21:49:19 INFO  c.louisfiges.simulator.SimExecutor - ApiGatewayApplication:  .   ____          _            __ _ _
+2024-11-27 21:49:19 INFO  c.louisfiges.simulator.SimExecutor - ApiGatewayApplication: /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+2024-11-27 21:49:19 INFO  c.louisfiges.simulator.SimExecutor - ApiGatewayApplication:( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+2024-11-27 21:49:19 INFO  c.louisfiges.simulator.SimExecutor - ApiGatewayApplication: \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+2024-11-27 21:49:19 INFO  c.louisfiges.simulator.SimExecutor - ApiGatewayApplication:  '  |____| .__|_| |_|_| |_\__, | / / / /
+2024-11-27 21:49:19 INFO  c.louisfiges.simulator.SimExecutor - ApiGatewayApplication: =========|_|==============|___/=/_/_/_/
+2024-11-27 21:49:19 INFO  c.louisfiges.simulator.SimExecutor - ApiGatewayApplication:
+2024-11-27 21:49:19 INFO  c.louisfiges.simulator.SimExecutor - ApiGatewayApplication: :: Spring Boot ::                (v3.3.4)
+2024-11-27 21:49:19 INFO  c.louisfiges.simulator.SimExecutor - ApiGatewayApplication:
+2024-11-27 21:49:19 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:
+2024-11-27 21:49:19 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:  .   ____          _            __ _ _
+2024-11-27 21:49:19 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication: /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+2024-11-27 21:49:19 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+2024-11-27 21:49:19 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication: \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+2024-11-27 21:49:19 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:  '  |____| .__|_| |_|_| |_\__, | / / / /
+2024-11-27 21:49:19 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication: =========|_|==============|___/=/_/_/_/
+2024-11-27 21:49:19 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:
+2024-11-27 21:49:19 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:
+2024-11-27 21:49:19 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:  .   ____          _            __ _ _
+2024-11-27 21:49:19 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication: /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+2024-11-27 21:49:19 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+2024-11-27 21:49:19 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication: \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+2024-11-27 21:49:19 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:  '  |____| .__|_| |_|_| |_\__, | / / / /
+2024-11-27 21:49:19 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication: =========|_|==============|___/=/_/_/_/
+2024-11-27 21:49:19 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:
+2024-11-27 21:49:19 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:
+2024-11-27 21:49:19 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:  .   ____          _            __ _ _
+2024-11-27 21:49:19 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication: /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+2024-11-27 21:49:19 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+2024-11-27 21:49:19 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication: \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+2024-11-27 21:49:19 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:  '  |____| .__|_| |_|_| |_\__, | / / / /
+2024-11-27 21:49:19 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication: =========|_|==============|___/=/_/_/_/
+2024-11-27 21:49:19 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:
+2024-11-27 21:49:19 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication: :: Spring Boot ::                (v3.3.4)
+2024-11-27 21:49:19 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:
+2024-11-27 21:49:19 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication: :: Spring Boot ::                (v3.3.4)
+2024-11-27 21:49:19 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:
+2024-11-27 21:49:19 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication: :: Spring Boot ::                (v3.3.4)
+2024-11-27 21:49:19 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:
+2024-11-27 21:49:19 INFO  c.louisfiges.simulator.SimExecutor - ApiGatewayApplication:2024-11-27T21:49:19.985Z  INFO 82660 --- [API Gateway] [           main] c.l.gateway.ApiGatewayApplication        : Starting ApiGatewayApplication v1.0.0-RELEASE using Java 23 with PID 82660 (C:\Users\louis\Desktop\Finalised Programming\gateway\APIGateway-1.0.0-RELEASE.jar started by louis in C:\Users\louis\Desktop\Advanced Programming\Simulator)
+2024-11-27 21:49:19 INFO  c.louisfiges.simulator.SimExecutor - ApiGatewayApplication:2024-11-27T21:49:19.989Z  INFO 82660 --- [API Gateway] [           main] c.l.gateway.ApiGatewayApplication        : No active profile set, falling back to 1 default profile: "default"
+2024-11-27 21:49:20 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:2024-11-27 21:49:20 INFO  c.l.provider.ProviderApplication - Starting ProviderApplication v2.0.5-RELEASE using Java 23 with PID 88016 (C:\Users\louis\Desktop\Finalised Programming\provider\provider-2.0.5-RELEASE.jar started by louis in C:\Users\louis\Desktop\Advanced Programming\Simulator)
+2024-11-27 21:49:20 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:2024-11-27 21:49:20 INFO  c.l.provider.ProviderApplication - No active profile set, falling back to 1 default profile: "default"
+2024-11-27 21:49:20 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:2024-11-27 21:49:20 INFO  c.l.provider.ProviderApplication - Starting ProviderApplication v2.0.5-RELEASE using Java 23 with PID 63748 (C:\Users\louis\Desktop\Finalised Programming\provider\provider-2.0.5-RELEASE.jar started by louis in C:\Users\louis\Desktop\Advanced Programming\Simulator)
+2024-11-27 21:49:20 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:2024-11-27 21:49:20 INFO  c.l.provider.ProviderApplication - Starting ProviderApplication v2.0.5-RELEASE using Java 23 with PID 91112 (C:\Users\louis\Desktop\Finalised Programming\provider\provider-2.0.5-RELEASE.jar started by louis in C:\Users\louis\Desktop\Advanced Programming\Simulator)
+2024-11-27 21:49:20 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:2024-11-27 21:49:20 INFO  c.l.provider.ProviderApplication - No active profile set, falling back to 1 default profile: "default"
+2024-11-27 21:49:20 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:2024-11-27 21:49:20 INFO  c.l.provider.ProviderApplication - No active profile set, falling back to 1 default profile: "default"
+2024-11-27 21:49:20 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:2024-11-27 21:49:20 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-27 21:49:20 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:2024-11-27 21:49:20 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-27 21:49:20 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:2024-11-27 21:49:20 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-27 21:49:20 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:2024-11-27 21:49:20 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 71 ms. Found 4 JPA repository interfaces.
+2024-11-27 21:49:20 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:2024-11-27 21:49:20 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 53 ms. Found 4 JPA repository interfaces.
+2024-11-27 21:49:20 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:2024-11-27 21:49:20 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 68 ms. Found 4 JPA repository interfaces.
+2024-11-27 21:49:21 INFO  c.louisfiges.simulator.SimExecutor - ApiGatewayApplication:2024-11-27T21:49:21.247Z  INFO 82660 --- [API Gateway] [           main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=55e86cc3-6987-3a86-897f-f4f4fd93e0c8
+2024-11-27 21:49:21 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:2024-11-27 21:49:21 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-11-27 21:49:21 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:2024-11-27 21:49:21 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-11-27 21:49:21 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:2024-11-27 21:49:21 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-11-27 21:49:21 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:2024-11-27 21:49:21 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-11-27 21:49:21 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:2024-11-27 21:49:21 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-11-27 21:49:21 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:2024-11-27 21:49:21 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-11-27 21:49:21 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:2024-11-27 21:49:21 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-11-27 21:49:21 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:2024-11-27 21:49:21 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-11-27 21:49:21 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:2024-11-27 21:49:21 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-11-27 21:49:21 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:2024-11-27 21:49:21 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-11-27 21:49:21 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:2024-11-27 21:49:21 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-11-27 21:49:21 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:2024-11-27 21:49:21 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-11-27 21:49:21 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:2024-11-27 21:49:21 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-11-27 21:49:21 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:2024-11-27 21:49:21 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1426 ms
+2024-11-27 21:49:21 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:2024-11-27 21:49:21 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-11-27 21:49:21 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:2024-11-27 21:49:21 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1421 ms
+2024-11-27 21:49:21 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:2024-11-27 21:49:21 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-11-27 21:49:21 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:2024-11-27 21:49:21 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1441 ms
+2024-11-27 21:49:21 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:2024-11-27 21:49:21 WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Failed to initialize dependency 'dataSourceScriptDatabaseInitializer' of LoadTimeWeaverAware bean 'entityManagerFactory': Error creating bean with name 'dataSourceScriptDatabaseInitializer' defined in class path resource [org/springframework/boot/autoconfigure/sql/init/DataSourceInitializationConfiguration.class]: Unsatisfied dependency expressed through method 'dataSourceScriptDatabaseInitializer' parameter 0: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception with message: Failed to determine a suitable driver class
+2024-11-27 21:49:21 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:2024-11-27 21:49:21 INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2024-11-27 21:49:21 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:2024-11-27 21:49:21 WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Failed to initialize dependency 'dataSourceScriptDatabaseInitializer' of LoadTimeWeaverAware bean 'entityManagerFactory': Error creating bean with name 'dataSourceScriptDatabaseInitializer' defined in class path resource [org/springframework/boot/autoconfigure/sql/init/DataSourceInitializationConfiguration.class]: Unsatisfied dependency expressed through method 'dataSourceScriptDatabaseInitializer' parameter 0: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception with message: Failed to determine a suitable driver class
+2024-11-27 21:49:21 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:2024-11-27 21:49:21 INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2024-11-27 21:49:21 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:2024-11-27 21:49:21 INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+2024-11-27 21:49:21 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:
+2024-11-27 21:49:21 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-11-27 21:49:21 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:2024-11-27 21:49:21 WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Failed to initialize dependency 'dataSourceScriptDatabaseInitializer' of LoadTimeWeaverAware bean 'entityManagerFactory': Error creating bean with name 'dataSourceScriptDatabaseInitializer' defined in class path resource [org/springframework/boot/autoconfigure/sql/init/DataSourceInitializationConfiguration.class]: Unsatisfied dependency expressed through method 'dataSourceScriptDatabaseInitializer' parameter 0: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception with message: Failed to determine a suitable driver class
+2024-11-27 21:49:21 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:2024-11-27 21:49:21 INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2024-11-27 21:49:21 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:2024-11-27 21:49:21 INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+2024-11-27 21:49:21 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:
+2024-11-27 21:49:21 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-11-27 21:49:21 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:2024-11-27 21:49:21 ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+2024-11-27 21:49:21 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:
+2024-11-27 21:49:21 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:***************************
+2024-11-27 21:49:21 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:APPLICATION FAILED TO START
+2024-11-27 21:49:21 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:***************************
+2024-11-27 21:49:21 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:
+2024-11-27 21:49:21 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:Description:
+2024-11-27 21:49:21 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:
+2024-11-27 21:49:21 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+2024-11-27 21:49:21 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:
+2024-11-27 21:49:21 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:Reason: Failed to determine a suitable driver class
+2024-11-27 21:49:21 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:
+2024-11-27 21:49:21 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:
+2024-11-27 21:49:21 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:Action:
+2024-11-27 21:49:21 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:
+2024-11-27 21:49:21 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:Consider the following:
+2024-11-27 21:49:21 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+2024-11-27 21:49:21 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+2024-11-27 21:49:21 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:
+2024-11-27 21:49:21 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:2024-11-27 21:49:21 INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+2024-11-27 21:49:21 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:
+2024-11-27 21:49:21 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-11-27 21:49:21 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:2024-11-27 21:49:21 ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+2024-11-27 21:49:21 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:
+2024-11-27 21:49:21 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:***************************
+2024-11-27 21:49:21 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:APPLICATION FAILED TO START
+2024-11-27 21:49:21 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:***************************
+2024-11-27 21:49:21 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:
+2024-11-27 21:49:21 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:Description:
+2024-11-27 21:49:21 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:
+2024-11-27 21:49:21 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+2024-11-27 21:49:21 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:
+2024-11-27 21:49:21 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:Reason: Failed to determine a suitable driver class
+2024-11-27 21:49:21 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:
+2024-11-27 21:49:21 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:
+2024-11-27 21:49:21 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:Action:
+2024-11-27 21:49:21 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:
+2024-11-27 21:49:21 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:Consider the following:
+2024-11-27 21:49:21 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+2024-11-27 21:49:21 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+2024-11-27 21:49:21 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:
+2024-11-27 21:49:21 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:2024-11-27 21:49:21 ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+2024-11-27 21:49:21 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:
+2024-11-27 21:49:21 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:***************************
+2024-11-27 21:49:21 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:APPLICATION FAILED TO START
+2024-11-27 21:49:21 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:***************************
+2024-11-27 21:49:21 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:
+2024-11-27 21:49:21 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:Description:
+2024-11-27 21:49:21 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:
+2024-11-27 21:49:21 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+2024-11-27 21:49:21 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:
+2024-11-27 21:49:21 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:Reason: Failed to determine a suitable driver class
+2024-11-27 21:49:21 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:
+2024-11-27 21:49:21 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:
+2024-11-27 21:49:21 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:Action:
+2024-11-27 21:49:21 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:
+2024-11-27 21:49:21 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:Consider the following:
+2024-11-27 21:49:21 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+2024-11-27 21:49:21 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+2024-11-27 21:49:21 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:
+2024-11-27 21:49:21 INFO  c.louisfiges.simulator.SimExecutor - ApiGatewayApplication:2024-11-27T21:49:21.967Z  INFO 82660 --- [API Gateway] [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [After]
+2024-11-27 21:49:21 INFO  c.louisfiges.simulator.SimExecutor - ApiGatewayApplication:2024-11-27T21:49:21.967Z  INFO 82660 --- [API Gateway] [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Before]
+2024-11-27 21:49:21 INFO  c.louisfiges.simulator.SimExecutor - ApiGatewayApplication:2024-11-27T21:49:21.967Z  INFO 82660 --- [API Gateway] [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Between]
+2024-11-27 21:49:21 INFO  c.louisfiges.simulator.SimExecutor - ApiGatewayApplication:2024-11-27T21:49:21.967Z  INFO 82660 --- [API Gateway] [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Cookie]
+2024-11-27 21:49:21 INFO  c.louisfiges.simulator.SimExecutor - ApiGatewayApplication:2024-11-27T21:49:21.967Z  INFO 82660 --- [API Gateway] [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Header]
+2024-11-27 21:49:21 INFO  c.louisfiges.simulator.SimExecutor - ApiGatewayApplication:2024-11-27T21:49:21.967Z  INFO 82660 --- [API Gateway] [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Host]
+2024-11-27 21:49:21 INFO  c.louisfiges.simulator.SimExecutor - ApiGatewayApplication:2024-11-27T21:49:21.967Z  INFO 82660 --- [API Gateway] [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Method]
+2024-11-27 21:49:21 INFO  c.louisfiges.simulator.SimExecutor - ApiGatewayApplication:2024-11-27T21:49:21.967Z  INFO 82660 --- [API Gateway] [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Path]
+2024-11-27 21:49:21 INFO  c.louisfiges.simulator.SimExecutor - ApiGatewayApplication:2024-11-27T21:49:21.967Z  INFO 82660 --- [API Gateway] [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Query]
+2024-11-27 21:49:21 INFO  c.louisfiges.simulator.SimExecutor - ApiGatewayApplication:2024-11-27T21:49:21.967Z  INFO 82660 --- [API Gateway] [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [ReadBody]
+2024-11-27 21:49:21 INFO  c.louisfiges.simulator.SimExecutor - ApiGatewayApplication:2024-11-27T21:49:21.967Z  INFO 82660 --- [API Gateway] [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [RemoteAddr]
+2024-11-27 21:49:21 INFO  c.louisfiges.simulator.SimExecutor - ApiGatewayApplication:2024-11-27T21:49:21.967Z  INFO 82660 --- [API Gateway] [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2024-11-27 21:49:21 INFO  c.louisfiges.simulator.SimExecutor - ApiGatewayApplication:2024-11-27T21:49:21.967Z  INFO 82660 --- [API Gateway] [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Weight]
+2024-11-27 21:49:21 INFO  c.louisfiges.simulator.SimExecutor - ApiGatewayApplication:2024-11-27T21:49:21.967Z  INFO 82660 --- [API Gateway] [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2024-11-27 21:49:22 INFO  c.louisfiges.simulator.SimExecutor - ApiGatewayApplication:2024-11-27T21:49:22.227Z  INFO 82660 --- [API Gateway] [           main] o.s.b.web.embedded.netty.NettyWebServer  : Netty started on port 8080 (http)
+2024-11-27 21:49:22 INFO  c.louisfiges.simulator.SimExecutor - ApiGatewayApplication:2024-11-27T21:49:22.255Z  INFO 82660 --- [API Gateway] [           main] c.l.gateway.ApiGatewayApplication        : Started ApiGatewayApplication in 2.628 seconds (process running for 3.236)
+2024-11-27 21:49:22 INFO  c.louisfiges.simulator.SimExecutor - 2024-11-27T21:49:22.255Z  INFO 82660 --- [API Gateway] [           main] c.l.gateway.ApiGatewayApplication        : Started ApiGatewayApplication in 2.628 seconds (process running for 3.236)
+2024-11-27 21:50:47 INFO  com.louisfiges.simulator.Main - Starting Main using Java 23 with PID 88940 (C:\Users\louis\Desktop\Advanced Programming\Simulator\build\classes\java\main started by louis in C:\Users\louis\Desktop\Advanced Programming\Simulator)
+2024-11-27 21:50:47 INFO  com.louisfiges.simulator.Main - No active profile set, falling back to 1 default profile: "default"
+2024-11-27 21:50:48 INFO  com.louisfiges.simulator.Main - Starting Main using Java 23 with PID 11604 (C:\Users\louis\Desktop\Advanced Programming\Simulator\build\classes\java\main started by louis in C:\Users\louis\Desktop\Advanced Programming\Simulator)
+2024-11-27 21:50:48 INFO  com.louisfiges.simulator.Main - No active profile set, falling back to 1 default profile: "default"
+2024-11-27 21:50:48 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8087 (http)
+2024-11-27 21:50:48 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8087"]
+2024-11-27 21:50:48 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-11-27 21:50:48 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-11-27 21:50:48 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-11-27 21:50:48 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 490 ms
+2024-11-27 21:50:48 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8087"]
+2024-11-27 21:50:48 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8087 (http) with context path '/'
+2024-11-27 21:50:48 INFO  com.louisfiges.simulator.Main - Started Main in 0.96 seconds (process running for 1.265)
+2024-11-27 21:50:48 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8087 (http)
+2024-11-27 21:50:48 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8087"]
+2024-11-27 21:50:48 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-11-27 21:50:48 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-11-27 21:50:48 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-11-27 21:50:48 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 440 ms
+2024-11-27 21:50:48 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8087"]
+2024-11-27 21:50:48 WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2024-11-27 21:50:48 INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-11-27 21:50:48 ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8087 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8087 or configure this application to listen on another port.
+
+2024-11-27 21:50:49 INFO  c.louisfiges.simulator.SimExecutor - Starting ApiGatewayApplication microservice with profile: 
+2024-11-27 21:50:49 INFO  c.louisfiges.simulator.SimExecutor - Starting ProviderApplication microservice with profile: --spring.profiles.active=providerA
+2024-11-27 21:50:49 INFO  c.louisfiges.simulator.SimExecutor - Starting ProviderApplication microservice with profile: --spring.profiles.active=providerB
+2024-11-27 21:50:49 INFO  c.louisfiges.simulator.SimExecutor - Starting ProviderApplication microservice with profile: --spring.profiles.active=providerC
+2024-11-27 21:50:50 INFO  c.louisfiges.simulator.SimExecutor - ApiGatewayApplication:
+2024-11-27 21:50:50 INFO  c.louisfiges.simulator.SimExecutor - ApiGatewayApplication:  .   ____          _            __ _ _
+2024-11-27 21:50:50 INFO  c.louisfiges.simulator.SimExecutor - ApiGatewayApplication: /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+2024-11-27 21:50:50 INFO  c.louisfiges.simulator.SimExecutor - ApiGatewayApplication:( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+2024-11-27 21:50:50 INFO  c.louisfiges.simulator.SimExecutor - ApiGatewayApplication: \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+2024-11-27 21:50:50 INFO  c.louisfiges.simulator.SimExecutor - ApiGatewayApplication:  '  |____| .__|_| |_|_| |_\__, | / / / /
+2024-11-27 21:50:50 INFO  c.louisfiges.simulator.SimExecutor - ApiGatewayApplication: =========|_|==============|___/=/_/_/_/
+2024-11-27 21:50:50 INFO  c.louisfiges.simulator.SimExecutor - ApiGatewayApplication:
+2024-11-27 21:50:50 INFO  c.louisfiges.simulator.SimExecutor - ApiGatewayApplication: :: Spring Boot ::                (v3.3.4)
+2024-11-27 21:50:50 INFO  c.louisfiges.simulator.SimExecutor - ApiGatewayApplication:
+2024-11-27 21:50:50 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:
+2024-11-27 21:50:50 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:  .   ____          _            __ _ _
+2024-11-27 21:50:50 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication: /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+2024-11-27 21:50:50 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+2024-11-27 21:50:50 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication: \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+2024-11-27 21:50:50 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:  '  |____| .__|_| |_|_| |_\__, | / / / /
+2024-11-27 21:50:50 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication: =========|_|==============|___/=/_/_/_/
+2024-11-27 21:50:50 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:
+2024-11-27 21:50:50 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:
+2024-11-27 21:50:50 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:  .   ____          _            __ _ _
+2024-11-27 21:50:50 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication: /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+2024-11-27 21:50:50 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+2024-11-27 21:50:50 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication: \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+2024-11-27 21:50:50 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:  '  |____| .__|_| |_|_| |_\__, | / / / /
+2024-11-27 21:50:50 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication: =========|_|==============|___/=/_/_/_/
+2024-11-27 21:50:50 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:
+2024-11-27 21:50:50 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication: :: Spring Boot ::                (v3.3.4)
+2024-11-27 21:50:50 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:
+2024-11-27 21:50:50 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication: :: Spring Boot ::                (v3.3.4)
+2024-11-27 21:50:50 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:
+2024-11-27 21:50:50 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:
+2024-11-27 21:50:50 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:  .   ____          _            __ _ _
+2024-11-27 21:50:50 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication: /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+2024-11-27 21:50:50 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+2024-11-27 21:50:50 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication: \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+2024-11-27 21:50:50 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:  '  |____| .__|_| |_|_| |_\__, | / / / /
+2024-11-27 21:50:50 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication: =========|_|==============|___/=/_/_/_/
+2024-11-27 21:50:50 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:
+2024-11-27 21:50:50 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication: :: Spring Boot ::                (v3.3.4)
+2024-11-27 21:50:50 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:
+2024-11-27 21:50:50 INFO  c.louisfiges.simulator.SimExecutor - ApiGatewayApplication:2024-11-27T21:50:50.723Z  INFO 63656 --- [API Gateway] [           main] c.l.gateway.ApiGatewayApplication        : Starting ApiGatewayApplication v1.0.0-RELEASE using Java 23 with PID 63656 (C:\Users\louis\Desktop\Finalised Programming\gateway\APIGateway-1.0.0-RELEASE.jar started by louis in C:\Users\louis\Desktop\Advanced Programming\Simulator)
+2024-11-27 21:50:50 INFO  c.louisfiges.simulator.SimExecutor - ApiGatewayApplication:2024-11-27T21:50:50.726Z  INFO 63656 --- [API Gateway] [           main] c.l.gateway.ApiGatewayApplication        : No active profile set, falling back to 1 default profile: "default"
+2024-11-27 21:50:50 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:2024-11-27 21:50:50 INFO  c.l.provider.ProviderApplication - Starting ProviderApplication v2.0.5-RELEASE using Java 23 with PID 62316 (C:\Users\louis\Desktop\Finalised Programming\provider\provider-2.0.5-RELEASE.jar started by louis in C:\Users\louis\Desktop\Advanced Programming\Simulator)
+2024-11-27 21:50:50 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:2024-11-27 21:50:50 INFO  c.l.provider.ProviderApplication - The following 1 profile is active: "providerA"
+2024-11-27 21:50:50 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:2024-11-27 21:50:50 INFO  c.l.provider.ProviderApplication - Starting ProviderApplication v2.0.5-RELEASE using Java 23 with PID 71648 (C:\Users\louis\Desktop\Finalised Programming\provider\provider-2.0.5-RELEASE.jar started by louis in C:\Users\louis\Desktop\Advanced Programming\Simulator)
+2024-11-27 21:50:50 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:2024-11-27 21:50:50 INFO  c.l.provider.ProviderApplication - The following 1 profile is active: "providerC"
+2024-11-27 21:50:50 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:2024-11-27 21:50:50 INFO  c.l.provider.ProviderApplication - Starting ProviderApplication v2.0.5-RELEASE using Java 23 with PID 23652 (C:\Users\louis\Desktop\Finalised Programming\provider\provider-2.0.5-RELEASE.jar started by louis in C:\Users\louis\Desktop\Advanced Programming\Simulator)
+2024-11-27 21:50:50 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:2024-11-27 21:50:50 INFO  c.l.provider.ProviderApplication - The following 1 profile is active: "providerB"
+2024-11-27 21:50:51 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:2024-11-27 21:50:51 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-27 21:50:51 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:2024-11-27 21:50:51 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-27 21:50:51 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:2024-11-27 21:50:51 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-27 21:50:51 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:2024-11-27 21:50:51 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 51 ms. Found 4 JPA repository interfaces.
+2024-11-27 21:50:51 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:2024-11-27 21:50:51 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 48 ms. Found 4 JPA repository interfaces.
+2024-11-27 21:50:51 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:2024-11-27 21:50:51 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 51 ms. Found 4 JPA repository interfaces.
+2024-11-27 21:50:52 INFO  c.louisfiges.simulator.SimExecutor - ApiGatewayApplication:2024-11-27T21:50:52.005Z  INFO 63656 --- [API Gateway] [           main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=55e86cc3-6987-3a86-897f-f4f4fd93e0c8
+2024-11-27 21:50:52 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:2024-11-27 21:50:52 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8083 (http)
+2024-11-27 21:50:52 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:2024-11-27 21:50:52 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8084 (http)
+2024-11-27 21:50:52 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:2024-11-27 21:50:52 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8083"]
+2024-11-27 21:50:52 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:2024-11-27 21:50:52 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8084"]
+2024-11-27 21:50:52 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:2024-11-27 21:50:52 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-11-27 21:50:52 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:2024-11-27 21:50:52 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-11-27 21:50:52 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:2024-11-27 21:50:52 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-11-27 21:50:52 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:2024-11-27 21:50:52 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8082 (http)
+2024-11-27 21:50:52 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:2024-11-27 21:50:52 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-11-27 21:50:52 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:2024-11-27 21:50:52 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2024-11-27 21:50:52 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:2024-11-27 21:50:52 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-11-27 21:50:52 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:2024-11-27 21:50:52 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-11-27 21:50:52 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:2024-11-27 21:50:52 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-11-27 21:50:52 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:2024-11-27 21:50:52 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1529 ms
+2024-11-27 21:50:52 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:2024-11-27 21:50:52 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-11-27 21:50:52 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:2024-11-27 21:50:52 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1524 ms
+2024-11-27 21:50:52 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:2024-11-27 21:50:52 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-11-27 21:50:52 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:2024-11-27 21:50:52 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1558 ms
+2024-11-27 21:50:52 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:2024-11-27 21:50:52 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-27 21:50:52 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:2024-11-27 21:50:52 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-27 21:50:52 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:2024-11-27 21:50:52 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-27 21:50:52 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:2024-11-27 21:50:52 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-11-27 21:50:52 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:2024-11-27 21:50:52 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-11-27 21:50:52 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:2024-11-27 21:50:52 INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-11-27 21:50:52 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:2024-11-27 21:50:52 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-11-27 21:50:52 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:2024-11-27 21:50:52 INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-11-27 21:50:52 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:2024-11-27 21:50:52 INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-11-27 21:50:53 INFO  c.louisfiges.simulator.SimExecutor - ApiGatewayApplication:2024-11-27T21:50:53.110Z  INFO 63656 --- [API Gateway] [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [After]
+2024-11-27 21:50:53 INFO  c.louisfiges.simulator.SimExecutor - ApiGatewayApplication:2024-11-27T21:50:53.110Z  INFO 63656 --- [API Gateway] [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Before]
+2024-11-27 21:50:53 INFO  c.louisfiges.simulator.SimExecutor - ApiGatewayApplication:2024-11-27T21:50:53.110Z  INFO 63656 --- [API Gateway] [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Between]
+2024-11-27 21:50:53 INFO  c.louisfiges.simulator.SimExecutor - ApiGatewayApplication:2024-11-27T21:50:53.110Z  INFO 63656 --- [API Gateway] [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Cookie]
+2024-11-27 21:50:53 INFO  c.louisfiges.simulator.SimExecutor - ApiGatewayApplication:2024-11-27T21:50:53.110Z  INFO 63656 --- [API Gateway] [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Header]
+2024-11-27 21:50:53 INFO  c.louisfiges.simulator.SimExecutor - ApiGatewayApplication:2024-11-27T21:50:53.110Z  INFO 63656 --- [API Gateway] [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Host]
+2024-11-27 21:50:53 INFO  c.louisfiges.simulator.SimExecutor - ApiGatewayApplication:2024-11-27T21:50:53.110Z  INFO 63656 --- [API Gateway] [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Method]
+2024-11-27 21:50:53 INFO  c.louisfiges.simulator.SimExecutor - ApiGatewayApplication:2024-11-27T21:50:53.110Z  INFO 63656 --- [API Gateway] [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Path]
+2024-11-27 21:50:53 INFO  c.louisfiges.simulator.SimExecutor - ApiGatewayApplication:2024-11-27T21:50:53.110Z  INFO 63656 --- [API Gateway] [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Query]
+2024-11-27 21:50:53 INFO  c.louisfiges.simulator.SimExecutor - ApiGatewayApplication:2024-11-27T21:50:53.110Z  INFO 63656 --- [API Gateway] [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [ReadBody]
+2024-11-27 21:50:53 INFO  c.louisfiges.simulator.SimExecutor - ApiGatewayApplication:2024-11-27T21:50:53.110Z  INFO 63656 --- [API Gateway] [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [RemoteAddr]
+2024-11-27 21:50:53 INFO  c.louisfiges.simulator.SimExecutor - ApiGatewayApplication:2024-11-27T21:50:53.110Z  INFO 63656 --- [API Gateway] [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2024-11-27 21:50:53 INFO  c.louisfiges.simulator.SimExecutor - ApiGatewayApplication:2024-11-27T21:50:53.110Z  INFO 63656 --- [API Gateway] [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Weight]
+2024-11-27 21:50:53 INFO  c.louisfiges.simulator.SimExecutor - ApiGatewayApplication:2024-11-27T21:50:53.110Z  INFO 63656 --- [API Gateway] [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2024-11-27 21:50:53 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:2024-11-27 21:50:53 INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-27 21:50:53 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:2024-11-27 21:50:53 INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-27 21:50:53 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:2024-11-27 21:50:53 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-11-27 21:50:53 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:2024-11-27 21:50:53 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-11-27 21:50:53 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:2024-11-27 21:50:53 INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-27 21:50:53 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:2024-11-27 21:50:53 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-11-27 21:50:53 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:2024-11-27 21:50:53 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@165d1d54
+2024-11-27 21:50:53 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:2024-11-27 21:50:53 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-11-27 21:50:53 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:2024-11-27 21:50:53 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@55053f81
+2024-11-27 21:50:53 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:2024-11-27 21:50:53 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-11-27 21:50:53 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:2024-11-27 21:50:53 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@55053f81
+2024-11-27 21:50:53 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:2024-11-27 21:50:53 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-11-27 21:50:53 INFO  c.louisfiges.simulator.SimExecutor - ApiGatewayApplication:2024-11-27T21:50:53.879Z  INFO 63656 --- [API Gateway] [           main] o.s.b.web.embedded.netty.NettyWebServer  : Netty started on port 8080 (http)
+2024-11-27 21:50:53 INFO  c.louisfiges.simulator.SimExecutor - ApiGatewayApplication:2024-11-27T21:50:53.922Z  INFO 63656 --- [API Gateway] [           main] c.l.gateway.ApiGatewayApplication        : Started ApiGatewayApplication in 3.611 seconds (process running for 4.335)
+2024-11-27 21:50:53 INFO  c.louisfiges.simulator.SimExecutor - 2024-11-27T21:50:53.922Z  INFO 63656 --- [API Gateway] [           main] c.l.gateway.ApiGatewayApplication        : Started ApiGatewayApplication in 3.611 seconds (process running for 4.335)
+2024-11-27 21:50:54 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:2024-11-27 21:50:54 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-11-27 21:50:54 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:2024-11-27 21:50:54 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-11-27 21:50:54 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:2024-11-27 21:50:54 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-11-27 21:50:54 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:2024-11-27 21:50:54 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-27 21:50:54 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:2024-11-27 21:50:54 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-27 21:50:54 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:2024-11-27 21:50:54 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-27 21:50:55 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:2024-11-27 21:50:55 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-11-27 21:50:55 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:2024-11-27 21:50:55 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-11-27 21:50:55 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:2024-11-27 21:50:55 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-11-27 21:50:55 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:2024-11-27 21:50:55 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8083"]
+2024-11-27 21:50:55 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:2024-11-27 21:50:55 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8083 (http) with context path '/'
+2024-11-27 21:50:55 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:2024-11-27 21:50:55 INFO  c.l.provider.ProviderApplication - Started ProviderApplication in 5.16 seconds (process running for 5.812)
+2024-11-27 21:50:55 INFO  c.louisfiges.simulator.SimExecutor - 2024-11-27 21:50:55 INFO  c.l.provider.ProviderApplication - Started ProviderApplication in 5.16 seconds (process running for 5.812)
+2024-11-27 21:50:55 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:2024-11-27 21:50:55 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+2024-11-27 21:50:55 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:2024-11-27 21:50:55 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8082 (http) with context path '/'
+2024-11-27 21:50:55 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:2024-11-27 21:50:55 INFO  c.l.provider.ProviderApplication - Started ProviderApplication in 5.234 seconds (process running for 5.864)
+2024-11-27 21:50:55 INFO  c.louisfiges.simulator.SimExecutor - 2024-11-27 21:50:55 INFO  c.l.provider.ProviderApplication - Started ProviderApplication in 5.234 seconds (process running for 5.864)
+2024-11-27 21:50:55 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:2024-11-27 21:50:55 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8084"]
+2024-11-27 21:50:55 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:2024-11-27 21:50:55 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8084 (http) with context path '/'
+2024-11-27 21:50:55 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:2024-11-27 21:50:55 INFO  c.l.provider.ProviderApplication - Started ProviderApplication in 5.271 seconds (process running for 5.917)
+2024-11-27 21:50:55 INFO  c.louisfiges.simulator.SimExecutor - 2024-11-27 21:50:55 INFO  c.l.provider.ProviderApplication - Started ProviderApplication in 5.271 seconds (process running for 5.917)
+2024-11-27 21:50:55 INFO  c.louisfiges.simulator.SimExecutor - All microservices are ready!
+2024-11-27 21:51:07 INFO  com.louisfiges.simulator.Main - Starting Main using Java 23 with PID 78188 (C:\Users\louis\Desktop\Advanced Programming\Simulator\build\classes\java\main started by louis in C:\Users\louis\Desktop\Advanced Programming\Simulator)
+2024-11-27 21:51:07 INFO  com.louisfiges.simulator.Main - No active profile set, falling back to 1 default profile: "default"
+2024-11-27 21:51:07 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8087 (http)
+2024-11-27 21:51:07 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8087"]
+2024-11-27 21:51:07 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-11-27 21:51:07 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-11-27 21:51:07 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-11-27 21:51:07 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 439 ms
+2024-11-27 21:51:07 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8087"]
+2024-11-27 21:51:07 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8087 (http) with context path '/'
+2024-11-27 21:51:07 INFO  com.louisfiges.simulator.Main - Started Main in 0.871 seconds (process running for 1.153)
+2024-11-27 21:51:08 INFO  c.louisfiges.simulator.SimExecutor - Starting ApiGatewayApplication microservice with profile: 
+2024-11-27 21:51:08 INFO  c.louisfiges.simulator.SimExecutor - Starting ProviderApplication microservice with profile: --spring.profiles.active=providerA
+2024-11-27 21:51:08 INFO  c.louisfiges.simulator.SimExecutor - Starting ProviderApplication microservice with profile: --spring.profiles.active=providerB
+2024-11-27 21:51:08 INFO  c.louisfiges.simulator.SimExecutor - Starting ProviderApplication microservice with profile: --spring.profiles.active=providerC
+2024-11-27 21:51:09 INFO  c.louisfiges.simulator.SimExecutor - ApiGatewayApplication:
+2024-11-27 21:51:09 INFO  c.louisfiges.simulator.SimExecutor - ApiGatewayApplication:  .   ____          _            __ _ _
+2024-11-27 21:51:09 INFO  c.louisfiges.simulator.SimExecutor - ApiGatewayApplication: /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+2024-11-27 21:51:09 INFO  c.louisfiges.simulator.SimExecutor - ApiGatewayApplication:( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+2024-11-27 21:51:09 INFO  c.louisfiges.simulator.SimExecutor - ApiGatewayApplication: \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+2024-11-27 21:51:09 INFO  c.louisfiges.simulator.SimExecutor - ApiGatewayApplication:  '  |____| .__|_| |_|_| |_\__, | / / / /
+2024-11-27 21:51:09 INFO  c.louisfiges.simulator.SimExecutor - ApiGatewayApplication: =========|_|==============|___/=/_/_/_/
+2024-11-27 21:51:09 INFO  c.louisfiges.simulator.SimExecutor - ApiGatewayApplication:
+2024-11-27 21:51:09 INFO  c.louisfiges.simulator.SimExecutor - ApiGatewayApplication: :: Spring Boot ::                (v3.3.4)
+2024-11-27 21:51:09 INFO  c.louisfiges.simulator.SimExecutor - ApiGatewayApplication:
+2024-11-27 21:51:09 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:
+2024-11-27 21:51:09 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:  .   ____          _            __ _ _
+2024-11-27 21:51:09 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication: /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+2024-11-27 21:51:09 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+2024-11-27 21:51:09 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication: \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+2024-11-27 21:51:09 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:  '  |____| .__|_| |_|_| |_\__, | / / / /
+2024-11-27 21:51:09 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication: =========|_|==============|___/=/_/_/_/
+2024-11-27 21:51:09 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:
+2024-11-27 21:51:09 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication: :: Spring Boot ::                (v3.3.4)
+2024-11-27 21:51:09 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:
+2024-11-27 21:51:09 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:
+2024-11-27 21:51:09 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:  .   ____          _            __ _ _
+2024-11-27 21:51:09 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication: /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+2024-11-27 21:51:09 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+2024-11-27 21:51:09 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication: \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+2024-11-27 21:51:09 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:  '  |____| .__|_| |_|_| |_\__, | / / / /
+2024-11-27 21:51:09 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication: =========|_|==============|___/=/_/_/_/
+2024-11-27 21:51:09 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:
+2024-11-27 21:51:09 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:
+2024-11-27 21:51:09 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:  .   ____          _            __ _ _
+2024-11-27 21:51:09 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication: /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+2024-11-27 21:51:09 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+2024-11-27 21:51:09 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication: \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+2024-11-27 21:51:09 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:  '  |____| .__|_| |_|_| |_\__, | / / / /
+2024-11-27 21:51:09 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication: =========|_|==============|___/=/_/_/_/
+2024-11-27 21:51:09 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:
+2024-11-27 21:51:09 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication: :: Spring Boot ::                (v3.3.4)
+2024-11-27 21:51:09 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:
+2024-11-27 21:51:09 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication: :: Spring Boot ::                (v3.3.4)
+2024-11-27 21:51:09 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:
+2024-11-27 21:51:09 INFO  c.louisfiges.simulator.SimExecutor - ApiGatewayApplication:2024-11-27T21:51:09.973Z  INFO 74964 --- [API Gateway] [           main] c.l.gateway.ApiGatewayApplication        : Starting ApiGatewayApplication v1.0.0-RELEASE using Java 23 with PID 74964 (C:\Users\louis\Desktop\Finalised Programming\gateway\APIGateway-1.0.0-RELEASE.jar started by louis in C:\Users\louis\Desktop\Advanced Programming\Simulator)
+2024-11-27 21:51:09 INFO  c.louisfiges.simulator.SimExecutor - ApiGatewayApplication:2024-11-27T21:51:09.976Z  INFO 74964 --- [API Gateway] [           main] c.l.gateway.ApiGatewayApplication        : No active profile set, falling back to 1 default profile: "default"
+2024-11-27 21:51:09 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:2024-11-27 21:51:09 INFO  c.l.provider.ProviderApplication - Starting ProviderApplication v2.0.5-RELEASE using Java 23 with PID 87672 (C:\Users\louis\Desktop\Finalised Programming\provider\provider-2.0.5-RELEASE.jar started by louis in C:\Users\louis\Desktop\Advanced Programming\Simulator)
+2024-11-27 21:51:10 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:2024-11-27 21:51:10 INFO  c.l.provider.ProviderApplication - The following 1 profile is active: "providerB"
+2024-11-27 21:51:10 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:2024-11-27 21:51:10 INFO  c.l.provider.ProviderApplication - Starting ProviderApplication v2.0.5-RELEASE using Java 23 with PID 90976 (C:\Users\louis\Desktop\Finalised Programming\provider\provider-2.0.5-RELEASE.jar started by louis in C:\Users\louis\Desktop\Advanced Programming\Simulator)
+2024-11-27 21:51:10 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:2024-11-27 21:51:10 INFO  c.l.provider.ProviderApplication - The following 1 profile is active: "providerC"
+2024-11-27 21:51:10 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:2024-11-27 21:51:10 INFO  c.l.provider.ProviderApplication - Starting ProviderApplication v2.0.5-RELEASE using Java 23 with PID 86436 (C:\Users\louis\Desktop\Finalised Programming\provider\provider-2.0.5-RELEASE.jar started by louis in C:\Users\louis\Desktop\Advanced Programming\Simulator)
+2024-11-27 21:51:10 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:2024-11-27 21:51:10 INFO  c.l.provider.ProviderApplication - The following 1 profile is active: "providerA"
+2024-11-27 21:51:10 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:2024-11-27 21:51:10 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-27 21:51:10 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:2024-11-27 21:51:10 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-27 21:51:10 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:2024-11-27 21:51:10 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-27 21:51:10 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:2024-11-27 21:51:10 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 50 ms. Found 4 JPA repository interfaces.
+2024-11-27 21:51:10 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:2024-11-27 21:51:10 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 58 ms. Found 4 JPA repository interfaces.
+2024-11-27 21:51:10 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:2024-11-27 21:51:10 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 50 ms. Found 4 JPA repository interfaces.
+2024-11-27 21:51:11 INFO  c.louisfiges.simulator.SimExecutor - ApiGatewayApplication:2024-11-27T21:51:11.253Z  INFO 74964 --- [API Gateway] [           main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=55e86cc3-6987-3a86-897f-f4f4fd93e0c8
+2024-11-27 21:51:11 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:2024-11-27 21:51:11 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8083 (http)
+2024-11-27 21:51:11 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:2024-11-27 21:51:11 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8083"]
+2024-11-27 21:51:11 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:2024-11-27 21:51:11 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-11-27 21:51:11 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:2024-11-27 21:51:11 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-11-27 21:51:11 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:2024-11-27 21:51:11 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8082 (http)
+2024-11-27 21:51:11 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:2024-11-27 21:51:11 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-11-27 21:51:11 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:2024-11-27 21:51:11 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1386 ms
+2024-11-27 21:51:11 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:2024-11-27 21:51:11 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2024-11-27 21:51:11 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:2024-11-27 21:51:11 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-11-27 21:51:11 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:2024-11-27 21:51:11 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-11-27 21:51:11 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:2024-11-27 21:51:11 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8084 (http)
+2024-11-27 21:51:11 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:2024-11-27 21:51:11 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8084"]
+2024-11-27 21:51:11 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:2024-11-27 21:51:11 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-11-27 21:51:11 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:2024-11-27 21:51:11 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-11-27 21:51:11 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:2024-11-27 21:51:11 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-11-27 21:51:11 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:2024-11-27 21:51:11 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1436 ms
+2024-11-27 21:51:11 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:2024-11-27 21:51:11 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-11-27 21:51:11 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:2024-11-27 21:51:11 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1465 ms
+2024-11-27 21:51:11 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:2024-11-27 21:51:11 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-27 21:51:11 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:2024-11-27 21:51:11 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-27 21:51:11 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:2024-11-27 21:51:11 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-27 21:51:11 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:2024-11-27 21:51:11 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-11-27 21:51:11 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:2024-11-27 21:51:11 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-11-27 21:51:11 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:2024-11-27 21:51:11 INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-11-27 21:51:11 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:2024-11-27 21:51:11 INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-11-27 21:51:11 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:2024-11-27 21:51:11 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-11-27 21:51:11 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:2024-11-27 21:51:11 INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-11-27 21:51:12 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:2024-11-27 21:51:12 INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-27 21:51:12 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:2024-11-27 21:51:12 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-11-27 21:51:12 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:2024-11-27 21:51:12 INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-27 21:51:12 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:2024-11-27 21:51:12 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-11-27 21:51:12 INFO  c.louisfiges.simulator.SimExecutor - ApiGatewayApplication:2024-11-27T21:51:12.338Z  INFO 74964 --- [API Gateway] [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [After]
+2024-11-27 21:51:12 INFO  c.louisfiges.simulator.SimExecutor - ApiGatewayApplication:2024-11-27T21:51:12.338Z  INFO 74964 --- [API Gateway] [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Before]
+2024-11-27 21:51:12 INFO  c.louisfiges.simulator.SimExecutor - ApiGatewayApplication:2024-11-27T21:51:12.338Z  INFO 74964 --- [API Gateway] [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Between]
+2024-11-27 21:51:12 INFO  c.louisfiges.simulator.SimExecutor - ApiGatewayApplication:2024-11-27T21:51:12.338Z  INFO 74964 --- [API Gateway] [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Cookie]
+2024-11-27 21:51:12 INFO  c.louisfiges.simulator.SimExecutor - ApiGatewayApplication:2024-11-27T21:51:12.338Z  INFO 74964 --- [API Gateway] [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Header]
+2024-11-27 21:51:12 INFO  c.louisfiges.simulator.SimExecutor - ApiGatewayApplication:2024-11-27T21:51:12.338Z  INFO 74964 --- [API Gateway] [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Host]
+2024-11-27 21:51:12 INFO  c.louisfiges.simulator.SimExecutor - ApiGatewayApplication:2024-11-27T21:51:12.338Z  INFO 74964 --- [API Gateway] [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Method]
+2024-11-27 21:51:12 INFO  c.louisfiges.simulator.SimExecutor - ApiGatewayApplication:2024-11-27T21:51:12.338Z  INFO 74964 --- [API Gateway] [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Path]
+2024-11-27 21:51:12 INFO  c.louisfiges.simulator.SimExecutor - ApiGatewayApplication:2024-11-27T21:51:12.338Z  INFO 74964 --- [API Gateway] [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Query]
+2024-11-27 21:51:12 INFO  c.louisfiges.simulator.SimExecutor - ApiGatewayApplication:2024-11-27T21:51:12.338Z  INFO 74964 --- [API Gateway] [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [ReadBody]
+2024-11-27 21:51:12 INFO  c.louisfiges.simulator.SimExecutor - ApiGatewayApplication:2024-11-27T21:51:12.338Z  INFO 74964 --- [API Gateway] [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [RemoteAddr]
+2024-11-27 21:51:12 INFO  c.louisfiges.simulator.SimExecutor - ApiGatewayApplication:2024-11-27T21:51:12.338Z  INFO 74964 --- [API Gateway] [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2024-11-27 21:51:12 INFO  c.louisfiges.simulator.SimExecutor - ApiGatewayApplication:2024-11-27T21:51:12.338Z  INFO 74964 --- [API Gateway] [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Weight]
+2024-11-27 21:51:12 INFO  c.louisfiges.simulator.SimExecutor - ApiGatewayApplication:2024-11-27T21:51:12.338Z  INFO 74964 --- [API Gateway] [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2024-11-27 21:51:12 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:2024-11-27 21:51:12 INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-27 21:51:12 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:2024-11-27 21:51:12 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-11-27 21:51:12 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:2024-11-27 21:51:12 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@2c678c7b
+2024-11-27 21:51:12 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:2024-11-27 21:51:12 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-11-27 21:51:12 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:2024-11-27 21:51:12 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@55053f81
+2024-11-27 21:51:12 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:2024-11-27 21:51:12 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-11-27 21:51:12 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:2024-11-27 21:51:12 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@5d08976a
+2024-11-27 21:51:12 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:2024-11-27 21:51:12 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-11-27 21:51:12 INFO  c.louisfiges.simulator.SimExecutor - ApiGatewayApplication:2024-11-27T21:51:12.916Z  INFO 74964 --- [API Gateway] [           main] o.s.b.web.embedded.netty.NettyWebServer  : Netty started on port 8080 (http)
+2024-11-27 21:51:12 INFO  c.louisfiges.simulator.SimExecutor - ApiGatewayApplication:2024-11-27T21:51:12.954Z  INFO 74964 --- [API Gateway] [           main] c.l.gateway.ApiGatewayApplication        : Started ApiGatewayApplication in 3.348 seconds (process running for 3.963)
+2024-11-27 21:51:12 INFO  c.louisfiges.simulator.SimExecutor - 2024-11-27T21:51:12.954Z  INFO 74964 --- [API Gateway] [           main] c.l.gateway.ApiGatewayApplication        : Started ApiGatewayApplication in 3.348 seconds (process running for 3.963)
+2024-11-27 21:51:13 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:2024-11-27 21:51:13 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-11-27 21:51:13 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:2024-11-27 21:51:13 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-11-27 21:51:13 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:2024-11-27 21:51:13 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-11-27 21:51:13 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:2024-11-27 21:51:13 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-27 21:51:13 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:2024-11-27 21:51:13 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-27 21:51:13 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:2024-11-27 21:51:13 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-27 21:51:13 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:2024-11-27 21:51:13 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-11-27 21:51:14 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:2024-11-27 21:51:14 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-11-27 21:51:14 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:2024-11-27 21:51:14 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-11-27 21:51:14 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:2024-11-27 21:51:14 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8083"]
+2024-11-27 21:51:14 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:2024-11-27 21:51:14 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8084"]
+2024-11-27 21:51:14 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:2024-11-27 21:51:14 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8084 (http) with context path '/'
+2024-11-27 21:51:14 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:2024-11-27 21:51:14 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8083 (http) with context path '/'
+2024-11-27 21:51:14 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:2024-11-27 21:51:14 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+2024-11-27 21:51:14 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:2024-11-27 21:51:14 INFO  c.l.provider.ProviderApplication - Started ProviderApplication in 4.882 seconds (process running for 5.418)
+2024-11-27 21:51:14 INFO  c.louisfiges.simulator.SimExecutor - 2024-11-27 21:51:14 INFO  c.l.provider.ProviderApplication - Started ProviderApplication in 4.882 seconds (process running for 5.418)
+2024-11-27 21:51:14 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:2024-11-27 21:51:14 INFO  c.l.provider.ProviderApplication - Started ProviderApplication in 4.873 seconds (process running for 5.42)
+2024-11-27 21:51:14 INFO  c.louisfiges.simulator.SimExecutor - 2024-11-27 21:51:14 INFO  c.l.provider.ProviderApplication - Started ProviderApplication in 4.873 seconds (process running for 5.42)
+2024-11-27 21:51:14 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:2024-11-27 21:51:14 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8082 (http) with context path '/'
+2024-11-27 21:51:14 INFO  c.louisfiges.simulator.SimExecutor - ProviderApplication:2024-11-27 21:51:14 INFO  c.l.provider.ProviderApplication - Started ProviderApplication in 4.911 seconds (process running for 5.46)
+2024-11-27 21:51:14 INFO  c.louisfiges.simulator.SimExecutor - 2024-11-27 21:51:14 INFO  c.l.provider.ProviderApplication - Started ProviderApplication in 4.911 seconds (process running for 5.46)
+2024-11-27 21:51:14 INFO  c.louisfiges.simulator.SimExecutor - All microservices are ready!
+2024-11-27 22:14:20 INFO  com.louisfiges.simulator.Main - Starting Main using Java 23 with PID 73236 (C:\Users\louis\Desktop\Advanced Programming\Simulator\build\classes\java\main started by louis in C:\Users\louis\Desktop\Advanced Programming\Simulator)
+2024-11-27 22:14:20 INFO  com.louisfiges.simulator.Main - No active profile set, falling back to 1 default profile: "default"
+2024-11-27 22:14:20 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8087 (http)
+2024-11-27 22:14:20 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8087"]
+2024-11-27 22:14:20 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-11-27 22:14:20 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-11-27 22:14:20 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-11-27 22:14:20 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 406 ms
+2024-11-27 22:14:20 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8087"]
+2024-11-27 22:14:20 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8087 (http) with context path '/'
+2024-11-27 22:14:20 INFO  com.louisfiges.simulator.Main - Started Main in 0.834 seconds (process running for 1.119)
+2024-11-27 22:14:21 INFO  c.l.s.managers.MicroserviceManager - Starting ApiGatewayApplication microservice with profile: 
+2024-11-27 22:14:21 INFO  c.l.s.managers.MicroserviceManager - Starting ProviderApplication microservice with profile: --spring.profiles.active=providerA
+2024-11-27 22:14:21 INFO  c.l.s.managers.MicroserviceManager - Starting ProviderApplication microservice with profile: --spring.profiles.active=providerB
+2024-11-27 22:14:21 INFO  c.l.s.managers.MicroserviceManager - Starting ProviderApplication microservice with profile: --spring.profiles.active=providerC
+2024-11-27 22:14:25 INFO  c.l.s.managers.MicroserviceManager - 2024-11-27T22:14:25.733Z  INFO 13572 --- [API Gateway] [           main] c.l.gateway.ApiGatewayApplication        : Started ApiGatewayApplication in 3.294 seconds (process running for 3.928)
+2024-11-27 22:14:27 INFO  c.l.s.managers.MicroserviceManager - 2024-11-27 22:14:27 INFO  c.l.provider.ProviderApplication - Started ProviderApplication in 4.861 seconds (process running for 5.409)
+2024-11-27 22:14:27 INFO  c.l.s.managers.MicroserviceManager - 2024-11-27 22:14:27 INFO  c.l.provider.ProviderApplication - Started ProviderApplication in 4.874 seconds (process running for 5.416)
+2024-11-27 22:14:27 INFO  c.l.s.managers.MicroserviceManager - 2024-11-27 22:14:27 INFO  c.l.provider.ProviderApplication - Started ProviderApplication in 4.89 seconds (process running for 5.443)
+2024-11-27 22:14:27 INFO  c.louisfiges.simulator.SimExecutor - All microservices are ready!
