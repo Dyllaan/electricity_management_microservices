@@ -178,7 +178,7 @@ You can continue development of the frontend while using the backend with Newcas
 
 ## Notes
 
-- Wait patiently for simulator and aggregator to complete — do not spam requests.
+- Wait for simulator and aggregator to complete and don't spam requests.
 - If you encounter `city unavailable` errors, check logs.
 - This is a simple, functional setup however it is not the most efficient, but it works.
 
